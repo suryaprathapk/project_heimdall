@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"
+      prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="Generator" content="Drupal 8 (https://www.drupal.org)"/>
+    <meta name="MobileOptimized" content="width"/>
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script>(function () {
+        var walkme = document.createElement('script');
+        walkme.type = 'text/javascript';
+        walkme.async = true;
+        walkme.src = 'https://cdn.walkme.com/users/15ebc9cf11284986a69e21b871c1240d/walkme_15ebc9cf11284986a69e21b871c1240d_https.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(walkme, s);
+        window._walkmeConfig = {smartLoad: true};
+    })();</script>
+    <meta name="dcterms.date" content="2020-08-25"/>
+    <meta name="dcterms.rights" content="© Copyright IBM Corp. 2021"/>
+    <meta name="description"
+          content="IBM is pleased to announce that version 11.1.7 of IBM Cognos Analytics is a Long Term Support (LTSR) release."/>
+    <meta name="geo.country" content="US"/>
+    <meta name="keywords" content=""/>
+    <meta name="robots" content="index, follow"/>
+    <meta name="DC.Subject" scheme="IBM_SubjectTaxonomy" content="SSTSF6"/>
+    <meta name="DC.Type" scheme="IBM_ContentClassTaxonomy" content="CT555"/>
+    <meta name="Security" content="public"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <link rel="shortcut icon" href="//www.ibm.com/favicon.ico" type="image/vnd.microsoft.icon"/>
+    <link rel="canonical"
+          href="https://www.ibm.com/support/pages/ibm-cognos-analytics-long-term-support-release-lts-1117"/>
+    <link rel="shortlink" href="https://www.ibm.com/support/pages/node/6254738"/>
+    <link rel="revision"
+          href="https://www.ibm.com/support/pages/ibm-cognos-analytics-long-term-support-release-lts-1117"/>
+
+    <title>IBM Cognos Analytics Long Term Support Release (LTS) - 11.1.7</title>
+    <link rel="stylesheet" media="all" href="/support/pages/core/assets/vendor/normalize-css/normalize.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/core/misc/normalize-fixes.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/themes/stable/css/system/components/ajax-progress.module.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/themes/stable/css/system/components/align.module.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/themes/stable/css/system/components/autocomplete-loading.module.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/themes/stable/css/system/components/fieldgroup.module.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/themes/stable/css/system/components/container-inline.module.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/themes/stable/css/system/components/clearfix.module.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/themes/stable/css/system/components/details.module.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/themes/stable/css/system/components/hidden.module.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/themes/stable/css/system/components/item-list.module.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/themes/stable/css/system/components/js.module.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/themes/stable/css/system/components/nowrap.module.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/themes/stable/css/system/components/position-container.module.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/themes/stable/css/system/components/progress.module.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/themes/stable/css/system/components/reset-appearance.module.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/themes/stable/css/system/components/resize.module.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/themes/stable/css/system/components/sticky-header.module.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/themes/stable/css/system/components/system-status-counter.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/themes/stable/css/system/components/system-status-report-counters.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/themes/stable/css/system/components/system-status-report-general-info.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/themes/stable/css/system/components/tabledrag.module.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/themes/stable/css/system/components/tablesort.module.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/themes/stable/css/system/components/tree-child.module.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/modules/custom/select2boxes/css/select2boxes.theme.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/core/assets/vendor/jquery.ui/themes/base/core.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/assets/vendor/jquery.ui/themes/base/checkboxradio.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/assets/vendor/jquery.ui/themes/base/controlgroup.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/assets/vendor/jquery.ui/themes/base/resizable.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/assets/vendor/jquery.ui/themes/base/button.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/assets/vendor/jquery.ui/themes/base/dialog.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/modules/custom/anchor_link/css/anchor_link.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/modules/custom/search_result/css/search.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/css/select2.min.css"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/libraries/codesnippet/lib/highlight/styles/github.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/libraries/codesnippet/lib/highlight/styles/zenburn.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/core/assets/vendor/jquery.ui/themes/base/theme.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/modules/custom/feedback/css/feedback.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/modules/custom/ibm_nps_feedback/css/ibm_nps_feedback.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/modules/custom/support_search/css/support_search.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/base/elements.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/layout.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/action-links.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/breadcrumb.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/button.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/themes/classy/css/components/collapse-processed.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/themes/classy/css/components/container-inline.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/details.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/core/themes/classy/css/components/exposed-filters.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/field.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/form.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/icons.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/inline-form.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/item-list.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/link.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/links.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/menu.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/more-link.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/pager.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/tabledrag.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/tableselect.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/tablesort.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/tabs.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/textarea.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/ui-dialog.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/messages.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/node.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/progress.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/dialog.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/block.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/book.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/breadcrumb.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/captions.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/comments.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/contextual.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/demo-block.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/themes/ibm_carbon/css/components/dropbutton.component.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/featured-top.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/feed-icon.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/field.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/form.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/forum.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/header.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/help.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/highlighted.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/item-list.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/list-group.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/list.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/main-content.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/menu.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/messages.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/node.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/node-preview.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/page-title.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/pager.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/panel.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/primary-menu.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/search-form.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/themes/ibm_carbon/css/components/search-results.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/themes/ibm_carbon/css/components/secondary-menu.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/shortcut.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/skip-link.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/sidebar.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/site-branding.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/site-footer.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/themes/ibm_carbon/css/components/tablesort-indicator.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/tabs.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/themes/ibm_carbon/css/components/text-formatted.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/toolbar.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/themes/ibm_carbon/css/components/featured-bottom.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/themes/ibm_carbon/css/components/password-suggestions.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/ui.widget.css?qzk5o8"/>
+    <link rel="stylesheet" media="all"
+          href="/support/pages/themes/ibm_carbon/css/components/vertical-tabs.component.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/views.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/buttons.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/image-button.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/ui-dialog.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/colors.css?qzk5o8"/>
+    <link rel="stylesheet" media="print" href="/support/pages/themes/ibm_carbon/css/print.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="//1.www.s81c.com/common/v18/css/www.css"/>
+    <link rel="stylesheet" media="all" href="//1.www.s81c.com/common/v18/css/syntaxhighlighter.css"/>
+    <link rel="stylesheet" media="all" href="//1.www.s81c.com/common/v18/css/tables.css"/>
+    <link rel="stylesheet" media="all" href="//1.www.s81c.com/common/v18/css/forms.css"/>
+    <link rel="stylesheet" media="all" href="//1.www.s81c.com/common/v18/css/textcolumns.css"/>
+    <link rel="stylesheet" media="all" href="//1.www.s81c.com/common/v18/css/grid-fluid.css"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/northstar/northstar.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/northstar/omnibox.css?qzk5o8"/>
+    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/../pov/core.css?qzk5o8"/>
+
+    <script>
+        digitalData = {
+            page: {
+                category: {
+                    primaryCategory: 'ELSDBANON'
+                },
+                pageInfo: {
+                    effectiveDate: '2020-08-25',
+                    expiryDate: '2024-08-25',
+                    language: 'en',
+                    publishDate: '2020-08-25',
+                    publisher: 'IBM Corporation',
+                    version: 'v18',
+                    hotjar: {
+                        enabled: true
+                    },
+                    ibm: {
+                        contentDelivery: 'IBM Corporation',
+                        contentProducer: 'IBM Corporation',
+                        country: 'US',
+                        industry: 'ZZ',
+                        owner: 'ibmsupt@us.ibm.com',
+                        siteID: 'ESTDBL',
+                        subject: 'SSTSF6',
+                        type: 'CT555'
+                    }
+                }
+            }
+        };
+    </script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{
+        "path": {
+            "baseUrl": "\/support\/pages\/",
+            "scriptPath": null,
+            "pathPrefix": "",
+            "currentPath": "node\/6254738",
+            "currentPathIsAdmin": false,
+            "isFront": false,
+            "currentLanguage": "en"
+        },
+        "pluralDelimiter": "\u0003",
+        "suppressDeprecationErrors": true,
+        "ajaxPageState": {
+            "libraries": "anchor_link\/drupal.anchor_link,classy\/base,classy\/messages,classy\/node,codesnippet\/codesnippet.highlightjs,codesnippet\/codesnippet.style.github,codesnippet\/codesnippet.style.zenburn,core\/html5shiv,core\/normalize,feedback\/feedback,ibm_carbon\/global-styling,ibm_carbon\/ibm,ibm_nps_feedback\/ibm_nps_feedback,search_result\/search_result,select2boxes\/widget,support_search\/support_search,system\/base",
+            "theme": "ibm_carbon",
+            "theme_token": null
+        },
+        "ajaxTrustedUrl": {
+            "form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM": true
+        },
+        "nid": "6254738",
+        "is_rendering_server": true,
+        "support_details": {
+            "contact_information": "\u003Cp\u003EVisit the \u003Ca href=\u0022https:\/\/www.ibm.com\/planetwide\/\u0022 target=\u0022_blank\u0022\u003EIBM Directory of worldwide contacts\u003C\/a\u003E, click your country, and use the phone number listed in the Technical Support section on the page.\u003C\/p\u003E",
+            "hours_of_operation": "\u003Cp\u003EIBM Support business hours reflect normal country business hours in your time zone. For example, 8:00 AM to 5:00 PM in North America or 9:00 AM to 6:00 PM in some parts of Asia and Europe, Monday through Friday, excluding national or statutory holidays. Off shift hours (for eligible offerings with 24x7 response) are defined as all other hours outside of normal country business hours.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EVisit the \u003Ca href=\u0022https:\/\/www.ibm.com\/support\/pages\/ibm-support-guide#open-case\u0022 target=\u0022_blank\u0022\u003EIBM Support Guide\u003C\/a\u003E for more details.\u003C\/p\u003E",
+            "severity_definitions": "\u003Cp\u003EIBM will use commercially reasonable efforts to respond to cases raised by your authorized contacts within the criteria specified for your offering. Our initial response may result in resolution of your request, or it will form the basis for determining what additional actions may be required to resolve your request. Be sure you and your support professional agree on what the next action is and when the next checkpoint will be. Cases opened outside Business Hours that do not qualify for 24x7 response will be responded to the next business day.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EVisit the \u003Ca href=\u0022https:\/\/www.ibm.com\/support\/pages\/ibm-support-guide#response\u0022 target=\u0022_blank\u0022\u003EIBM Support Guide\u003C\/a\u003E to select a product area for the specific Response Goals for each offering.\u003C\/p\u003E",
+            "escalation_process": "\u003Cp\u003EIf at any point in our service process you feel we are not meeting your needs, you may call our attention to your case.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EVisit the \u003Ca href=\u0022https:\/\/www.ibm.com\/support\/pages\/ibm-support-guide#esc-case\u0022 target=\u0022_blank\u0022\u003EIBM Support Guide\u003C\/a\u003E for the escalation process related to your offering.\u003C\/p\u003E\r\n",
+            "enhancement_request_process": "\u003Cp\u003EVisit the \u003Ca href=\u0022https:\/\/www.ibm.com\/developerworks\/rfe\/\u0022 target=\u0022_blank\u0022\u003EIBM RFE Community\u003C\/a\u003E to collaborate with development teams and other product users through your ability to search, view, comment on, submit, and track product requests.\u003C\/p\u003E"
+        },
+        "isChatAllowedProduct": true,
+        "isChatAllowedContentType": false,
+        "user": {
+            "uid": 0,
+            "permissionsHash": "8ec1d53d8b4eec0ecd755bd81cfbe39bc82eb4cc264ffecdcf6691cc181defc3"
+        }
+    }</script>
+
+    <!--[if lte IE 8]>
+    <script src="/support/pages/core/assets/vendor/html5shiv/html5shiv.min.js?v=3.7.3"></script>
+    <![endif]-->
+    <script src="/support/pages/core/assets/vendor/jquery/jquery.min.js?v=3.5.1"></script>
+    <script src="/support/pages/core/misc/drupalSettingsLoader.js?v=8.9.18"></script>
+    <script src="/support/pages/core/misc/drupal.js?v=8.9.18"></script>
+    <script src="/support/pages/core/misc/drupal.init.js?v=8.9.18"></script>
+    <script src="/support/pages/modules/custom/custom_content_type_form/js/utility.js?qzk5o8"></script>
+    <script src="/support/pages/themes/ibm_carbon/carbon-resources/main_carbon.bundle.js.gz?qzk5o8"></script>
+    <script src="//1.www.s81c.com/common/stats/ida_stats.js"></script>
+    <script src="//1.www.s81c.com/common/v18/js/www.js"></script>
+    <script src="//1.www.s81c.com/common/v18/js/tables.js"></script>
+    <script src="//1.www.s81c.com/common/v18/js/dyntabs.js"></script>
+    <script src="//1.www.s81c.com/common/v18/js/forms.js"></script>
+    <script src="//1.www.s81c.com/common/v18/js/mustache.js"></script>
+    <script src="//1.www.s81c.com/common/v18/js/masonry.js"></script>
+    <script src="//1.www.s81c.com/common/v18/js/greensock/TweenMax.min.js"></script>
+    <script src="/support/pages/themes/ibm_carbon/js/northstar.js?qzk5o8"></script>
+    <script src="/support/pages/themes/ibm_carbon/carbon-resources/additional_carbon.bundle.js.gz?qzk5o8"></script>
+    <script src="/support/pages/themes/ibm_carbon/js/omnibox.jquery.js?qzk5o8"></script>
+    <script src="/support/pages/modules/custom/search_result/js/searchPars.js?v=8.9.18"></script>
+    <script src="/support/pages/modules/custom/search_result/js/angular.js?v=8.9.18"></script>
+    <script src="/support/pages/modules/custom/search_result/js/angular-route.js?v=8.9.18"></script>
+    <script src="/support/pages/modules/custom/search_result/js/angular-sanitize.js?v=8.9.18"></script>
+    <script src="/support/pages/modules/custom/search_result/js/app.js?v=8.9.18"></script>
+    <script src="/support/pages/modules/custom/search_result/js/controllers.js?v=8.9.18"></script>
+    <script src="/support/pages/modules/custom/search_result/js/dBlueSearchUtil.js?v=8.9.18"></script>
+
+    <script>
+        IBMCore.common.util.config.set({
+            contactModuleWidget: {
+                color: "blue-50"
+            },
+            masthead: {
+                greeting: {
+                    enabled: false
+                },
+                type: "alternate"
+            },
+            footer: {
+                type: "alternate"
+            },
+            feedbacklink: {
+                enabled: false
+            }
+        });
+
+    </script>
+</head>
+<body id="ibm-com" class="layout-no-sidebars path-node page-node-type-news ibm-type dblue">
+<div id="ibm-top" class="ibm-landing-page">
+
+    <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+        <dds-masthead-container id="masthead-container"></dds-masthead-container>
+        <div class="region region-newheader">
+            <div class="openid-connect-login-form block block-openid-connect block-openid-connect-login"
+                 data-drupal-selector="openid-connect-login-form" id="block-ibm-carbon-openidconnectlogin">
+
+
+                <div class="content">
+                    <form action="/support/pages/ibm-cognos-analytics-long-term-support-release-lts-1117" method="post"
+                          id="openid-connect-login-form" accept-charset="UTF-8">
+                        <div><input data-drupal-selector="edit-openid-connect-client-generic-login" type="submit"
+                                    id="edit-openid-connect-client-generic-login" name="generic"
+                                    value="Log in with Generic" class="button js-form-submit form-submit"/>
+                        </div>
+                        <input autocomplete="off"
+                               data-drupal-selector="form-rtazsskq1wh-bnl8xtyrheecab3m-krykoqqv6uoerm" type="hidden"
+                               name="form_build_id" value="form-rtazSsKq1Wh-Bnl8XtyRHEecab3m-kRyKOQqv6uoErM"/>
+                        <input data-drupal-selector="edit-openid-connect-login-form" type="hidden" name="form_id"
+                               value="openid_connect_login_form"/>
+
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id="ibm-content-wrapper">
+
+            <header role="banner" aria-labelledby="ibm-pagetitle-h1">
+            </header>
+
+            <main role="main" aria-labelledby="ibm-pagetitle-h1">
+                <div id="ibm-pcon">
+                    <div id="ibm-content">
+                        <div id="ibm-content-body" class="ibm-padding-top-0">
+                            <div id="ibm-content-main">
+
+
+                                <div id="search-header-wrapper"
+                                     class="ibm-band ibm-padding-top-r1 ibm-padding-bottom-r1 ibm-background-blue-70">
+                                    <div id="search-header-small" class="ibm-columns">
+                                        <div class="ibm-col-1-1 ibm-padding-top-0 ibm-padding-bottom-0">
+                                            <nav role="navigation" aria-label="Breadcrumb"
+                                                 class="ibm-alternate-background">
+                                            </nav>
+                                            <h3 class="ibm-h1 ibm-h2-medium ibm-h3-small ibm-light ibm-padding-top-0 ibm-padding-bottom-0 ibm-textcolor-white-core">
+                                                <a href="//www.ibm.com/support/home"
+                                                   manual_cm_sp="dBlue-_-dbgtsp-_-docview">IBM Support</a></h3>
+                                            <div id="spng-omnibox" style="">
+                                                <form class="ibm-row-form ibm-home-search" enctype="multipart/form-data"
+                                                      id="spng-search" ng-submit="omniType()">
+                                                    <div id="spng-tc-check" style="text-align: left; display: none;"><p
+                                                            class="ibm-padding-top-r1 ibm-padding-bottom-0 ibm-alternate-background">
+                                                        <input class="ibm-styled-checkbox" data-init="false"
+                                                               type="checkbox" name="spng-tc-adv-checkbox"
+                                                               value="checked" id="spng-tc-check-box"> <label
+                                                            for="spng-tc-check-box" style="display: inline-block">Check
+                                                        here to start a new keyword search.</label></p></div>
+                                                    <p class="ibm-padding-top-r1 ibm-padding-bottom-0"><label
+                                                            class="ibm-access">Search support or find a product:</label>
+                                                        <span>    <input id="spng-search-query" name="text"
+                                                                         maxlength="125" size="40" type="search"
+                                                                         autocomplete="off"
+                                                                         placeholder="Search support or find a product"
+                                                                         class="ibm-h3-medium ibm-h4-small">    <a
+                                                                id="spng-search-button"
+                                                                class="ibm-search-link ibm-textcolor-white-core ibm-h4"
+                                                                href="#" onclick="javascript:void(0); return false;">Search</a>    </span>
+                                                    </p>
+                                                    <div id="spng-search-typeahead-wrapper" style="display:none">
+                                                        <div id="spng-search-typeahead">
+                                                            <div id="spng-spinner" style="display:none"><h2
+                                                                    class="ibm-h2"><span
+                                                                    class="ibm-spinner">&nbsp;</span></h2></div>
+                                                            <div id="sp-no-results" style="display:none">
+                                                                <div class="category">Our apologies</div>
+                                                                <div class="results"><p>No results were found for your
+                                                                    search query.</p>
+                                                                    <div class="ibm-rule">
+                                                                        <hr>
+                                                                    </div>
+                                                                    <h5 class="ibm-h5"><strong>Tips</strong></h5>
+                                                                    <p>To return expected results, you can:</p>
+                                                                    <ul>
+                                                                        <li><strong>Reduce the number of search
+                                                                            terms.</strong> Each term you use focuses
+                                                                            the search further.
+                                                                        </li>
+                                                                        <li><strong>Check your spelling.</strong> A
+                                                                            single misspelled or incorrectly typed term
+                                                                            can change your result.
+                                                                        </li>
+                                                                        <li><strong>Try substituting synonyms for your
+                                                                            original terms.</strong> For example,
+                                                                            instead of searching for "java classes", try
+                                                                            "java training"
+                                                                        </li>
+                                                                        <li><strong>Did you search for an IBM acquired
+                                                                            or sold product ?</strong> If so, follow the
+                                                                            appropriate link below to find the content
+                                                                            you need.
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div id="sp-doc-failure" style="display:none">
+                                                                <div class="category">Our apologies</div>
+                                                                <div class="results"><p class="ibm-access">Search
+                                                                    results are not available at this time. Please try
+                                                                    again later or use one of the other support options
+                                                                    on this page.</p>
+                                                                    <p>No results were found for your search query.</p>
+                                                                    <div class="ibm-rule">
+                                                                        <hr>
+                                                                    </div>
+                                                                    <h5 class="ibm-h5"><strong>Tips</strong></h5>
+                                                                    <p>To return expected results, you can:</p>
+                                                                    <ul>
+                                                                        <li><strong>Reduce the number of search
+                                                                            terms.</strong> Each term you use focuses
+                                                                            the search further.
+                                                                        </li>
+                                                                        <li><strong>Check your spelling.</strong> A
+                                                                            single misspelled or incorrectly typed term
+                                                                            can change your result.
+                                                                        </li>
+                                                                        <li><strong>Try substituting synonyms for your
+                                                                            original terms.</strong> For example,
+                                                                            instead of searching for "java classes", try
+                                                                            "java training"
+                                                                        </li>
+                                                                        <li><strong>Did you search for an IBM acquired
+                                                                            or sold product ?</strong> If so, follow the
+                                                                            appropriate link below to find the content
+                                                                            you need.
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div id="sp-prev-products" class="result_section"></div>
+                                                            <div id="sp-wd-results" class="result_section"></div>
+                                                            <div id="sp-orc-results" class="result_section"></div>
+                                                            <div id="sp-prod-results" class="result_section"></div>
+                                                            <div id="sp-doc-results" class="result_section"></div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div id="dblue-watson-chat-search-widget"
+                                                 style="display:inline-block; display:none;">
+                                                <form method="post" id="frm" enctype="multipart/form-data"
+                                                      class="ibm-row-form ibm-home-search" action="javascript:void(0)"
+                                                      onsubmit="return false;">
+                                                    <div id="ibm-tc-check" style="display: none;">
+                                                        <p class="ibm-left ibm-alternate-background">
+                                                            <input class="ibm-styled-checkbox" data-init="false"
+                                                                   type="checkbox" id="ibm-tc-checkbox"
+                                                                   name="tc-adv-checkbox" value="checked"
+                                                                   aria-labelledby="tc-check-label">
+                                                            <label for="ibm-tc-checkbox" id="tc-check-label">Check here
+                                                                to start a new keyword search.</label>
+                                                        </p>
+                                                    </div>
+                                                    <p class="ibm-padding-top-r1 ibm-padding-bottom-0 ibm-alternate-background">
+                                                        <label for="iptSearch" id="iptSearch-label" class="ibm-access">Watson
+                                                            Product Search</label>
+                                                        <span>
+				<input type="text" placeholder="Search support or find a product" value="" name="search" id="iptSearch"
+                       class="ibm-h3-medium ibm-h4-small" aria-labelledby="iptSearch-label" maxlength="125">
+				<a onclick="javascript:void(0); return false;" class="ibm-search-link ibm-textcolor-white-core"
+                   id="iptSearchButton" href="#">Search</a>
+				</span>
+                                                    </p>
+                                                    <div style="display:none;" id="divWatsonContainer"
+                                                         class="wd_result_container wd_result_width">
+                                                        <div style="display:none;"
+                                                             class="ps_ibm-content wd_result_width"
+                                                             id="divWatsonDialogue">
+                                                            <div style="display:none;" id="divWatsonSpinner"
+                                                                 class="ibm-spinner ibm-h2"></div>
+                                                            <div style="display:none;" class="wd_content_div wd_ul"
+                                                                 id="divWatsonContent"></div>
+                                                            <hr>
+                                                            <p class="wd_search_link"><a id="watsonNOTALink"
+                                                                                         href="javascript:void(0)"
+                                                                                         class="ibm-forward-link">None
+                                                                of the above, continue with my search</a></p>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id='ibm-drupal-render-page-content'></div>
+                                <div id='ibm-drupal-page-content'
+                                     class='ibm-columns ibm-padding-top-1 ibm-padding-bottom-1'>
+                                    <div class="region region-content">
+                                        <div data-drupal-messages-fallback class="hidden"></div>
+                                        <div id="block-ibm-carbon-page-title"
+                                             class="block block-core block-page-title-block">
+
+
+                                            <div class="content">
+
+                                                <h1 class="ibm-h3 ibm-padding-bottom-1 ibm-northstart-content-page-title ibm-textcolor-gray-80 page-title">
+                                                    <span class="field field--name-title field--type-string field--label-hidden">IBM Cognos Analytics Long Term Support Release (LTS) - 11.1.7</span>
+                                                </h1>
+
+
+                                            </div>
+                                        </div>
+                                        <div id="block-ibm-carbon-content"
+                                             class="block block-system block-system-main-block">
+
+
+                                            <div class="content">
+
+                                                <article data-history-node-id="6254738" role="article"
+                                                         about="/support/pages/ibm-cognos-analytics-long-term-support-release-lts-1117"
+                                                         class="node node--type-news node--view-mode-full clearfix">
+                                                    <header>
+                                                    </header>
+                                                    <div class="node__content clearfix">
+
+                                                        <div class="ibm-columns">
+
+                                                            <div id="com.dblue.docview.body.content"
+                                                                 class="ibm-col-5-4 ibm-col-medium-6-4">
+                                                                <div class="ibm-card__content">
+                                                                    <div class="ibm-container ibm-alternate">
+                                                                        <h3 class="ibm-h4 ibm-bold ibm-northstart-product-documentation-title">
+                                                                            News</h3>
+                                                                        <div class="ibm-container-body">
+                                                                            <br>
+
+
+                                                                            <div class="field field--name-field-abstract field--type-string-long field--label-above">
+                                                                                <h2 class="ibm-h4 ibm-bold ibm-northstart-documentation-information-label">
+                                                                                    Abstract</h2>
+                                                                                <p class="ibm-northstart-documentation-information-data">
+                                                                                    IBM is pleased to announce that
+                                                                                    version 11.1.7 of IBM Cognos
+                                                                                    Analytics is a Long Term Support
+                                                                                    (LTSR) release.</p>
+                                                                            </div>
+
+
+                                                                            <div class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-above">
+                                                                                <h2 class="ibm-h4 ibm-bold ibm-northstart-documentation-information-label">
+                                                                                    Content</h2>
+                                                                                <p class="ibm-northstart-documentation-information-data">
+                                                                                <p>IBM is pleased to announce that
+                                                                                    version 11.1.7 of IBM Cognos
+                                                                                    Analytics is a Long Term Support
+                                                                                    (LTSR) release.</p>
+
+                                                                                <p><strong>This release will provide
+                                                                                    standard support for two years with
+                                                                                    an available one year extended
+                                                                                    support option to provide coverage
+                                                                                    for a total of three years.</strong>
+                                                                                </p>
+
+                                                                                <p>IBM will provide defect corrections,
+                                                                                    security patches and select
+                                                                                    conformance updates on Cognos
+                                                                                    Analytics 11.1.7 as needed during
+                                                                                    the supported period. The
+                                                                                    capabilities and feature set within
+                                                                                    this release will remain stable and
+                                                                                    unchanged to allow a consistent
+                                                                                    experience over the length of the
+                                                                                    supported lifecycle.</p>
+
+                                                                                <p>IBM will maintain a separate
+                                                                                    continuous delivery stream by
+                                                                                    continuing to release on regular
+                                                                                    cadence. The continuous delivery
+                                                                                    releases will include new features,
+                                                                                    defect corrections and conformance
+                                                                                    updates.</p>
+
+                                                                                <p>LTSR versions are planned to be
+                                                                                    released on an 18-month cadence to
+                                                                                    ensure that there will be a 6-month
+                                                                                    overlap for LTSR versions. This
+                                                                                    staggered release schedule will
+                                                                                    ensure customers and partners have
+                                                                                    adequate lead time to plan their
+                                                                                    move between LTSR releases and
+                                                                                    manage their upgrade.</p>
+
+                                                                                <p>For more information, please contact&nbsp;<strong>Chris
+                                                                                    McPherson</strong>&nbsp;at&nbsp;<a
+                                                                                        data-mce-href="mailto:chrismc@ca.ibm.com"
+                                                                                        href="mailto:chrismc@ca.ibm.com">chrismc@ca.ibm.com</a>
+                                                                                </p>
+                                                                                </p>
+                                                                            </div>
+
+
+                                                                            <div id="field-download-package-title"></div>
+
+
+                                                                            <p></p>
+                                                                            <div id="taxonomy-table-list"></div>
+                                                                            <div class="field--taxonomy"
+                                                                                 id="taxonomy-source">
+                                                                                [{&quot;Business Unit&quot;:{&quot;code&quot;:&quot;BU053&quot;,&quot;label&quot;:&quot;Cloud
+                                                                                &amp; Data Platform&quot;},&quot;Product&quot;:{&quot;code&quot;:&quot;SSTSF6&quot;,&quot;label&quot;:&quot;IBM
+                                                                                Cognos Analytics&quot;},&quot;ARM
+                                                                                Category&quot;:[{&quot;code&quot;:&quot;a8m50000000L2GwAAK&quot;,&quot;label&quot;:&quot;Client
+                                                                                Care&quot;}],&quot;ARM Case Number&quot;:&quot;&quot;,&quot;Platform&quot;:[{&quot;code&quot;:&quot;PF025&quot;,&quot;label&quot;:&quot;Platform
+                                                                                Independent&quot;}],&quot;Version&quot;:&quot;11.1.7&quot;,&quot;Line
+                                                                                of Business&quot;:{&quot;code&quot;:&quot;LOB10&quot;,&quot;label&quot;:&quot;Data
+                                                                                and AI&quot;}}]
+                                                                            </div>
+
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="ibm-col-5-1 ibm-col-medium-6-2 ibm-hidden-small">
+
+                                                                <div id="ibm-document-information" class="ibm-card">
+                                                                    <div class="ibm-card__content">
+                                                                        <h3 class="ibm-h4 ibm-northstart-documentation-information-title">
+                                                                            Document Information</h3>
+
+                                                                        <div id="taxonomy-items">
+                                                                        </div>
+
+                                                                        <p>
+                                                                            <strong>Modified date:</strong>
+                                                                            <br>
+                                                                            24 August 2020
+                                                                        </p>
+
+                                                                        <div class='content-field_uid'>
+                                                                            <div class="field field--name-field-uid field--type-string field--label-above">
+                                                                                <h2 class="ibm-h4 ibm-bold ibm-northstart-documentation-information-label">
+                                                                                    UID</h2>
+                                                                                <p class="ibm-northstart-documentation-information-data">
+                                                                                    ibm16254738</p>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+                                                </article>
+                                            </div>
+                                        </div>
+                                        <div id="block-ibm-carbon-pagefeedbackmodal"
+                                             class="block block-feedback block-page-feedback-modal">
+
+
+                                            <div class="content">
+                                                <p><a id="ibm-drupal-feedback"
+                                                      class="button button-action button--primary button--small use-ajax"
+                                                      data-dialog-options="{&quot;width&quot;:570}"
+                                                      data-dialog-type="modal" href="javascript:void(0);">Page
+                                                    Feedback</a></p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <div id="ibm-contact-module" class="drupal-feedback">
+                <h2 class="ibm-bold">Contact and feedback</h2>
+                <h3 class="ibm-bold">Need support?</h3>
+                <ul class="ibm-live-assistance-list">
+                    <li><a class="ibm-requestquote-link" href="javascript:void(0)">Submit feedback to IBM Support</a>
+                    </li>
+                    <li><p class="ibm-icon-nolink ibm-phone-link">1-800-IBM-7378 (<strong>USA</strong>)</p></li>
+                    <li><a class="ibm-arrow-forward-link" href="//www.ibm.com/planetwide/index.html#region">Directory of
+                        worldwide contacts</a></li>
+                </ul>
+            </div>
+
+            <dds-footer-container size="micro"></dds-footer-container>
+
+        </div>
+
+    </div>
+
+
+</div>
+<script src="/support/pages/core/assets/vendor/jquery-once/jquery.once.min.js?v=2.2.3"></script>
+<script src="/support/pages/core/assets/vendor/jquery.ui/ui/data-min.js?v=1.12.1"></script>
+<script src="/support/pages/core/assets/vendor/jquery.ui/ui/disable-selection-min.js?v=1.12.1"></script>
+<script src="/support/pages/core/assets/vendor/jquery.ui/ui/form-min.js?v=1.12.1"></script>
+<script src="/support/pages/core/assets/vendor/jquery.ui/ui/labels-min.js?v=1.12.1"></script>
+<script src="/support/pages/core/assets/vendor/jquery.ui/ui/jquery-1-7-min.js?v=1.12.1"></script>
+<script src="/support/pages/core/assets/vendor/jquery.ui/ui/scroll-parent-min.js?v=1.12.1"></script>
+<script src="/support/pages/core/assets/vendor/jquery.ui/ui/tabbable-min.js?v=1.12.1"></script>
+<script src="/support/pages/core/assets/vendor/jquery.ui/ui/unique-id-min.js?v=1.12.1"></script>
+<script src="/support/pages/core/assets/vendor/jquery.ui/ui/version-min.js?v=1.12.1"></script>
+<script src="/support/pages/core/assets/vendor/jquery.ui/ui/escape-selector-min.js?v=1.12.1"></script>
+<script src="/support/pages/core/assets/vendor/jquery.ui/ui/focusable-min.js?v=1.12.1"></script>
+<script src="/support/pages/core/assets/vendor/jquery.ui/ui/keycode-min.js?v=1.12.1"></script>
+<script src="/support/pages/core/assets/vendor/jquery.ui/ui/plugin-min.js?v=1.12.1"></script>
+<script src="/support/pages/core/assets/vendor/jquery.ui/ui/safe-active-element-min.js?v=1.12.1"></script>
+<script src="/support/pages/core/assets/vendor/jquery.ui/ui/safe-blur-min.js?v=1.12.1"></script>
+<script src="/support/pages/core/assets/vendor/jquery.ui/ui/widget-min.js?v=1.12.1"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/js/select2.full.min.js"></script>
+<script src="/support/pages/modules/custom/select2boxes/js/select2boxes.js?v=4.0.5"></script>
+<script src="/support/pages/libraries/codesnippet/lib/highlight/highlight.pack.js?v=8.9.18"></script>
+<script src="/support/pages/modules/contrib/codesnippet/js/codesnippet.js?v=8.9.18"></script>
+<script src="/support/pages/core/assets/vendor/jquery-form/jquery.form.min.js?v=4.22"></script>
+<script src="/support/pages/core/misc/progress.js?v=8.9.18"></script>
+<script src="/support/pages/core/misc/ajax.js?v=8.9.18"></script>
+<script src="/support/pages/core/themes/stable/js/ajax.js?v=8.9.18"></script>
+<script src="/support/pages/core/misc/debounce.js?v=8.9.18"></script>
+<script src="/support/pages/core/misc/displace.js?v=8.9.18"></script>
+<script src="/support/pages/core/assets/vendor/jquery.ui/ui/form-reset-mixin-min.js?v=1.12.1"></script>
+<script src="/support/pages/core/assets/vendor/jquery.ui/ui/widgets/checkboxradio-min.js?v=1.12.1"></script>
+<script src="/support/pages/core/assets/vendor/jquery.ui/ui/widgets/controlgroup-min.js?v=1.12.1"></script>
+<script src="/support/pages/core/assets/vendor/jquery.ui/ui/widgets/button-min.js?v=1.12.1"></script>
+<script src="/support/pages/core/assets/vendor/jquery.ui/ui/ie-min.js?v=1.12.1"></script>
+<script src="/support/pages/core/assets/vendor/jquery.ui/ui/widgets/mouse-min.js?v=1.12.1"></script>
+<script src="/support/pages/core/assets/vendor/jquery.ui/ui/widgets/draggable-min.js?v=1.12.1"></script>
+<script src="/support/pages/core/assets/vendor/jquery.ui/ui/position-min.js?v=1.12.1"></script>
+<script src="/support/pages/core/assets/vendor/jquery.ui/ui/widgets/resizable-min.js?v=1.12.1"></script>
+<script src="/support/pages/core/assets/vendor/jquery.ui/ui/widgets/dialog-min.js?v=1.12.1"></script>
+<script src="/support/pages/core/misc/dialog/dialog.js?v=8.9.18"></script>
+<script src="/support/pages/core/misc/dialog/dialog.position.js?v=8.9.18"></script>
+<script src="/support/pages/core/misc/dialog/dialog.jquery-ui.js?v=8.9.18"></script>
+<script src="/support/pages/core/misc/dialog/dialog.ajax.js?v=8.9.18"></script>
+<script src="/support/pages/modules/custom/feedback/js/feedback.js?v=8.9.18"></script>
+<script src="/support/pages/modules/custom/ibm_nps_feedback/js/ibm_nps_feedback.js?v=8.9.18"></script>
+<script src="/support/pages/modules/custom/support_search/js/support_search.js?v=8.9.18"></script>
+
+</body>
+</html>
