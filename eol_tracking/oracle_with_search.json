@@ -1,0 +1,659 @@
+[
+  {
+    "version": null,
+    "release_date": null,
+    "minimum_support_period": null,
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "\u00a0",
+    "release_date": "\u00a0",
+    "minimum_support_period": "\u00a0",
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "\n",
+    "release_date": "\n",
+    "minimum_support_period": "\n",
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "\n",
+    "release_date": "\n",
+    "minimum_support_period": "\n",
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "\n",
+    "release_date": "\n",
+    "minimum_support_period": "\n",
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "\n",
+    "release_date": "\n",
+    "minimum_support_period": "\n",
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "\n",
+    "release_date": "\n",
+    "minimum_support_period": "\n",
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "\n",
+    "release_date": "\n",
+    "minimum_support_period": "\n",
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "\n",
+    "release_date": "\n",
+    "minimum_support_period": "\n",
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": null,
+    "release_date": null,
+    "minimum_support_period": null,
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "\n",
+    "release_date": null,
+    "minimum_support_period": null,
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "Exadata Express Cloud Service",
+    "release_date": "Not Planned",
+    "minimum_support_period": "Not Planned",
+    "end_of_support": "Not Planned",
+    "extended_support": "18-Sep-2016",
+    "sustaining_support": "N/A"
+  },
+  {
+    "version": "Database Cloud Service",
+    "release_date": "\n",
+    "minimum_support_period": "\n",
+    "end_of_support": "1-Mar-2018",
+    "extended_support": "4-Nov-2016",
+    "sustaining_support": "Sep-2014"
+  },
+  {
+    "version": "Exadata Cloud Service",
+    "release_date": "TBA",
+    "minimum_support_period": "19-Jun-2019",
+    "end_of_support": "Jun-2018",
+    "extended_support": "4-Nov-2016",
+    "sustaining_support": "Oct-2015"
+  },
+  {
+    "version": "Exadata Cloud at Customer",
+    "release_date": "TBA",
+    "minimum_support_period": "17-Sep-2019",
+    "end_of_support": "May-2018",
+    "extended_support": "2-May-2017",
+    "sustaining_support": "Dec-2016"
+  },
+  {
+    "version": "Autonomous Database on Dedicated Exadata Infrastructure ",
+    "release_date": "TBA",
+    "minimum_support_period": "26-Jun-2019",
+    "end_of_support": "N/A",
+    "extended_support": "\u00a0N/A",
+    "sustaining_support": "\u00a0N/A"
+  },
+  {
+    "version": "Autonomous Database on Exadata Cloud@Customer\u00a0",
+    "release_date": "TBA",
+    "minimum_support_period": "08-Jul-2020",
+    "end_of_support": "N/A",
+    "extended_support": "\u00a0N/A",
+    "sustaining_support": "\u00a0N/A"
+  },
+  {
+    "version": "Autonomous Database on Shared Exadata Infrastructure ",
+    "release_date": "TBA",
+    "minimum_support_period": "15-Mar-2020",
+    "end_of_support": "18-Mar-2018",
+    "extended_support": "N/A",
+    "sustaining_support": "N/A"
+  },
+  {
+    "version": "\n",
+    "release_date": null,
+    "minimum_support_period": null,
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "Oracle Database Appliance",
+    "release_date": "2HCY2021",
+    "minimum_support_period": "Oct 2019",
+    "end_of_support": "7-Mar-2018",
+    "extended_support": "17-Nov-2017",
+    "sustaining_support": "Apr 2014"
+  },
+  {
+    "version": "Exadata",
+    "release_date": "13-Aug-2021",
+    "minimum_support_period": "13-Feb-2019",
+    "end_of_support": "16-Feb-2018",
+    "extended_support": "10-Feb-2017",
+    "sustaining_support": "Oct 2014"
+  },
+  {
+    "version": "Supercluster",
+    "release_date": "TBA",
+    "minimum_support_period": "\n",
+    "end_of_support": "12-Mar-2018",
+    "extended_support": "10-Feb-2017",
+    "sustaining_support": "Nov 2014"
+  },
+  {
+    "version": "\n",
+    "release_date": null,
+    "minimum_support_period": null,
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "Linux x86",
+    "release_date": "Not Planned",
+    "minimum_support_period": "Not planned",
+    "end_of_support": "Not planned",
+    "extended_support": "Not planned",
+    "sustaining_support": "Not planned"
+  },
+  {
+    "version": "Linux x86-64",
+    "release_date": "13-Aug-2021",
+    "minimum_support_period": "25-Apr-2019",
+    "end_of_support": "23-Jul-2018",
+    "extended_support": "1-Mar-2017",
+    "sustaining_support": "22-Jul-2014"
+  },
+  {
+    "version": "Oracle Solaris SPARC (64-bit)",
+    "release_date": "Not Planned",
+    "minimum_support_period": "26-Apr-2019",
+    "end_of_support": "30-Jul-2018",
+    "extended_support": "1-Mar-2017",
+    "sustaining_support": "22-Jul-2014"
+  },
+  {
+    "version": "Oracle Solaris x86-64 (64-bit)",
+    "release_date": "Not Planned",
+    "minimum_support_period": "\n",
+    "end_of_support": "6-Aug-2018",
+    "extended_support": "1-Mar-2017",
+    "sustaining_support": "22-Jul-2014"
+  },
+  {
+    "version": "Microsoft Windows x64 (64-bit)",
+    "release_date": "2HCY2021",
+    "minimum_support_period": "08-Jun-2019",
+    "end_of_support": "21-Aug-2018",
+    "extended_support": "16-Mar-2017",
+    "sustaining_support": "25-Sep-2014"
+  },
+  {
+    "version": "OpenVMS Itanium",
+    "release_date": "Platform desupported",
+    "minimum_support_period": "Platform desupported",
+    "end_of_support": "Platform desupported",
+    "extended_support": "Platform desupported",
+    "sustaining_support": "Platform desupported"
+  },
+  {
+    "version": "HP-UX Itanium",
+    "release_date": "2HCY2021",
+    "minimum_support_period": "28-May-2019",
+    "end_of_support": "20-Nov -2018",
+    "extended_support": "13-Apr-2017",
+    "sustaining_support": "14-Nov-2014"
+  },
+  {
+    "version": "\n",
+    "release_date": "Platform desupported",
+    "minimum_support_period": "Platform desupported ",
+    "end_of_support": "Platform desupported ",
+    "extended_support": "Platform desupported ",
+    "sustaining_support": "Platform desupported "
+  },
+  {
+    "version": "IBM AIX on POWER Systems",
+    "release_date": "See ",
+    "minimum_support_period": "28-May-2019",
+    "end_of_support": "20-Nov -2018",
+    "extended_support": "13-Apr-2017",
+    "sustaining_support": "14-Nov-2014"
+  },
+  {
+    "version": "IBM Linux on System z",
+    "release_date": "See ",
+    "minimum_support_period": "06-June-2019",
+    "end_of_support": "20-Nov -2018",
+    "extended_support": "6-Jun-2017",
+    "sustaining_support": "14-Nov-2014"
+  },
+  {
+    "version": "Microsoft Windows (32-bit)",
+    "release_date": "Not planned",
+    "minimum_support_period": "\n",
+    "end_of_support": "Not planned",
+    "extended_support": "Not planned",
+    "sustaining_support": "Not planned"
+  },
+  {
+    "version": null,
+    "release_date": null,
+    "minimum_support_period": null,
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "\n",
+    "release_date": null,
+    "minimum_support_period": null,
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "Apple macOS (Intel) ",
+    "release_date": "\u00a0",
+    "minimum_support_period": "\u00a010-Sept-2019",
+    "end_of_support": "\u00a0Mar-2018",
+    "extended_support": "15-Jan-2018",
+    "sustaining_support": "2016"
+  },
+  {
+    "version": "\n",
+    "release_date": "\u00a0",
+    "minimum_support_period": "\u00a0",
+    "end_of_support": "\u00a0",
+    "extended_support": "\u00a0",
+    "sustaining_support": "18-Dec-2015 ("
+  },
+  {
+    "version": "\n",
+    "release_date": "\u00a0",
+    "minimum_support_period": "\n",
+    "end_of_support": "\n",
+    "extended_support": "7-Jun-2017 ",
+    "sustaining_support": "18-Dec-2015"
+  },
+  {
+    "version": "\n",
+    "release_date": "\u00a0TBA",
+    "minimum_support_period": "\n",
+    "end_of_support": "\u00a0",
+    "extended_support": "\u00a0",
+    "sustaining_support": "\u00a0"
+  },
+  {
+    "version": "\n",
+    "release_date": null,
+    "minimum_support_period": null,
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  }
+][
+  {
+    "version": null,
+    "release_date": null,
+    "minimum_support_period": null,
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "\u00a0",
+    "release_date": "\u00a0",
+    "minimum_support_period": "\u00a0",
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "\n",
+    "release_date": "\n",
+    "minimum_support_period": "\n",
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "\n",
+    "release_date": "\n",
+    "minimum_support_period": "\n",
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "\n",
+    "release_date": "\n",
+    "minimum_support_period": "\n",
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "\n",
+    "release_date": "\n",
+    "minimum_support_period": "\n",
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "\n",
+    "release_date": "\n",
+    "minimum_support_period": "\n",
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "\n",
+    "release_date": "\n",
+    "minimum_support_period": "\n",
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "\n",
+    "release_date": "\n",
+    "minimum_support_period": "\n",
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": null,
+    "release_date": null,
+    "minimum_support_period": null,
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "\n",
+    "release_date": null,
+    "minimum_support_period": null,
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "Exadata Express Cloud Service",
+    "release_date": "Not Planned",
+    "minimum_support_period": "Not Planned",
+    "end_of_support": "Not Planned",
+    "extended_support": "18-Sep-2016",
+    "sustaining_support": "N/A"
+  },
+  {
+    "version": "Database Cloud Service",
+    "release_date": "\n",
+    "minimum_support_period": "\n",
+    "end_of_support": "1-Mar-2018",
+    "extended_support": "4-Nov-2016",
+    "sustaining_support": "Sep-2014"
+  },
+  {
+    "version": "Exadata Cloud Service",
+    "release_date": "TBA",
+    "minimum_support_period": "19-Jun-2019",
+    "end_of_support": "Jun-2018",
+    "extended_support": "4-Nov-2016",
+    "sustaining_support": "Oct-2015"
+  },
+  {
+    "version": "Exadata Cloud at Customer",
+    "release_date": "TBA",
+    "minimum_support_period": "17-Sep-2019",
+    "end_of_support": "May-2018",
+    "extended_support": "2-May-2017",
+    "sustaining_support": "Dec-2016"
+  },
+  {
+    "version": "Autonomous Database on Dedicated Exadata Infrastructure ",
+    "release_date": "TBA",
+    "minimum_support_period": "26-Jun-2019",
+    "end_of_support": "N/A",
+    "extended_support": "\u00a0N/A",
+    "sustaining_support": "\u00a0N/A"
+  },
+  {
+    "version": "Autonomous Database on Exadata Cloud@Customer\u00a0",
+    "release_date": "TBA",
+    "minimum_support_period": "08-Jul-2020",
+    "end_of_support": "N/A",
+    "extended_support": "\u00a0N/A",
+    "sustaining_support": "\u00a0N/A"
+  },
+  {
+    "version": "Autonomous Database on Shared Exadata Infrastructure ",
+    "release_date": "TBA",
+    "minimum_support_period": "15-Mar-2020",
+    "end_of_support": "18-Mar-2018",
+    "extended_support": "N/A",
+    "sustaining_support": "N/A"
+  },
+  {
+    "version": "\n",
+    "release_date": null,
+    "minimum_support_period": null,
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "Oracle Database Appliance",
+    "release_date": "2HCY2021",
+    "minimum_support_period": "Oct 2019",
+    "end_of_support": "7-Mar-2018",
+    "extended_support": "17-Nov-2017",
+    "sustaining_support": "Apr 2014"
+  },
+  {
+    "version": "Exadata",
+    "release_date": "13-Aug-2021",
+    "minimum_support_period": "13-Feb-2019",
+    "end_of_support": "16-Feb-2018",
+    "extended_support": "10-Feb-2017",
+    "sustaining_support": "Oct 2014"
+  },
+  {
+    "version": "Supercluster",
+    "release_date": "TBA",
+    "minimum_support_period": "\n",
+    "end_of_support": "12-Mar-2018",
+    "extended_support": "10-Feb-2017",
+    "sustaining_support": "Nov 2014"
+  },
+  {
+    "version": "\n",
+    "release_date": null,
+    "minimum_support_period": null,
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "Linux x86",
+    "release_date": "Not Planned",
+    "minimum_support_period": "Not planned",
+    "end_of_support": "Not planned",
+    "extended_support": "Not planned",
+    "sustaining_support": "Not planned"
+  },
+  {
+    "version": "Linux x86-64",
+    "release_date": "13-Aug-2021",
+    "minimum_support_period": "25-Apr-2019",
+    "end_of_support": "23-Jul-2018",
+    "extended_support": "1-Mar-2017",
+    "sustaining_support": "22-Jul-2014"
+  },
+  {
+    "version": "Oracle Solaris SPARC (64-bit)",
+    "release_date": "Not Planned",
+    "minimum_support_period": "26-Apr-2019",
+    "end_of_support": "30-Jul-2018",
+    "extended_support": "1-Mar-2017",
+    "sustaining_support": "22-Jul-2014"
+  },
+  {
+    "version": "Oracle Solaris x86-64 (64-bit)",
+    "release_date": "Not Planned",
+    "minimum_support_period": "\n",
+    "end_of_support": "6-Aug-2018",
+    "extended_support": "1-Mar-2017",
+    "sustaining_support": "22-Jul-2014"
+  },
+  {
+    "version": "Microsoft Windows x64 (64-bit)",
+    "release_date": "2HCY2021",
+    "minimum_support_period": "08-Jun-2019",
+    "end_of_support": "21-Aug-2018",
+    "extended_support": "16-Mar-2017",
+    "sustaining_support": "25-Sep-2014"
+  },
+  {
+    "version": "OpenVMS Itanium",
+    "release_date": "Platform desupported",
+    "minimum_support_period": "Platform desupported",
+    "end_of_support": "Platform desupported",
+    "extended_support": "Platform desupported",
+    "sustaining_support": "Platform desupported"
+  },
+  {
+    "version": "HP-UX Itanium",
+    "release_date": "2HCY2021",
+    "minimum_support_period": "28-May-2019",
+    "end_of_support": "20-Nov -2018",
+    "extended_support": "13-Apr-2017",
+    "sustaining_support": "14-Nov-2014"
+  },
+  {
+    "version": "\n",
+    "release_date": "Platform desupported",
+    "minimum_support_period": "Platform desupported ",
+    "end_of_support": "Platform desupported ",
+    "extended_support": "Platform desupported ",
+    "sustaining_support": "Platform desupported "
+  },
+  {
+    "version": "IBM AIX on POWER Systems",
+    "release_date": "See ",
+    "minimum_support_period": "28-May-2019",
+    "end_of_support": "20-Nov -2018",
+    "extended_support": "13-Apr-2017",
+    "sustaining_support": "14-Nov-2014"
+  },
+  {
+    "version": "IBM Linux on System z",
+    "release_date": "See ",
+    "minimum_support_period": "06-June-2019",
+    "end_of_support": "20-Nov -2018",
+    "extended_support": "6-Jun-2017",
+    "sustaining_support": "14-Nov-2014"
+  },
+  {
+    "version": "Microsoft Windows (32-bit)",
+    "release_date": "Not planned",
+    "minimum_support_period": "\n",
+    "end_of_support": "Not planned",
+    "extended_support": "Not planned",
+    "sustaining_support": "Not planned"
+  },
+  {
+    "version": null,
+    "release_date": null,
+    "minimum_support_period": null,
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "\n",
+    "release_date": null,
+    "minimum_support_period": null,
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  },
+  {
+    "version": "Apple macOS (Intel) ",
+    "release_date": "\u00a0",
+    "minimum_support_period": "\u00a010-Sept-2019",
+    "end_of_support": "\u00a0Mar-2018",
+    "extended_support": "15-Jan-2018",
+    "sustaining_support": "2016"
+  },
+  {
+    "version": "\n",
+    "release_date": "\u00a0",
+    "minimum_support_period": "\u00a0",
+    "end_of_support": "\u00a0",
+    "extended_support": "\u00a0",
+    "sustaining_support": "18-Dec-2015 ("
+  },
+  {
+    "version": "\n",
+    "release_date": "\u00a0",
+    "minimum_support_period": "\n",
+    "end_of_support": "\n",
+    "extended_support": "7-Jun-2017 ",
+    "sustaining_support": "18-Dec-2015"
+  },
+  {
+    "version": "\n",
+    "release_date": "\u00a0TBA",
+    "minimum_support_period": "\n",
+    "end_of_support": "\u00a0",
+    "extended_support": "\u00a0",
+    "sustaining_support": "\u00a0"
+  },
+  {
+    "version": "\n",
+    "release_date": null,
+    "minimum_support_period": null,
+    "end_of_support": null,
+    "extended_support": null,
+    "sustaining_support": null
+  }
+]
