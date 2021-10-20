@@ -1,25 +1,26 @@
 import scrapy
+
 import json
 
-with open('C:\\suryas\\tech_stack_eol_tracking\\eol_tracking\\centos.json') as f:
+with open('C:\\suryas\\tech_stack_eol_tracking\eol_tracking/iis.json') as f:
     data = json.load(f)
 
 
-class centos_baseSpider1(scrapy.Spider):
-    name = "centos_base_with_search"
+class iis_baseSpider1(scrapy.Spider):
+    name = "iis_base_with_search"
     start_urls = [
         data[0]['link']
     ]
 
     def parse(self, response):
-        filename = f'centos.html'
+        filename = f'iis.html'
         with open(filename, 'wb') as f:
             f.write(response.body)
         self.log(f'Saved file {filename}')
 
 
-class centosSpider1(scrapy.Spider):
-    name = "centos_with_search"
+class iisSpider(scrapy.Spider):
+    name = "iis_with_search"
     start_urls = [
         data[0]['link']
     ]
@@ -32,11 +33,9 @@ class centosSpider1(scrapy.Spider):
     #             'tags': quote.css('div.tags a.tag::text').getall(),
     #         }
     def parse(self, response):
-        for row in response.xpath('descendant-or-self::table/tbody/tr'):
+        for row in response.xpath('//*[@class="table"]//tbody/tr'):
             yield {
                 'version': row.xpath('td[1]//text()').extract_first(),
-                'CentOS_6': row.xpath('td[2]//text()').extract_first(),
-                'CentOS_Linux_7': row.xpath('td[3]//text()').extract_first(),
-                'CentOS_Linux_8': row.xpath('td[4]//text()').extract_first(),
-                'CentOS_Stream_8': row.xpath('td[5]//text()').extract_first()
+                'start_date': row.xpath('td[2]//text()').extract_first(),
+                'end_date': row.xpath('td[3]//text()').extract_first()
             }

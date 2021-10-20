@@ -1,7 +1,7 @@
 import scrapy
 import json
 
-with open('C:\\suryas\\tech_stack_eol_tracking\google_crawler/informatica_1.json') as f:
+with open('C:\\suryas\\tech_stack_eol_tracking\eol_tracking/informatica_1.json') as f:
     data = json.load(f)
 
 

@@ -25,48 +25,6 @@
     <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico">
     <meta name="theme-color" content="#7952b3">
 
-    <script>
-        let data = [
-            {
-                "version": "10.5",
-                "release_date": "March, 2021",
-                "minimum_support_period": "March 31, 2025",
-                "end_of_support": "TBA",
-                "extended_support": "TBA",
-                "sustaining_support": "TBA"
-            },
-            {
-                "version": "10.4",
-                "release_date": "December, 2019",
-                "minimum_support_period": "March 31, 2024",
-                "end_of_support": "TBA ",
-                "extended_support": "TBA ",
-                "sustaining_support": "TBA "
-            },
-            {
-                "version": "10.2",
-                "release_date": "September, 2017",
-                "minimum_support_period": "September 30, 2021",
-                "end_of_support": "September 30, 2021",
-                "extended_support": "September 30,2022 ",
-                "sustaining_support": "TBA "
-            },
-            {
-                "version": "10.1.x",
-                "release_date": "June, 2016",
-                "minimum_support_period": "June 30, 2020",
-                "end_of_support": "September 30, 2020",
-                "extended_support": "September 30, 2021",
-                "sustaining_support": "Not Available"
-            }
-        ]
-
-        function clickView() {
-            console.log("View button was called", JSON.stringify(data));
-            alert(data[0].version)
-        }
-
-    </script>
     <style>
         .bd-placeholder-img {
             font-size: 1.125rem;
@@ -108,7 +66,7 @@
     </div>
     <div class="navbar navbar-dark bg-dark shadow-sm">
         <div class="container">
-            <a href="#" class="navbar-brand d-flex align-items-center">
+            <a href="http://127.0.0.1:8000/home/" class="navbar-brand d-flex align-items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
                      stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2"
                      viewBox="0 0 24 24">
@@ -127,38 +85,19 @@
 
 <main>
 
+    <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light">CentOS</h1>
+                <p class="lead text-muted">Each active version and their respective EOL time line</p>
+            </div>
+        </div>
+    </section>
 
     <div class="album py-5 bg-light">
         <div class="container">
 
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                {% for technologies in technologies.all %}
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                             xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                             preserveAspectRatio="xMidYMid slice" focusable="false"><title>Informatica</title>
-                            <rect width="100%" height="100%" fill="#55595c"/>
-                            <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-                        </svg>
-
-                        <div class="card-body">
-                            <h3 class="card-text">{{ technologies.Title }}</h3>
-                            <label>Data scraped from:</label><a class="card-text">{{ technologies.Description }}</a>
-                            <p class="card-text">Click "View" to see the end of life timeline</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a type="button" class="btn btn-sm btn-outline-secondary" href={{ technologies.Link
-                                       }}>View</a>
-                                    <!--                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>-->
-                                </div>
-                                <small class="text-muted">Refreshed @ 22:53 09/29/2021</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {% endfor %}
-                </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id='rowcols'>
             </div>
         </div>
     </div>
@@ -183,6 +122,86 @@
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossorigin="anonymous"></script>
 
+<script>
+    let data = [
+        {
+            "version": " Full Updates",
+            "CentOS_6": " 2017-05-10 ",
+            "CentOS_Linux_7": " 2020-08-06 ",
+            "CentOS_Linux_8": " 2021-12-31 ",
+            "CentOS_Stream_8": " 2024-05-31 "
+        },
+        {
+            "version": " Maintenance Updates",
+            "CentOS_6": " 2020-11-30 ",
+            "CentOS_Linux_7": " 2024-06-30 ",
+            "CentOS_Linux_8": " 2021-12-31 ",
+            "CentOS_Stream_8": " 2024-05-31 "
+        },
+        {
+            "version": " Latest Release ",
+            "CentOS_6": " 6.10 ",
+            "CentOS_Linux_7": " 7 (2009) ",
+            "CentOS_Linux_8": " 8 (2105) ",
+            "CentOS_Stream_8": " 8 "
+        },
+        {
+            "version": " Supports i386 Systems (32-bit Pentium, AMD, Via) ",
+            "CentOS_6": " Yes",
+            "CentOS_Linux_7": " Yes (1503) ",
+            "CentOS_Linux_8": " No ",
+            "CentOS_Stream_8": " No "
+        },
+        {
+            "version": " Supports x86_64 systems (AMD64/EM64T) ",
+            "CentOS_6": " Yes ",
+            "CentOS_Linux_7": " Yes ",
+            "CentOS_Linux_8": " Yes ",
+            "CentOS_Stream_8": " Yes "
+        },
+        {
+            "version": " Supports PowerPC8le systems (IBM Power, Mac) ",
+            "CentOS_6": " No ",
+            "CentOS_Linux_7": " Yes (AltArch) ",
+            "CentOS_Linux_8": " Yes ",
+            "CentOS_Stream_8": " Yes "
+        },
+        {
+            "version": " Supports IA-32  ",
+            "CentOS_6": " No ",
+            "CentOS_Linux_7": " Yes (AltArch) ",
+            "CentOS_Linux_8": " No ",
+            "CentOS_Stream_8": " No "
+        },
+        {
+            "version": " Supports ARMv7hl systems  ",
+            "CentOS_6": " No ",
+            "CentOS_Linux_7": " Yes (AltArch) ",
+            "CentOS_Linux_8": " Yes (AltArch) ",
+            "CentOS_Stream_8": " No "
+        },
+        {
+            "version": " Supports AArch64 (arm64) systems  ",
+            "CentOS_6": " No ",
+            "CentOS_Linux_7": " Yes (AltArch) ",
+            "CentOS_Linux_8": " Yes ",
+            "CentOS_Stream_8": " Yes "
+        }
+    ]
 
+    let html = ' <div className="col">        ' +
+        '<div className="card shadow-sm"> ';
+    for (var i = 0; i < data.length; i++) {
+        html += '<div className="card-body">               ' +
+            '<h3 className="card-text">' + data[i].version + '</h3>' +
+            '<label>CentOS 6: &nbsp </label><a className="card-text">' + data[i].CentOS_6 + '</a> <br/>' +
+            '<label>CentOS 7: &nbsp </label><a className="card-text">' + data[i].CentOS_Linux_7 + '</a> <br/>' +
+            '<label>CentOS 8: &nbsp </label><a className="card-text">' + data[i].CentOS_Linux_8 + '</a> <br/>' +
+            '<label>CentOS Stream 8: &nbsp </label><a className="card-text">' + data[i].CentOS_Stream_8 + '</a> <br/>' +
+            '</div>';
+    }
+    html += '</div></div>';
+    document.getElementById('rowcols').innerHTML = html;
+</script>
 </body>
 </html>

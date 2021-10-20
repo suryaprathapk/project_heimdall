@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'technologies',
-    'homepage'
+    'homepage',
+    'images'
     # 'runspiders'
 ]
 
@@ -117,7 +118,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
-
+MEDIA_URL = '/images/'
 STATICFILES_DIRS = (
     os.path.join(PROJECT_ROOT, 'static'),
 )

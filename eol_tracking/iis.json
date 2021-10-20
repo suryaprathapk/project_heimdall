@@ -1,67 +1,289 @@
 [
   {
-    "version": "Internet Information Services (IIS)",
-    "start_date": "\n\t\t\t\t\t\t\t",
-    "end_date": "\n\t\t\t\t\t\t\t\tSee Note\n\t\t\t\t\t\t"
+    "title": "Internet Information Services (IIS) - Microsoft Lifecycle",
+    "snippet": "Internet Information Services (IIS) follows the Component Lifecycle Policy. Support Dates. Support Dates. Listing, Start Date, End Date. Internet Information\u00a0...",
+    "link": "https://docs.microsoft.com/en-us/lifecycle/products/internet-information-services-iis",
+    "position": 0,
+    "date": "2021-10-20 14:26:24"
   },
   {
-    "version": "IIS 10 on Windows Server 2019",
-    "start_date": "\n\t\t\t\t\t\t\t\t",
-    "end_date": "\n\t\t\t\t\t\t\t\t"
+    "title": "Products Ending Support for 2020 - Microsoft Lifecycle",
+    "snippet": "Sep 17, 2021 \u2014 Find out which products will retire, reach end of support or move from mainstream support to extended support in 2020.",
+    "link": "https://docs.microsoft.com/en-us/lifecycle/end-of-support/end-of-support-2020",
+    "position": 1,
+    "date": "2021-10-20 14:26:24"
   },
   {
-    "version": "IIS 10 on Windows Server (Semi-Annual Channel)",
-    "start_date": "\n\t\t\t\t\t\t\t\t",
-    "end_date": "\n\t\t\t\t\t\t\t\t"
+    "title": "Search Product and Services Lifecycle Information - Microsoft ...",
+    "snippet": "Search below for a list of Microsoft commercial products and services and then select your result to find support and servicing timelines, required updates,\u00a0...",
+    "link": "https://docs.microsoft.com/en-us/lifecycle/products/",
+    "position": 2,
+    "date": "2021-10-20 14:26:24"
   },
   {
-    "version": "IIS 10 on Windows Server 2016",
-    "start_date": "\n\t\t\t\t\t\t\t\t",
-    "end_date": "\n\t\t\t\t\t\t\t\t"
+    "title": "Products Ending Support for 2023 - Microsoft Lifecycle",
+    "snippet": "Oct 4, 2021 \u2014 Find out which products will retire, reach end of support or move from mainstream support to extended support in 2023.",
+    "link": "https://docs.microsoft.com/en-us/lifecycle/end-of-support/end-of-support-2023",
+    "position": 3,
+    "date": "2021-10-20 14:26:24"
   },
   {
-    "version": "IIS 10 on Windows 10, Enterprise and Education",
-    "start_date": "\n\t\t\t\t\t\t\t\t",
-    "end_date": "\n\t\t\t\t\t\t\t\t"
+    "title": "Microsoft Lifecycle Policy",
+    "snippet": "Keep up to date on the end-of-support dates and plans for specific versions of Microsoft products.",
+    "link": "https://docs.microsoft.com/en-us/lifecycle/",
+    "position": 4,
+    "date": "2021-10-20 14:26:24"
   },
   {
-    "version": "IIS 10 on Windows 10 Pro",
-    "start_date": "\n\t\t\t\t\t\t\t\t",
-    "end_date": "\n\t\t\t\t\t\t\t\t"
+    "title": "Active Server Pages (ASP) support in Windows - Microsoft Docs",
+    "snippet": "Jul 29, 2020 \u2014 IIS is included in Windows operating systems. Therefore, both ASP and IIS support lifetimes are tied to the support lifecycle of the host\u00a0...",
+    "link": "https://docs.microsoft.com/en-us/troubleshoot/iis/asp-support-windows",
+    "position": 5,
+    "date": "2021-10-20 14:26:24"
   },
   {
-    "version": "IIS 8.5 on Windows Server 2012 R2",
-    "start_date": "\n\t\t\t\t\t\t\t\t",
-    "end_date": "\n\t\t\t\t\t\t\t\t"
+    "title": "Products Ending Support for 2022 - Microsoft Lifecycle",
+    "snippet": "Sep 15, 2021 \u2014 Find out which products will retire, reach end of support or move from mainstream support to extended support in 2022.",
+    "link": "https://docs.microsoft.com/en-us/lifecycle/end-of-support/end-of-support-2022",
+    "position": 6,
+    "date": "2021-10-20 14:26:24"
   },
   {
-    "version": "IIS 8.5 on Windows 8.1",
-    "start_date": "\n\t\t\t\t\t\t\t\t",
-    "end_date": "\n\t\t\t\t\t\t\t\t"
+    "title": "Product Lifecycle FAQ - Extended Security Updates - Microsoft ...",
+    "snippet": "Aug 24, 2021 \u2014 All Windows 7 and Windows Server 2008/R2 customers received an update on January 14, 2020 as the operating systems were in support until then.",
+    "link": "https://docs.microsoft.com/en-us/lifecycle/faq/extended-security-updates",
+    "position": 7,
+    "date": "2021-10-20 14:26:24"
   },
   {
-    "version": "IIS 8 on Windows Server 2012",
-    "start_date": "\n\t\t\t\t\t\t\t\t",
-    "end_date": "\n\t\t\t\t\t\t\t\t"
+    "title": "Lifecycle FAQ - .NET Framework | Microsoft Docs",
+    "snippet": "Sep 2, 2021 \u2014 For operating systems released prior to Windows 10 version 1809 and Windows Server 2019, .NET 3.5 SP1 remains a component of the Windows version\u00a0...",
+    "link": "https://docs.microsoft.com/en-us/lifecycle/faq/dotnet-framework",
+    "position": 8,
+    "date": "2021-10-20 14:26:24"
   },
   {
-    "version": "IIS 7.5 on Windows 7*",
-    "start_date": "\n\t\t\t\t\t\t\t\t",
-    "end_date": "\n\t\t\t\t\t\t\t\t"
+    "title": "Windows Server Documentation - Microsoft Docs",
+    "snippet": "Windows Server is the platform for building an infrastructure of connected applications, networks, and web services, from the workgroup to the data center.",
+    "link": "https://docs.microsoft.com/en-us/windows-server/",
+    "position": 9,
+    "date": "2021-10-20 14:26:24"
   },
   {
-    "version": "IIS 7.5 on Windows Server 2008 R2*",
-    "start_date": "\n\t\t\t\t\t\t\t\t",
-    "end_date": "\n\t\t\t\t\t\t\t\t"
+    "title": "New Features Introduced in IIS 10.0 Version 1709 - Microsoft ...",
+    "snippet": "May 8, 2020 \u2014 The article introduces native HTTP Strict Transport Security (HSTS) support in IIS 10.0 version 1709.",
+    "link": "https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-10-version-1709/new-features-introduced-in-iis-10-1709",
+    "position": 10,
+    "date": "2021-10-20 14:27:29"
   },
   {
-    "version": "IIS 7.0 on Windows Server 2008*",
-    "start_date": "\n\t\t\t\t\t\t\t\t",
-    "end_date": "\n\t\t\t\t\t\t\t\t"
+    "title": "Products Ending Support for 2021 - Microsoft Lifecycle",
+    "snippet": "Sep 29, 2021 \u2014 Find out which products will retire, reach end of support or move from mainstream support to extended support in 2021.",
+    "link": "https://docs.microsoft.com/en-us/lifecycle/end-of-support/end-of-support-2021",
+    "position": 11,
+    "date": "2021-10-20 14:27:29"
   },
   {
-    "version": "IIS 6.0 on Windows Server 2003",
-    "start_date": "\n\t\t\t\t\t\t\t\t",
-    "end_date": "\n\t\t\t\t\t\t\t\t"
+    "title": "End of support for Windows Server 2008 and ... - Microsoft Docs",
+    "snippet": "Dec 3, 2020 \u2014 Free security updates on-premises; Non-security updates; Free support options; Online technical content update. Customers who use Windows Server\u00a0...",
+    "link": "https://docs.microsoft.com/en-us/troubleshoot/windows-server/windows-server-eos-faq/end-of-support-windows-server-2008-2008r2",
+    "position": 12,
+    "date": "2021-10-20 14:27:29"
+  },
+  {
+    "title": "How to use Extended Security Updates (ESU) for Windows ...",
+    "snippet": "Aug 17, 2021 \u2014 This support includes regular security updates. You can find out information on support dates on Microsoft Lifecycle. End of support also means\u00a0...",
+    "link": "https://docs.microsoft.com/en-us/windows-server/get-started/extended-security-updates-deploy",
+    "position": 13,
+    "date": "2021-10-20 14:27:29"
+  },
+  {
+    "title": "Guide to removing Microsoft Baseline Security Analyzer (MBSA)",
+    "snippet": "Sep 29, 2021 \u2014 This article documents the removal of Microsoft Baseline Security ... several other security checks for Windows, IIS, and SQL Server.",
+    "link": "https://docs.microsoft.com/en-us/windows/security/threat-protection/mbsa-removal-and-guidance",
+    "position": 14,
+    "date": "2021-10-20 14:27:29"
+  },
+  {
+    "title": "Microsoft server software support for Azure virtual machines",
+    "snippet": "Jun 3, 2021 \u2014 Discusses the support policy for Microsoft server software in a Microsoft Azure Virtual Machine environment. ... Web Server (IIS).",
+    "link": "https://docs.microsoft.com/en-us/troubleshoot/azure/virtual-machines/server-software-support",
+    "position": 15,
+    "date": "2021-10-20 14:27:29"
+  },
+  {
+    "title": "New Features Introduced in IIS 10.0 | Microsoft Docs",
+    "snippet": "May 8, 2020 \u2014 IIS 10.0 is the latest version of Internet Information Services (IIS) which shipped with Windows 10 and Windows Server 2016.",
+    "link": "https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-10/new-features-introduced-in-iis-10",
+    "position": 16,
+    "date": "2021-10-20 14:27:29"
+  },
+  {
+    "title": "What's new in Active Directory Federation Services - Microsoft ...",
+    "snippet": "Sep 24, 2021 \u2014 Additional auth policy for a particular RP could be set using the cmdlet Set-AdfsRelyingPartyTrust (AD FS) | Microsoft Docs by passing\u00a0...",
+    "link": "https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/overview/whats-new-active-directory-federation-services-windows-server",
+    "position": 17,
+    "date": "2021-10-20 14:27:29"
+  },
+  {
+    "title": "NET Core Hosting Bundle - Microsoft Docs",
+    "snippet": "Oct 11, 2021 \u2014 Run the Hosting Bundle installer again after installing IIS. ... reached their end of life (EOL) and are no longer supported by Microsoft.",
+    "link": "https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/hosting-bundle",
+    "position": 18,
+    "date": "2021-10-20 14:27:29"
+  },
+  {
+    "title": "What is Azure Cloud Services (classic) | Microsoft Docs",
+    "snippet": "Aug 24, 2021 \u2014 Worker role: Does not use IIS, and runs your app standalone. For example, a simple application might use just a single web role, serving a\u00a0...",
+    "link": "https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-choose-me",
+    "position": 19,
+    "date": "2021-10-20 14:27:29"
+  },
+  {
+    "title": "Windows 10, version 1607 end of servicing on April 9, 2019",
+    "snippet": "Mar 16, 2020 \u2014 This means that version 1607, for these editions, will no longer receive security updates. Customers who contact Microsoft Support after the\u00a0...Aug 25, 2021 \u2014 If you need technical support, visit the Microsoft Support website. ... Internet Information Services (IIS), IIS 10 on Windows Server 2016Oct 11, 2021 \u2014 To receive monthly quality updates, customers must be on a supported version of Windows. Go here for support dates. Windows quality updates are\u00a0...",
+    "link": "https://docs.microsoft.com/en-us/lifecycle/announcements/windows-10-1607-end-of-servicing",
+    "position": 20,
+    "date": "2021-10-20 14:27:30"
+  },
+  {
+    "title": "Windows 10, version 1607 end of servicing on April 9, 2019",
+    "snippet": "Mar 16, 2020 \u2014 This means that version 1607, for these editions, will no longer receive security updates. Customers who contact Microsoft Support after the\u00a0...",
+    "link": "https://docs.microsoft.com/en-us/lifecycle/announcements/windows-10-1607-end-of-servicing",
+    "position": 21,
+    "date": "2021-10-20 14:27:30"
+  },
+  {
+    "title": "Products Ending Support for 2027 - Microsoft Lifecycle",
+    "snippet": "Aug 25, 2021 \u2014 If you need technical support, visit the Microsoft Support website. ... Internet Information Services (IIS), IIS 10 on Windows Server 2016",
+    "link": "https://docs.microsoft.com/en-us/lifecycle/end-of-support/end-of-support-2027",
+    "position": 22,
+    "date": "2021-10-20 14:27:30"
+  },
+  {
+    "title": "Lifecycle FAQ - Windows | Microsoft Docs",
+    "snippet": "Oct 11, 2021 \u2014 To receive monthly quality updates, customers must be on a supported version of Windows. Go here for support dates. Windows quality updates are\u00a0...",
+    "link": "https://docs.microsoft.com/en-us/lifecycle/faq/windows",
+    "position": 23,
+    "date": "2021-10-20 14:27:30"
+  },
+  {
+    "title": "Internet Information Services - Wikipedia",
+    "snippet": "docs.microsoft.com. Retrieved 29 August 2019. ^ \"IIS 7.0: Explore The Web Server For Windows Vista\u00a0...",
+    "link": "https://en.wikipedia.org/wiki/Internet_Information_Services",
+    "position": 24,
+    "date": "2021-10-20 14:27:30"
+  },
+  {
+    "title": "Home : The Official Microsoft IIS Site",
+    "snippet": "Learn, download, & discuss IIS7 and more on the official Microsoft IIS site for the IIS.NET development community.",
+    "link": "https://www.iis.net/",
+    "position": 25,
+    "date": "2021-10-20 14:27:30"
+  },
+  {
+    "title": "Microsoft IIS 7.5 EOL - Vulnerability Tests - Greenbone ...",
+    "snippet": "Feb 2, 2021 \u2014 Microsoft IIS 7.5 is EOL but not reflected in the GCF. Suggested change in products_eol.inc line 234: 'versions', '6.0:2015-07-14\u00a0...",
+    "link": "https://community.greenbone.net/t/microsoft-iis-7-5-eol/8238",
+    "position": 26,
+    "date": "2021-10-20 14:27:30"
+  },
+  {
+    "title": "Windows server eol chart - WebCloud-Apps.com",
+    "snippet": "Windows Docs.microsoft.com More results. Internet Information Services (IIS), IIS 7.5 on Windows Server 2008 R2* SQL Server 2014, Service Pack 2 Visual\u00a0...",
+    "link": "https://webcloud-apps.com/windows-server-eol-chart/",
+    "position": 27,
+    "date": "2021-10-20 14:27:30"
+  },
+  {
+    "title": "IIS Express 7.5 Download - General Software Forum",
+    "snippet": "Jun 5, 2021 \u2014 See https://docs.microsoft.com/en-us/iis/install/installing-iis-7/ ... me assume that IIS Express 7.5 has already reached end of life too.",
+    "link": "https://community.spiceworks.com/topic/2320603-iis-express-7-5-download",
+    "position": 28,
+    "date": "2021-10-20 14:27:30"
+  },
+  {
+    "title": "Tomcat 7.0.57 and IIS 8.5 compatibility - Stack Overflow",
+    "snippet": "Feb 27, 2020 \u2014 Can i use Tomcat 7.0.57 and how can i configure IIS 8.5 with this version ... suggests is docs.microsoft.com/en-us/archive/blogs/manjug/\u2026",
+    "link": "https://stackoverflow.com/questions/60431563/tomcat-7-0-57-and-iis-8-5-compatibility",
+    "position": 29,
+    "date": "2021-10-20 14:27:30"
+  },
+  {
+    "title": "2012 Server End Of Support | Contact Information Finder",
+    "snippet": "4 hours ago Docs.microsoft.com View All ... BES10 End of Life includes end of support / life of all BES10 based solutions, including BlackBerry Resource Kit\u00a0...",
+    "link": "https://www.webcontactus.com/2012-server-end-of-support/",
+    "position": 30,
+    "date": "2021-10-20 14:27:30"
+  },
+  {
+    "title": "Windows 10 Enterprise and Education - Microsoft Lifecycle",
+    "snippet": "Releases. Version, Start Date, End Date. Version 21H1, May 18, 2021, Dec 13, 2022. Version 20H2, Oct 20, 2020, May 9, 2023. Version 2004, May 27, 2020\u00a0...",
+    "link": "https://docs.microsoft.com/en-us/lifecycle/products/windows-10-enterprise-and-education",
+    "position": 31,
+    "date": "2021-10-20 14:27:57"
+  },
+  {
+    "title": "Powershell list services wildcard",
+    "snippet": "Active Directory Apple Azure DRONES Exchange GPS HOMEAUTOMATION IBM / Lenovo Linux Microsoft 365 Microsoft IIS Microsoft Office Networking Ocedo Office 365\u00a0...",
+    "link": "http://jiansuji.biz/kwjc",
+    "position": 32,
+    "date": "2021-10-20 14:27:57"
+  },
+  {
+    "title": "Install azure functions core tools visual studio 2019",
+    "snippet": "1, November 16, 2016, June 27 2019, EOL . ... Work with Azure Functions Core Tools | Microsoft Docs \u203a Search The Best Images at www.",
+    "link": "http://wxtwggys.com/ejgoq/bm9wt8.php?hcbq=install-azure-functions-core-tools-visual-studio-2019",
+    "position": 33,
+    "date": "2021-10-20 14:27:57"
+  },
+  {
+    "title": "Sccm error 0x80072f8f",
+    "snippet": "Failed to update the IIS auth module error 0x8007ffff was the Microsoft Q&A is ... option. md at main \u00b7 MicrosoftDocs/SupportArticles-docs @alid01 It sounds\u00a0...",
+    "link": "http://streamyou.tecbirds.com/dcj93v/pkt7nn.php?idmxx=sccm-error-0x80072f8f",
+    "position": 34,
+    "date": "2021-10-20 14:27:57"
+  },
+  {
+    "title": "Coldfusion 2021 release notes",
+    "snippet": "Microsoft Internet Information Server (IIS) 4. 11. ... 2020 To know more about SAML in general, go through the OASIS SAML documentation: http://docs.",
+    "link": "http://jesuscathedral.co.uk/4uzjs/vapy52.php?jerdb=coldfusion-2021-release-notes",
+    "position": 35,
+    "date": "2021-10-20 14:27:57"
+  },
+  {
+    "title": "Cloud print - Tunesp.biz",
+    "snippet": "Google Cloud Print\u2122* allows documents and photos to be printed from a range of ... of two new IIS service endpoints: Printer Discovery service Windows Print\u00a0...",
+    "link": "http://tunesp.biz/oper",
+    "position": 36,
+    "date": "2021-10-20 14:27:57"
+  },
+  {
+    "title": "Palo alto failed to extract certificate",
+    "snippet": "Palo Alto Networks Tech Docs Path to Docker client CA certificate. ... for problematic certificates from directory stores like Microsoft Active Directory.",
+    "link": "http://172.104.40.224/wp-content/themes/sketch/muryk/lixcgsk.php?eegehv=palo-alto-failed-to-extract-certificate",
+    "position": 37,
+    "date": "2021-10-20 14:27:57"
+  },
+  {
+    "title": "Windows 10 version 1809 download offline installer",
+    "snippet": "My machine is still running Win 10 (Home) version 1809 and since this version's EOL is now approaching, I'm start to get things ready to upgrade to 1909. com.",
+    "link": "http://vweva.com/okjfq/7ofdvx.php?tenoi=windows-10-version-1809-download-offline-installer",
+    "position": 38,
+    "date": "2021-10-20 14:27:57"
+  },
+  {
+    "title": "Cisco mobility express compatibility matrix",
+    "snippet": "com/c/en/us/td/docs/wireless/compatibility/matrix/ 8. 4 sep. xFi Advanced Security is available to Xfinity Internet customers with a compatible Xfinity xFi\u00a0...",
+    "link": "https://atitudpilates.com.br/je1rw/scnne3.php?vegs=cisco-mobility-express-compatibility-matrix",
+    "position": 39,
+    "date": "2021-10-20 14:27:57"
+  },
+  {
+    "title": "Hresult Error Code",
+    "snippet": "Depending on the error, you might find some hints in the IIS log, but 500's are ... \"HRESULT\" is the error code codename in the Microsoft ecosystem.",
+    "link": "http://forumdeslebens.de/hresult-error-code.html",
+    "position": 40,
+    "date": "2021-10-20 14:27:57"
   }
 ]

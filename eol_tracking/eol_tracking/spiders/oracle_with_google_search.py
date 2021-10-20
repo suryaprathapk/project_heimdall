@@ -1,7 +1,7 @@
 import scrapy
 import json
 
-with open('C:\\suryas\\tech_stack_eol_tracking\google_crawler/oracle.json') as f:
+with open('C:\\suryas\\tech_stack_eol_tracking\eol_tracking/oracle.json') as f:
     data = json.load(f)
 
 

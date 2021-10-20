@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>MN Tech-stack EOL Tracking</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
+
+
+    <!-- Bootstrap core CSS -->
+    <
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/5.1/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/5.1/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/5.1/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+    <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#7952b3">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+
+</head>
+<body>
+
+<header>
+    <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-7 py-4">
+                    <h4 class="text-white">Tech Stack End of Life Tracking</h4>
+                    <p class="text-muted">This web portal lists all the tech stacks in use in Model N PD& PS space, we
+                        track the support timelines for all the listed tech stacks and provide insights is we are coming
+                        close to end of life on any of them.</p>
+                </div>
+                <div class="col-sm-4 offset-md-1 py-4">
+                    <h4 class="text-white">Contact</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Email us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+            <a href="http://127.0.0.1:8000/home/" class="navbar-brand d-flex align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+                     stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2"
+                     viewBox="0 0 24 24">
+                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+                    <circle cx="12" cy="13" r="4"/>
+                </svg>
+                <strong>Tech Stacks at Model N</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
+                    aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </div>
+</header>
+
+<main>
+
+    <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light">Oracle family products</h1>
+                <p class="lead text-muted">Each active version and their respective EOL time line</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="album py-5 bg-light">
+        <div class="container">
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id='rowcols'>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+</main>
+
+<footer class="text-muted py-5">
+    <div class="container">
+        <p class="float-end mb-1">
+            <a href="#">Back to top</a>
+        </p>
+        <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+        <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a
+                href="/docs/5.1/getting-started/introduction/">getting started guide</a>.</p>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+<script>
+    let data = [
+        {
+            "version": "Exadata Express Cloud Service",
+            "release_date": "Not Planned",
+            "minimum_support_period": "Not Planned",
+            "end_of_support": "Not Planned",
+            "extended_support": "18-Sep-2016",
+            "sustaining_support": "N/A"
+        },
+        {
+            "version": "Database Cloud Service",
+            "release_date": "\n",
+            "minimum_support_period": "\n",
+            "end_of_support": "1-Mar-2018",
+            "extended_support": "4-Nov-2016",
+            "sustaining_support": "Sep-2014"
+        },
+        {
+            "version": "Exadata Cloud Service",
+            "release_date": "TBA",
+            "minimum_support_period": "19-Jun-2019",
+            "end_of_support": "Jun-2018",
+            "extended_support": "4-Nov-2016",
+            "sustaining_support": "Oct-2015"
+        },
+        {
+            "version": "Exadata Cloud at Customer",
+            "release_date": "TBA",
+            "minimum_support_period": "17-Sep-2019",
+            "end_of_support": "May-2018",
+            "extended_support": "2-May-2017",
+            "sustaining_support": "Dec-2016"
+        },
+        {
+            "version": "Autonomous Database on Dedicated Exadata Infrastructure ",
+            "release_date": "TBA",
+            "minimum_support_period": "26-Jun-2019",
+            "end_of_support": "N/A",
+            "extended_support": "\u00a0N/A",
+            "sustaining_support": "\u00a0N/A"
+        },
+        {
+            "version": "Autonomous Database on Exadata Cloud@Customer\u00a0",
+            "release_date": "TBA",
+            "minimum_support_period": "08-Jul-2020",
+            "end_of_support": "N/A",
+            "extended_support": "\u00a0N/A",
+            "sustaining_support": "\u00a0N/A"
+        },
+        {
+            "version": "Autonomous Database on Shared Exadata Infrastructure ",
+            "release_date": "TBA",
+            "minimum_support_period": "15-Mar-2020",
+            "end_of_support": "18-Mar-2018",
+            "extended_support": "N/A",
+            "sustaining_support": "N/A"
+        },
+        {
+            "version": "\n",
+            "release_date": null,
+            "minimum_support_period": null,
+            "end_of_support": null,
+            "extended_support": null,
+            "sustaining_support": null
+        },
+        {
+            "version": "Oracle Database Appliance",
+            "release_date": "2HCY2021",
+            "minimum_support_period": "Oct 2019",
+            "end_of_support": "7-Mar-2018",
+            "extended_support": "17-Nov-2017",
+            "sustaining_support": "Apr 2014"
+        },
+        {
+            "version": "Exadata",
+            "release_date": "13-Aug-2021",
+            "minimum_support_period": "13-Feb-2019",
+            "end_of_support": "16-Feb-2018",
+            "extended_support": "10-Feb-2017",
+            "sustaining_support": "Oct 2014"
+        },
+        {
+            "version": "Supercluster",
+            "release_date": "TBA",
+            "minimum_support_period": "\n",
+            "end_of_support": "12-Mar-2018",
+            "extended_support": "10-Feb-2017",
+            "sustaining_support": "Nov 2014"
+        },
+        {
+            "version": "Linux x86",
+            "release_date": "Not Planned",
+            "minimum_support_period": "Not planned",
+            "end_of_support": "Not planned",
+            "extended_support": "Not planned",
+            "sustaining_support": "Not planned"
+        },
+        {
+            "version": "Linux x86-64",
+            "release_date": "13-Aug-2021",
+            "minimum_support_period": "25-Apr-2019",
+            "end_of_support": "23-Jul-2018",
+            "extended_support": "1-Mar-2017",
+            "sustaining_support": "22-Jul-2014"
+        },
+        {
+            "version": "Oracle Solaris SPARC (64-bit)",
+            "release_date": "Not Planned",
+            "minimum_support_period": "26-Apr-2019",
+            "end_of_support": "30-Jul-2018",
+            "extended_support": "1-Mar-2017",
+            "sustaining_support": "22-Jul-2014"
+        },
+        {
+            "version": "Oracle Solaris x86-64 (64-bit)",
+            "release_date": "Not Planned",
+            "minimum_support_period": "\n",
+            "end_of_support": "6-Aug-2018",
+            "extended_support": "1-Mar-2017",
+            "sustaining_support": "22-Jul-2014"
+        },
+        {
+            "version": "Microsoft Windows x64 (64-bit)",
+            "release_date": "2HCY2021",
+            "minimum_support_period": "08-Jun-2019",
+            "end_of_support": "21-Aug-2018",
+            "extended_support": "16-Mar-2017",
+            "sustaining_support": "25-Sep-2014"
+        },
+        {
+            "version": "OpenVMS Itanium",
+            "release_date": "Platform desupported",
+            "minimum_support_period": "Platform desupported",
+            "end_of_support": "Platform desupported",
+            "extended_support": "Platform desupported",
+            "sustaining_support": "Platform desupported"
+        },
+        {
+            "version": "HP-UX Itanium",
+            "release_date": "2HCY2021",
+            "minimum_support_period": "28-May-2019",
+            "end_of_support": "20-Nov -2018",
+            "extended_support": "13-Apr-2017",
+            "sustaining_support": "14-Nov-2014"
+        },
+        {
+            "version": "\n",
+            "release_date": "Platform desupported",
+            "minimum_support_period": "Platform desupported ",
+            "end_of_support": "Platform desupported ",
+            "extended_support": "Platform desupported ",
+            "sustaining_support": "Platform desupported "
+        },
+        {
+            "version": "IBM AIX on POWER Systems",
+            "release_date": "See ",
+            "minimum_support_period": "28-May-2019",
+            "end_of_support": "20-Nov -2018",
+            "extended_support": "13-Apr-2017",
+            "sustaining_support": "14-Nov-2014"
+        },
+        {
+            "version": "IBM Linux on System z",
+            "release_date": "See ",
+            "minimum_support_period": "06-June-2019",
+            "end_of_support": "20-Nov -2018",
+            "extended_support": "6-Jun-2017",
+            "sustaining_support": "14-Nov-2014"
+        },
+        {
+            "version": "Microsoft Windows (32-bit)",
+            "release_date": "Not planned",
+            "minimum_support_period": "\n",
+            "end_of_support": "Not planned",
+            "extended_support": "Not planned",
+            "sustaining_support": "Not planned"
+        },
+        {
+            "version": null,
+            "release_date": null,
+            "minimum_support_period": null,
+            "end_of_support": null,
+            "extended_support": null,
+            "sustaining_support": null
+        },
+        {
+            "version": "\n",
+            "release_date": null,
+            "minimum_support_period": null,
+            "end_of_support": null,
+            "extended_support": null,
+            "sustaining_support": null
+        },
+        {
+            "version": "Apple macOS (Intel) ",
+            "release_date": "\u00a0",
+            "minimum_support_period": "\u00a010-Sept-2019",
+            "end_of_support": "\u00a0Mar-2018",
+            "extended_support": "15-Jan-2018",
+            "sustaining_support": "2016"
+        }
+    ]
+
+    let html = ' <div className="col">        ' +
+        '<div className="card shadow-sm"> ';
+    for (var i = 0; i < data.length; i++) {
+        html += '<div className="card-body">               ' +
+            '<h3 className="card-text">' + data[i].version + '</h3>' +
+            '<label>Release Date: &nbsp </label><a className="card-text">' + data[i].release_date + '</a> <br/>' +
+            '<label>Minimum support: &nbsp </label><a className="card-text">' + data[i].minimum_support_period + '</a> <br/>' +
+            '<label>End of support: &nbsp </label><a className="card-text">' + data[i].end_of_support + '</a> <br/>' +
+            '<label>Extended Support: &nbsp </label><a className="card-text">' + data[i].extended_support + '</a> <br/>' +
+            '<label>Sustaining support: &nbsp </label><a className="card-text">' + data[i].sustaining_support + '</a> <br/>' +
+            '</div>';
+    }
+    html += '</div></div>';
+    document.getElementById('rowcols').innerHTML = html;
+</script>
+</body>
+</html>

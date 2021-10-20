@@ -1,0 +1,67 @@
+[
+  {
+    "version": "Internet Information Services (IIS)",
+    "start_date": "\n\t\t\t\t\t\t\t",
+    "end_date": "\n\t\t\t\t\t\t\t\tSee Note\n\t\t\t\t\t\t"
+  },
+  {
+    "version": "IIS 10 on Windows Server 2019",
+    "start_date": "\n\t\t\t\t\t\t\t\t",
+    "end_date": "\n\t\t\t\t\t\t\t\t"
+  },
+  {
+    "version": "IIS 10 on Windows Server (Semi-Annual Channel)",
+    "start_date": "\n\t\t\t\t\t\t\t\t",
+    "end_date": "\n\t\t\t\t\t\t\t\t"
+  },
+  {
+    "version": "IIS 10 on Windows Server 2016",
+    "start_date": "\n\t\t\t\t\t\t\t\t",
+    "end_date": "\n\t\t\t\t\t\t\t\t"
+  },
+  {
+    "version": "IIS 10 on Windows 10, Enterprise and Education",
+    "start_date": "\n\t\t\t\t\t\t\t\t",
+    "end_date": "\n\t\t\t\t\t\t\t\t"
+  },
+  {
+    "version": "IIS 10 on Windows 10 Pro",
+    "start_date": "\n\t\t\t\t\t\t\t\t",
+    "end_date": "\n\t\t\t\t\t\t\t\t"
+  },
+  {
+    "version": "IIS 8.5 on Windows Server 2012 R2",
+    "start_date": "\n\t\t\t\t\t\t\t\t",
+    "end_date": "\n\t\t\t\t\t\t\t\t"
+  },
+  {
+    "version": "IIS 8.5 on Windows 8.1",
+    "start_date": "\n\t\t\t\t\t\t\t\t",
+    "end_date": "\n\t\t\t\t\t\t\t\t"
+  },
+  {
+    "version": "IIS 8 on Windows Server 2012",
+    "start_date": "\n\t\t\t\t\t\t\t\t",
+    "end_date": "\n\t\t\t\t\t\t\t\t"
+  },
+  {
+    "version": "IIS 7.5 on Windows 7*",
+    "start_date": "\n\t\t\t\t\t\t\t\t",
+    "end_date": "\n\t\t\t\t\t\t\t\t"
+  },
+  {
+    "version": "IIS 7.5 on Windows Server 2008 R2*",
+    "start_date": "\n\t\t\t\t\t\t\t\t",
+    "end_date": "\n\t\t\t\t\t\t\t\t"
+  },
+  {
+    "version": "IIS 7.0 on Windows Server 2008*",
+    "start_date": "\n\t\t\t\t\t\t\t\t",
+    "end_date": "\n\t\t\t\t\t\t\t\t"
+  },
+  {
+    "version": "IIS 6.0 on Windows Server 2003",
+    "start_date": "\n\t\t\t\t\t\t\t\t",
+    "end_date": "\n\t\t\t\t\t\t\t\t"
+  }
+]
