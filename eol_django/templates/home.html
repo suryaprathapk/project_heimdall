@@ -127,7 +127,9 @@
 
 <main>
 
-
+    <script>
+        today = new Date();
+    </script>
     <div class="album py-5 bg-light">
         <div class="container">
 
@@ -135,13 +137,12 @@
                 {% for technologies in technologies.all %}
                 <div class="col">
                     <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                             xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                             preserveAspectRatio="xMidYMid slice" focusable="false"><title>Informatica</title>
-                            <rect width="100%" height="100%" fill="#55595c"/>
-                            <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-                        </svg>
-
+                        <!--                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"-->
+                        <!--                             xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"-->
+                        <!--                             preserveAspectRatio="xMidYMid slice" focusable="false"><title>Informatica</title>-->
+                        <!--                            <rect width="100%" height="100%" fill="#55595c"/>-->
+                        <!--                            <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>-->
+                        <!--                        </svg>-->
                         <div class="card-body">
                             <h3 class="card-text">{{ technologies.Title }}</h3>
                             <label>Data scraped from:</label><a class="card-text">{{ technologies.Description }}</a>
@@ -152,15 +153,18 @@
                                        }}>View</a>
                                     <!--                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>-->
                                 </div>
-                                <small class="text-muted">Refreshed @ 22:53 09/29/2021</small>
+                                <small class="text-muted"><p id="date">{{ today }}</p>
+
+                                </small>
+
                             </div>
                         </div>
                     </div>
                 </div>
                 {% endfor %}
-                </div>
             </div>
         </div>
+    </div>
     </div>
     </div>
     </div>
