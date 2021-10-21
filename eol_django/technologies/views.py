@@ -15,24 +15,24 @@ def tech_list_view(request):
 
 def home(request):
     technologies = Technologies.objects
-    return render(request, 'technologies/home.html', {'technologies': technologies})
+    return render(request, 'home.html', {'technologies': technologies})
 
 
 def informatica(request):
     technologies = Technologies.objects
-    return render(request, 'technologies/informatica.html', {'technologies': technologies})
+    return render(request, 'informatica.html', {'technologies': technologies})
 
 
 def centos(request):
     technologies = Technologies.objects
-    return render(request, 'technologies/centos.html', {'technologies': technologies})
+    return render(request, 'centos.html', {'technologies': technologies})
 
 
 def oracle(request):
     technologies = Technologies.objects
-    return render(request, 'technologies/oracle.html', {'technologies': technologies})
+    return render(request, 'oracle.html', {'technologies': technologies})
 
 
 def surya(request):
     technologies = Technologies.objects
-    return render(request, 'technologies/surya.html', {'technologies': technologies})
+    return render(request, 'surya.html', {'technologies': technologies})
