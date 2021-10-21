@@ -17,12 +17,10 @@ from django.contrib import admin
 from django.urls import path
 
 from technologies.views import tech_list_view, home, informatica, centos, oracle, surya
-from homepage.views import homepage
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('technologies/', tech_list_view),
-    path('homepage/', homepage),
     path('home/', home),
     path('informatica/', informatica),
     path('centos/', centos),
