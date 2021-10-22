@@ -145,15 +145,14 @@
                         <!--                        </svg>-->
                         <div class="card-body">
                             <h3 class="card-text">{{ technologies.Title }}</h3>
-                            <label>Data scraped from:</label><a class="card-text">{{ technologies.Description }}</a>
+                            <label>Data scraped from:</label> <br> <a class="card-text">{{ technologies.Description }}</a>
                             <p class="card-text">Click "View" to see the end of life timeline</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a type="button" class="btn btn-sm btn-outline-secondary" href={{ technologies.Link
-                                       }}>View</a>
+                                    <a type="button" class="btn btn-sm btn-outline-secondary" href={{ technologies.Link }}>View</a>
                                     <!--                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>-->
                                 </div>
-                                <small class="text-muted"><p id="date">{{ today }}</p>
+                                <small class="text-muted"><p id="date"><label>Refreshed on :</label> {{ technologies.refresh_date }}</p>
 
                                 </small>
 
