@@ -20,7 +20,7 @@ from technologies.views import tech_list_view, home, informatica, centos, oracle
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('technologies/', tech_list_view),
+    path('', home),
     path('home/', home),
     path('informatica/', informatica),
     path('centos/', centos),
