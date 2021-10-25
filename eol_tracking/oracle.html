@@ -1,965 +1,607 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <meta http-equiv="cache-control" content="max-age=86400">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-          content="Autonomous Database Dedicated - Version NA and later: Release Schedule of Current Database Releases">
-    <meta name="keywords"
-          content="AIX, APPLIANCE, AVAILABILITY, CLOUD, DESUPPORT, END-DATE, ERROR CORRECTION SUPPORT, EXADATA, EXTENDED SUPPORT, HP-UX, LINUX, My Oracle Support, PATCHSET, PREMIER SUPPORT, RELEASE DATE, RELEASE SCHEDULE, ROADMAP, SUPERCLUSTER, TIMELINE">
-    <meta name="product_id" content="Q13700"/>
+                <meta http-equiv="cache-control" content="max-age=86400">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="description" content="Autonomous Database Dedicated - Version NA and later: Release Schedule of Current Database Releases">
+                <meta name="keywords" content="AIX, APPLIANCE, AVAILABILITY, CLOUD, DESUPPORT, END-DATE, ERROR CORRECTION SUPPORT, EXADATA, EXTENDED SUPPORT, HP-UX, LINUX, My Oracle Support, PATCHSET, PREMIER SUPPORT, RELEASE DATE, RELEASE SCHEDULE, ROADMAP, SUPERCLUSTER, TIMELINE">
+                <meta name="product_id" content="Q13700"/>
+<meta name="product_id" content="Q13344"/>
+<meta name="product_id" content="Q10823"/>
+<meta name="product_id" content="Q12550"/>
+<meta name="product_id" content="Q666"/>
+<meta name="product_id" content="Q5"/>
+<meta name="product_id" content="Q790"/>
+<meta name="product_id" content="Q14103"/>
 
-    <meta name="product_id" content="Q13344"/>
+                <meta name="title" content="Release Schedule of Current Database Releases">
+                <meta name="language" content="en"/>
+                <meta name="last-modified-date" content="2021-10-20"/>
+                <meta name="contenttype_id" content="WM175024"/>
+                <title>Release Schedule of Current Database Releases</title>
+                <link href="/knowledge/knowledge.css" rel="stylesheet" type="text/css">
+                <!--[if lt IE 9]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+                <![endif]-->
+                </head>
 
-    <meta name="product_id" content="Q10823"/>
+                <body>
 
-    <meta name="product_id" content="Q12550"/>
+                <div class="container">
+                <div class="sidebar1">&nbsp;  <!-- end .sidebar1 --></div><!-- This sidebar with the space is required to keep the text from being flush to the left -->
+                <article class="content">
+                <h2 class="km2"><img src="/knowledge/oracle-support-banner-opt1.png" align="middle" alt="My Oracle Support Banner" width="80%" height="auto"></h2>
+                <h1 class="KM">Release Schedule of Current Database Releases
+                <docid>(Doc ID 742060.1)</docid></h1>
+                <p>Last updated on OCTOBER   20, 2021</p><H2 class=km>Applies to:  </H2>
+Autonomous Database Dedicated - Version NA and later<br />Autonomous Database on Shared Infrastructure - Version N/A and later<br />Oracle Database Cloud Service - Version N/A and later<br />Oracle Database Cloud Exadata Service<br />Oracle Database - Personal Edition - Version 11.2.0.3 and later<br />Information in this document applies to any platform.<br />
 
-    <meta name="product_id" content="Q666"/>
+<H2 class=km><A NAME="ANN_DETAILS"></A>Details</H2>
+<div class="kmnotebox"><strong><span style="text-decoration: underline;">Disclaimer:</span><br /><br /> The dates published in this document are for planning and discussion purposes only. It is intended solely to help you plan your I.T. projects.&nbsp; A date that exists in the future should not be considered a firm development date as the release and timing of platform releases are subject to change at any time and are at Oracle's sole discretion.<br /> <br /> Your access to and use of this confidential material is subject to the terms and conditions of your Oracle Software License and Service Agreement, which has been executed and with which you agree to comply. This document and information contained herein may not be disclosed, copied, reproduced or distributed to anyone outside of the licensed organization without prior written consent of Oracle. This document is not part of your license agreement nor can it be incorporated into any contractual agreement with Oracle or its subsidiaries or affiliates.</strong></div>
+<div class="kmnotebox"><strong>The content below represents the most accurate information that Oracle can provide. This is a living document that will change as various milestones are reached and releases go in and out of the product life cycle. It is intended to give you current information about releases that are covered under the Database's Premier Support (PS) and Extended Support (ES) Lifetime policies. Support cannot provide additional dates not listed in this document; do not log a Service Request asking for a future release date. If you wish to be notified when this document changes, set the article as a Favorite, and follow the instructions for Email Notification in KM Doc ID: 793436.2</strong></div>
+<a name="aref_section11"></a><h3 class="km"><span style="font-size: 10pt;"><strong>What's New</strong></span></h3>
+<p>The most recent changes will be highlighted with a "New" or "Updated" icon to help you quickly identify the modifications<em>.&nbsp; (For a history of modifications, see the Change Record Table at the bottom of the document.)</em></p>
+<ul>
+<li style="text-align: left;"><strong><strong>Oct 2021: 21c for Microsoft Windows released Oct 8, 2012</strong></strong></li>
+<li style="text-align: left;"><strong><strong>Sept 2021: 21c for ODA released Sept 16, 2021 and 21c for HP released on Sept 28, 2021</strong></strong></li>
+<li style="text-align: left;"><strong>August 2021: Oracle Database 21c (21.3) released on Linux</strong></li>
+<li style="text-align: left;"><strong>June 2021: Oracle will use best effort to support the Oracle 12.1.0.2 Database on Microsoft Windows until July 2022. See Table 1</strong></li>
+</ul>
+<a name="aref_section12"></a><h3 class="km"></h3>
+<hr style="width: 1280px;" width="1280" />
+<a name="aref_section13"></a><h3 class="km"></h3>
+<a name="aref_section14"></a><h3 class="km"><span style="font-size: 10pt;"><strong>Oracle Database Release Roadmap</strong></span></h3>
+<p>There are two types of Oracle Database releases: Long Term Release and Innovation Release.</p>
+<ul>
+<li><strong>Long Term Release:</strong></li>
+</ul>
+<p style="margin-left: 60px;">Oracle Database Long Term Releases are ideal for use cases that benefit from less frequent upgrades to newer releases. Long Term Releases offer the highest level of stability and the longest length of error correction support. These releases have 5 years of Premier Support followed by 3 years of Extended Support. When combined with Extended Support, customers typically have almost 4 years to upgrade from one Long Term Release to the next Long Term Release.</p>
+<ul>
+<li><strong>Innovation Release</strong>:</li>
+</ul>
+<p style="margin-left: 60px;">In between Oracle Database Long Term Releases, Oracle delivers Oracle Database Innovation Releases that include many enhancements and new capabilities which will also be included in the next Long Term Release. Innovation Releases are designed to enable customers to continuously use leading-edge technologies to rapidly develop or deploy new applications or augment existing applications. Support for Innovation Releases includes at least 2 years of Premier Support, but there is no Extended Support. Production workloads can be deployed on Innovation Releases if&nbsp;upgrading to the next database release within one year after the next database release ships is factored into the deployment plan.</p>
+<p>To help you plan ahead, below is a visual roadmap that captures Oracle Database Releases from 11.2 onward, showing the lifetime support stages (Premier, Extended) and the Error Correction windows for each release.&nbsp; Note, not all releases are eligible for Extended Support (i.e. 12.2.0.1, 18c).</p>
+<p>&nbsp;</p>
+<p><em>Figure 1 - Database Release Roadmap&nbsp; <br /></em></p>
+<p><em></em></p>
+<p>Oracle is mindful of the unprecedented economic and business disruption our customers faced in 2020. We decided to not promote our Database 20c Preview version to General Availability. Instead, we incorporated all of the 20c functionality into the 21c release and made 21c available initially in our Autonomous Database Free Tier so that all can test drive the new features and enhancements for free.</p>
+<ul>
+<li>For details on the Database Suite Lifetime Support Policy (incl. Premier, Extended, Sustaining), see <a href="http://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf" alt="link to Lifetime Support Policy datasheet" title="link to Lifetime Support Policy datasheet" target="_blank">Lifetime Support Policy - Oracle Technology Products</a>.</li>
+<li>For details on the Database Suite Error Correction Policy (incl. Patching end dates and grace periods), see <a href="/epmos/faces/DocumentDisplay?id=209768.1&parent=EXTERNAL_SEARCH" rel="nofollow"  alt="Software Error Correction Support Policy (Doc 209768.1)" title="Software Error Correction Support Policy (Doc 209768.1)" target="_self">Database, FMW, EM Grid Control, and OCS Software Error Correction Support Policy (Doc ID 209768.1)</a>.</li>
+<li>For details on Global Database Extended Support (ES) Fee Waivers, and Limited Error Correction, see <a href="http://www.oracle.com/us/support/library/057419.pdf" alt="Oracle Software Technical Support Policies doc on oracle.com" title="Oracle Software Technical Support Policies doc on oracle.com" target="_blank">Oracle Software Technical Support Policies</a> Section 3 "Lifetime Support" subtitle "Exceptions".</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Table 1 - Patching End Dates for Roadmap</strong></p>
+<table class="km" border="1" cellspacing="1" cellpadding="1">
+<tbody>
+<tr><th class="km">Release</th><th class="km"><a href="/epmos/faces/DocumentDisplay?id=209768.1&parent=EXTERNAL_SEARCH" rel="nofollow"  alt="209768.1" title="209768.1" target="_blank">Patching End Date</a></th><th class="km" colspan="2">
+<p>Notes and Exceptions</p>
+</th></tr>
+<tr>
+<td class="km" align="center">&nbsp;</td>
+<td class="km" style="text-align: left;" align="center">&nbsp;</td>
+<td class="km" colspan="2" align="center">&nbsp;</td>
+</tr>
+<tr>
+<td class="km" align="center">
+<p><strong>21c</strong></p>
+<p>Innovation Release</p>
+</td>
+<td class="km" style="text-align: left;" align="center">
+<p>&nbsp;<strong>April 30, 2024</strong></p>
+</td>
+<td class="km" colspan="2" align="center">
+<ul>
+<li style="text-align: left;">Error Correction / Patching is available until <strong>April 30, 2024</strong></li>
+<li style="text-align: left;">21c is not eligible for Extended Support (ES)</li>
+<li style="text-align: left;">Only quarterly Release Updates (RUs) are provided for 21c. Release Update Revisions (RURs) are limited to Long Term Releases.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="km" align="center">
+<p><strong>19c</strong></p>
+<p>Long Term Release</p>
+</td>
+<td class="km" style="text-align: left;" align="center">
+<p><strong>April 30, 2024 with no ES/ULA</strong></p>
+<p><strong>April 30, 2027 with ES/ULA</strong></p>
+</td>
+<td class="km" colspan="2" align="center">
+<ul>
+<li style="text-align: left;">Premier Support (PS) ends April 30, 2024, Extended Support (ES) fees will be required beginning May 01, 2024 through April 30, 2027<br /><br /></li>
+<li style="text-align: left;">Error Correction / Patching is available through April 30, 2027 with paid ES. Without paid ES, patching is only available until April 30, 2024</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="km" align="center">
+<p><strong>18c</strong></p>
+<p>Innovation Release</p>
+<p>&nbsp;</p>
+</td>
+<td class="km" align="center">
+<p style="text-align: left;"><strong>Jun 30, 2021</strong></p>
+</td>
+<td class="km" colspan="2" align="center">
+<ul>
+<li style="text-align: left;">Error Correction / Patching was available until Jun 30, 2021. 18c is now in Sustaining Support. <br /><br /></li>
+<li style="text-align: left;">18c is not eligible for Extended Support (ES)</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="km" align="center">
+<p><strong>12.2.0.1</strong></p>
+<p>&nbsp;</p>
+</td>
+<td class="km" align="center">
+<p style="text-align: left;"><strong>March 31, 2022 (Limited Error Correction from Dec 1, 2020 through March 31, 2022)<br /></strong></p>
+</td>
+<td class="km" colspan="2" align="center">
+<ul>
+<li style="text-align: left;">Error Correction / Patching is available until Nov 30, 2020<br /><br /></li>
+<li style="text-align: left;">Limited Error Correction (Sev 1 and Security Updates only)<strong>&nbsp;&nbsp;&nbsp; </strong>See &lt;Note 161818.1&gt; for details.<strong> <br /><br /></strong></li>
+<li style="text-align: left;">12.2.0.1 is not eligible for Extended Support (ES)</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="km" align="center">
+<p><strong>12.1.0.2</strong></p>
+<p>Terminal Release</p>
+</td>
+<td class="km" align="center">
+<p style="text-align: left;"><strong>Jul 31, 2022 with paid ES, ULA, or EBS waiver<br /></strong></p>
+</td>
+<td class="km" colspan="2" align="center">
+<ul>
+<li style="text-align: left;">Premier Support (PS) ended Jul 31, 2018 and one year of free Extended Support (ES) was in effect until July 31, 2019.<br /><br /></li>
+<li style="text-align: left;">ES fees or a ULA was required beginning 01-Aug-2019 through 31-Jul-2022. Without paid ES or ULA, patching ends 31-Jul-2019.&nbsp;&nbsp;<br /><br /></li>
+<li style="text-align: left;">We have a global ES uplift fee waiver in place for E-Business customers, see details and dates of expiration see: <em>Extended Support Fee Waiver for Oracle Database 12.1 and 11.2 for Oracle E-Business Suite (Doc ID 2522948.1) or Technical Support Policy Document.<br /></em></li>
+</ul>
+<p style="text-align: left;"><em>* One additional year (01-Aug-2021 through 31-July-2022) has been added to the 12.1.0.2 DB Extended Support time frame with the following exceptions: </em></p>
+<ul>
+<li style="text-align: left;"><em><strong>Apple Macintosh platform </strong><strong>patching end date (Error Correction end date) is July 31, 2021.&nbsp; </strong></em></li>
+<li style="text-align: left;"><em><strong>Microsoft Windows platform exception has changed.&nbsp; Regardless of the version used to run the 12.1.0.2 Database, Oracle built the 12.1.0.2 Database on Microsoft Windows 2008&nbsp; This platform reached end-of-life support on January 14, 2020. However, we will make reasonable efforts to deliver patches for the Database 12.1.0.2 on Windows until July 2022, as long as our tooling continues to function.</strong>&nbsp; </em></li>
+</ul>
+</td>
+</tr>
+<tr style="background-color: #b0c4de;">
+<td class="km" align="center">
+<p><strong>12.1.0.1</strong></p>
+</td>
+<td>
+<p><strong>Aug 31, 2016</strong></p>
+</td>
+<td class="km" colspan="2" align="center">
+<ul>
+<li style="text-align: left;">Error Correction / Patching has ended for this release</li>
+<li style="text-align: left;">12.1.0.1 is not eligible for Extended Support (ES)</li>
+<li style="text-align: left;">12.1.0.1 was the last release of Standard Edition (SE) and Standard Edition One (SE1)</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="km" align="center">
+<p><strong>11.2.0.4</strong></p>
+<p>Terminal Release for 11.2</p>
+</td>
+<td class="km" align="center">
+<ul>
+<li style="text-align: left;"><strong>Dec 31, 2020 (with paid Extended Support or ULA Extended Support or EBS Waiver)<br /><br /></strong></li>
+<li style="text-align: left;"><strong>Dec 31, 2022 (with Market Driven Support)<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></strong></li>
+<li style="text-align: left;"><strong>Dec 31, 2021 for the OpenVMS platform</strong></li>
+</ul>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+</td>
+<td class="km" colspan="2" align="center">
+<ul>
+<li style="text-align: left;">Premier Support (PS) ended 31-Jan-2015 and one year of free Extended Support (ES) was in effect until Dec 31, 2018.<br /><br /></li>
+<li style="text-align: left;">ES fees or a ULA was required beginning Jan 1, 2019 through Dec 31, 2020. At the end of ES, Market Driven Support (MDS) will be available for two additional years. See <a href="https://www.oracle.com/a/ocom/docs/ds-mds-database-11g-r2.pdf">https://www.oracle.com/a/ocom/docs/ds-mds-database-11g-r2.pdf</a><br /><br /></li>
+<li style="text-align: left;">Oracle has a global Extended Support Uplift Fee waiver in place for E-Business customers, see details and dates of expiration see: Extended Support Fee Waiver for Oracle Database 12.1 and 11.2 for Oracle E-Business Suite (Doc ID 2522948.1) or Technical Support Policy Document.<br /><br /></li>
+<li style="text-align: left;">Gen 1 and Gen 2 ExaCC, OCC DBCS, OCI DBCS,OCI ExaCS and ODA had 3 additional months of Extended Support. The end of Extended Support for 11.2.0.4 databases on these platforms was: 31-March 2021. New instances could be created up until the end of extended support;<em> however, Oracle makes no commitment that any 11.2.0.4 DBCS instances will continue to run after the end of Support.<br /><br /></em></li>
+<li style="text-align: left;">Market Driven Support is only available for the following Database Cloud Services: Gen 1 and Gen 2 ExaCC, OCC DBCS, OCI DBCS <strong>(non-PSM)</strong>, OCI ExaCS. &nbsp;New instances can be created up until the end of Market Driven Support. &nbsp;Oracle makes no commitment that any 11.2.0.4 DBCS instances will continue to run after the end of MDS support. Market Driven Support is not available for <strong>PSM-based OCI DBCS,</strong> OCI-C DBCS and OCI-C ExaCS.<br /><em><br /></em></li>
+<li style="text-align: left;">11.2.0.4 is the terminal release on OpenVMS. During calendar year 2021, customer will receive Severity 1 Fixes and Security Updates for no additional fees beyond standard Premier Support costs. Coverage does not extend to new certifications, third-party products, or any Java/JDK functionality including Java components embedded in the database. Coverage also excludes any updates related to cryptography and network encryption. This offering does not include standard Security Patch Updates (SPUs).</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p><em>&nbsp;</em></p>
+<p>&nbsp;</p>
+<hr />
+<a name="aref_section15"></a><h3 class="km"><span style="font-size: 10pt;"><strong>Recommended Upgrade Path</strong></span></h3>
+<p><strong>Oracle recommends the following upgrade options:</strong></p>
+<ul>
+<li>For product longevity and patching, Oracle strongly recommends upgrading to 19c which is the Long Term Release with a support end date of April 30, 2027 (or April 30, 2024 if you choose not to pay Extended Support fees or purchase a ULA).</li>
+<li>If you are currently running 11.2.x/12.1.x you will need to upgrade to the terminal release (i.e. 11.2.0.4/12.1.0.2) for the DB Release you are running and then continue the upgrade process by upgrading to the 19c.</li>
+<li>If you are currently running 12.2.0.1 or 18c, you should upgrade to 19c without delay.&nbsp; 18c is in Sustaining Support.</li>
+</ul>
+<p>For questions related to certification combinations and Lifetime Support agreements with other Oracle products like Oracle E-Business Suite, Oracle JD Edwards, Oracle PeopleSoft, and Oracle Siebel, please contact your Oracle Account Representative.</p>
+<hr />
+<a name="aref_section16"></a><h3 class="km"><span style="font-size: 10pt;"><strong>Oracle Database Release Schedule</strong></span></h3>
+<p>These are server releases unless otherwise specified. Server releases always include the native word size client (e.g. 64-bit). Where the platform supports it, a 32-bit and 64-bit client is also part of the release. <span></span></p>
+<p><em>Table 2 - Database Release Schedule</em></p>
+<table class="km" style="width: 100%;" border="0" cellspacing="1" cellpadding="1">
+<tbody>
+<tr align="left" valign="top"><th class="km" style="text-align: left;" valign="bottom">Platform</th><th class="km" style="text-align: left;" align="center" valign="bottom">
+<p>21c</p>
+<p>Innovation Release</p>
+</th><th class="km" style="text-align: left;" align="center" valign="bottom">
+<p>19c</p>
+<p>Long Term Release</p>
+</th><th class="km" style="text-align: left;" align="center" valign="bottom">18c</th><th class="km" style="text-align: left;" align="center" valign="bottom">12.2.0.1</th><th class="km" style="text-align: left;" align="center" valign="bottom">12.1.0.2</th><th class="km" style="text-align: left;" align="center" valign="bottom">12.1.0.1</th><th class="km" style="text-align: left;" align="center" valign="bottom"><a href="/epmos/faces/ui/patch/PatchDetail.jspx?patchId= 13390677&parent=EXTERNAL_SEARCH" rel="nofollow"  alt="Link to download page" title="Link to download page" target="_blank">11.2.0.4</a></th></tr>
+<tr>
+<td class="km" colspan="8">
+<a name="aref_section17"></a><h4 class="km"><strong><span style="text-decoration: underline;">Oracle Public Cloud Releases</span></strong></h4>
+</td>
+</tr>
+<tr>
+<td class="km"><strong>Exadata Express Cloud Service</strong></td>
+<td class="km" align="left"><em>Not Planned</em></td>
+<td class="km" align="left"><em>Not Planned</em></td>
+<td class="km" align="left"><em>Not Planned</em></td>
+<td class="km" align="left">18-Sep-2016</td>
+<td class="km" colspan="3" align="left">N/A</td>
+</tr>
+<tr>
+<td class="km"><strong>Database Cloud Service<sup>1</sup><br /></strong></td>
+<td class="km" align="left">
+<p>08-Dec-2020</p>
+<p>available on VM (RAC or single-instance)</p>
+<p>and Bare Metal (single-instance)</p>
+</td>
+<td class="km" align="left">
+<p>OCI DB System - VM: Jul-2019</p>
+<p>OCI DB System - Bare Metal: April 2020</p>
+</td>
+<td class="km" align="left">1-Mar-2018</td>
+<td class="km" align="left">4-Nov-2016</td>
+<td class="km" align="left">Sep-2014</td>
+<td class="km" align="left">N/A</td>
+<td class="km" align="left">Sep-2014</td>
+<td class="km" align="left">&nbsp;</td>
+</tr>
+<tr>
+<td class="km"><strong>Exadata Cloud Service<sup>1</sup></strong></td>
+<td class="km" align="left">TBA</td>
+<td class="km" align="left">19-Jun-2019</td>
+<td class="km" align="left">Jun-2018</td>
+<td class="km" align="left">4-Nov-2016</td>
+<td class="km" align="left">Oct-2015</td>
+<td class="km" align="left">N/A</td>
+<td class="km" align="left">Oct-2015</td>
+<td class="km" align="left">&nbsp;</td>
+</tr>
+<tr>
+<td class="km"><strong><a href="https://docs.cloud.oracle.com/iaas/Content/Database/Tasks/eccmanagingdatabases.htm" alt="Docs" title="Docs" target="_blank">Exadata Cloud at Customer<sup>1</sup></a></strong></td>
+<td class="km" align="left">TBA</td>
+<td class="km" align="left">17-Sep-2019</td>
+<td class="km" align="left">May-2018</td>
+<td class="km" align="left">2-May-2017</td>
+<td class="km" align="left">Dec-2016</td>
+<td class="km" colspan="3" align="left">N/A</td>
+</tr>
+<tr>
+<td class="km"><strong>Autonomous Database on Dedicated Exadata Infrastructure <sup>2 <br /></sup><a href="https://docs.cloud.oracle.com/iaas/Content/Database/Tasks/eccmanagingdatabases.htm" alt="Docs" title="Docs" target="_blank"></a></strong></td>
+<td class="km" align="left">TBA</td>
+<td class="km" align="left">26-Jun-2019</td>
+<td class="km" align="left">N/A</td>
+<td class="km" align="left">&nbsp;N/A</td>
+<td class="km" align="left">&nbsp;N/A</td>
+<td class="km" colspan="3" align="left">&nbsp;N/A</td>
+</tr>
+<tr>
+<td class="km"><strong>Autonomous Database on Exadata Cloud@Customer&nbsp;<sup><sup><strong>2</strong></sup> <br /></sup></strong></td>
+<td class="km" align="left">TBA</td>
+<td class="km" align="left">08-Jul-2020</td>
+<td class="km" align="left">N/A</td>
+<td class="km" align="left">&nbsp;N/A</td>
+<td class="km" align="left">&nbsp;N/A</td>
+<td class="km" colspan="3" align="left">N/A</td>
+</tr>
+<tr>
+<td class="km"><strong>Autonomous Database on Shared Exadata Infrastructure <sup><sup><strong>2</strong></sup></sup><br /></strong></td>
+<td class="km" align="left">TBA</td>
+<td class="km" align="left">15-Mar-2020</td>
+<td class="km" align="left">18-Mar-2018</td>
+<td class="km" align="left">N/A</td>
+<td class="km" align="left">N/A</td>
+<td class="km" colspan="3" align="left">N/A</td>
+</tr>
+<tr>
+<td class="km" colspan="8">
+<a name="aref_section18"></a><h4 class="km"><strong><span style="text-decoration: underline;">On-Premises Engineered Systems</span></strong></h4>
+<address class="km">(Same software as released for other platforms but tested on Engineered Systems)</address></td>
+</tr>
+<tr>
+<td class="km"><strong>Oracle Database Appliance</strong></td>
+<td class="km" align="left">16-Sep-2021</td>
+<td class="km" align="left">16-Oct-2019</td>
+<td class="km" align="left">7-Mar-2018</td>
+<td class="km" align="left">17-Nov-2017</td>
+<td class="km" align="left">Apr 2014</td>
+<td class="km" align="left">N/A</td>
+<td class="km" align="left">Oct 2013</td>
+<td class="km" colspan="3" align="left">&nbsp;</td>
+</tr>
+<tr>
+<td class="km"><strong>Exadata</strong></td>
+<td class="km" align="left">13-Aug-2021</td>
+<td class="km" align="left">13-Feb-2019</td>
+<td class="km" align="left">16-Feb-2018</td>
+<td class="km" align="left">10-Feb-2017</td>
+<td class="km" align="left">Oct 2014</td>
+<td class="km" align="left">Mar 2013</td>
+<td class="km" align="left">Nov 2013</td>
+<td class="km" colspan="3" align="left">&nbsp;</td>
+</tr>
+<tr>
+<td class="km"><strong>Supercluster</strong></td>
+<td class="km" align="left">TBA</td>
+<td class="km" align="left">
+<p>26-Apr-2019</p>
+</td>
+<td class="km" align="left">12-Mar-2018</td>
+<td class="km" align="left">10-Feb-2017</td>
+<td class="km" align="left">Nov 2014</td>
+<td class="km" align="left">Apr 2014</td>
+<td class="km" align="left">Dec 2013</td>
+<td class="km" colspan="3" align="left">&nbsp;</td>
+</tr>
+<tr>
+<td class="km" colspan="8">
+<a name="aref_section19"></a><h4 class="km"><strong><span style="text-decoration: underline;">On-Premises Server Releases (includes client)</span></strong></h4>
+<p><strong><span style="text-decoration: underline;"><a href="https://www.oracle.com/database/technologies/oracle-database-software-downloads.html" alt="Download from OTN" title="Download from OTN">(Download here)</a></span></strong></p>
+</td>
+</tr>
+<tr>
+<td class="km"><strong>Linux x86</strong></td>
+<td class="km" align="left"><em>Not Planned</em></td>
+<td class="km" align="left"><em>Not planned</em></td>
+<td class="km" align="left"><em>Not planned</em></td>
+<td class="km" align="left"><em>Not planned</em></td>
+<td class="km" align="left"><em>Not planned</em></td>
+<td class="km" align="left"><em>Not planned</em></td>
+<td class="km" align="left">28-Aug-2013</td>
+</tr>
+<tr>
+<td class="km"><strong>Linux x86-64</strong></td>
+<td class="km" align="left">13-Aug-2021</td>
+<td class="km" align="left">25-Apr-2019</td>
+<td class="km" align="left">23-Jul-2018</td>
+<td class="km" align="left">1-Mar-2017</td>
+<td class="km" align="left">22-Jul-2014</td>
+<td class="km" align="left">25-Jun-2013</td>
+<td class="km" align="left">27-Aug-2013</td>
+</tr>
+<tr>
+<td class="km"><strong>Oracle Solaris SPARC (64-bit)</strong></td>
+<td class="km" align="left"><em>Not Planned</em></td>
+<td class="km" align="left">26-Apr-2019</td>
+<td class="km" align="left">30-Jul-2018</td>
+<td class="km" align="left">1-Mar-2017</td>
+<td class="km" align="left">22-Jul-2014</td>
+<td class="km" align="left">25-Jun-2013</td>
+<td class="km" align="left">29-Aug-2013</td>
+</tr>
+<tr>
+<td class="km"><strong>Oracle Solaris x86-64 (64-bit)</strong></td>
+<td class="km" align="left"><em>Not Planned</em></td>
+<td class="km" align="left">
+<p>07-Nov-2019</p>
+<p>Terminal Release</p>
+</td>
+<td class="km" align="left">6-Aug-2018</td>
+<td class="km" align="left">1-Mar-2017</td>
+<td class="km" align="left">22-Jul-2014</td>
+<td class="km" align="left">25-Jun-2013</td>
+<td class="km" align="left">29-Aug-2013</td>
+</tr>
+<tr>
+<td class="km"><strong>Microsoft Windows x64 (64-bit)</strong></td>
+<td class="km" align="left">08-Oct-2021</td>
+<td class="km" align="left">08-Jun-2019</td>
+<td class="km" align="left">21-Aug-2018</td>
+<td class="km" align="left">16-Mar-2017</td>
+<td class="km" align="left">25-Sep-2014</td>
+<td class="km" align="left">9-Jul-2013</td>
+<td class="km" align="left">25-Oct-2013</td>
+</tr>
+<tr>
+<td class="km"><strong>OpenVMS Itanium</strong></td>
+<td class="km" align="left"><em>Platform desupported</em></td>
+<td class="km" align="left">Platform desupported</td>
+<td class="km" align="left"><em>Platform desupported</em></td>
+<td class="km" align="left"><em>Platform desupported</em></td>
+<td class="km" align="left"><em>Platform desupported</em></td>
+<td class="km" align="left"><em>Platform desupported</em></td>
+<td class="km" align="left"><em>Terminal Release</em></td>
+</tr>
+<tr>
+<td class="km"><strong>HP-UX Itanium</strong><sup><a href="#foot9"><sup>7</sup></a></sup></td>
+<td class="km" align="left">28-Sept-2021</td>
+<td class="km" align="left">28-May-2019</td>
+<td class="km" align="left">20-Nov -2018</td>
+<td class="km" align="left">13-Apr-2017</td>
+<td class="km" align="left">14-Nov-2014</td>
+<td class="km" align="left">9-Jan-2014</td>
+<td class="km" align="left">10-Oct-2013</td>
+</tr>
+<tr>
+<td class="km">
+<p><strong>HP-UX PA-RISC (64-bit)</strong></p>
+</td>
+<td class="km" align="left"><em>Platform desupported</em></td>
+<td class="km" align="left"><em>Platform desupported </em></td>
+<td class="km" align="left"><em>Platform desupported </em></td>
+<td class="km" align="left"><em>Platform desupported </em></td>
+<td class="km" align="left"><em>Platform desupported </em></td>
+<td class="km" align="left"><em>Platform desupported </em></td>
+<td class="km" align="left">2-Jan-2014</td>
+</tr>
+<tr>
+<td class="km"><strong>IBM AIX on POWER Systems</strong></td>
+<td class="km" align="left"><em>See <a href="https://support.oracle.com/knowledge/Oracle%20Database%20Products/2766930_1.html" alt="https://support.oracle.com/knowledge/Oracle%20Database%20Products/2766930_1.html" title="https://support.oracle.com/knowledge/Oracle%20Database%20Products/2766930_1.html" target="_blank">DOC ID 2766930.1</a></em></td>
+<td class="km" align="left">28-May-2019</td>
+<td class="km" align="left">20-Nov -2018</td>
+<td class="km" align="left">13-Apr-2017</td>
+<td class="km" align="left">14-Nov-2014</td>
+<td class="km" align="left">9-Jan-2014</td>
+<td class="km" align="left">10-Oct-2013</td>
+</tr>
+<tr>
+<td class="km"><strong>IBM Linux on System z</strong></td>
+<td class="km" align="left"><em>See <a href="https://support.oracle.com/knowledge/Oracle%20Database%20Products/2766930_1.html" alt="https://support.oracle.com/knowledge/Oracle%20Database%20Products/2766930_1.html" title="https://support.oracle.com/knowledge/Oracle%20Database%20Products/2766930_1.html" target="_blank">DOC ID 2766930.1</a></em></td>
+<td class="km" align="left">06-June-2019</td>
+<td class="km" align="left">20-Nov -2018</td>
+<td class="km" align="left">6-Jun-2017</td>
+<td class="km" align="left">14-Nov-2014</td>
+<td class="km" align="left">9-Jan-2014</td>
+<td class="km" align="left">9-Jan-2014</td>
+</tr>
+<tr>
+<td class="km"><strong>Microsoft Windows (32-bit)</strong></td>
+<td class="km" align="left"><em>Client Only - Oct 2021</em></td>
+<td class="km" align="left">
+<p><em>Client only - June 2019<br /></em></p>
+</td>
+<td class="km" align="left"><em>Not planned</em></td>
+<td class="km" align="left"><em>Not planned</em></td>
+<td class="km" align="left"><em>Not planned</em></td>
+<td class="km" align="left"><em>Not planned</em></td>
+<td class="km" align="left">25-Oct-2013</td>
+</tr>
+<tr><th class="km">Platform</th><th class="km" style="text-align: left;" align="center">&nbsp;21c</th><th class="km" style="text-align: left;" align="center">19</th><th class="km" style="text-align: left;" align="center">18</th><th class="km" align="center">12.2.0.1</th><th class="km" align="center">12.1.0.2</th><th class="km" align="center">12.1.0.1</th><th class="km" align="center"><a href="/epmos/faces/ui/patch/PatchDetail.jspx?patchId= 13390677&parent=EXTERNAL_SEARCH" rel="nofollow"  alt="Link to patch download page" title="Link to patch download page" target="_blank">11.2.0.4</a></th></tr>
+<tr>
+<td class="km" colspan="8">
+<a name="aref_section110"></a><h4 class="km"><strong><span style="text-decoration: underline;">Instant Client-Only Releases</span></strong></h4>
+</td>
+</tr>
+<tr>
+<td class="km"><strong>Apple macOS (Intel) </strong><a href="http://www.oracle.com/technetwork/topics/intel-macsoft-096467.html" alt="Opens download page for MacOS Instant Client releases" title="Opens download page for MacOS Instant Client releases" target="_blank"></a><a href="https://www.oracle.com/database/technologies/instant-client/macos-intel-x86-downloads.html" alt="Download from OTN" title="Download from OTN"></a><a href="http://www.oracle.com/technetwork/topics/intel-macsoft-096467.html" alt="Opens download page for MacOS Instant Client releases" title="Opens download page for MacOS Instant Client releases" target="_blank">download</a><strong><br /></strong></td>
+<td class="km" align="left"><strong>&nbsp;</strong></td>
+<td class="km" align="left">&nbsp;10-Sept-2019</td>
+<td class="km" align="left">&nbsp;Mar-2018</td>
+<td class="km" align="left">15-Jan-2018</td>
+<td class="km" align="left">2016</td>
+<td class="km" align="left"><em>Not planned</em></td>
+<td class="km" align="left">20-Apr-2014<br /> <a href="http://www.oracle.com/technetwork/topics/intel-macsoft-096467.html" alt="OTN Download page for Database Instant Client on Apple Mac OS X" title="OTN Download page for Database Instant Client on Apple Mac OS X" target="_blank">Download</a></td>
+</tr>
+<tr>
+<td class="km">
+<p><strong>IBM Linux on POWER (Big Endian)</strong></p>
+<p>&nbsp;</p>
+</td>
+<td class="km" align="left"><strong>&nbsp;</strong></td>
+<td class="km" align="left"><strong>&nbsp;</strong></td>
+<td class="km" align="left"><strong>&nbsp;</strong></td>
+<td class="km" align="left"><strong>&nbsp;</strong></td>
+<td class="km" align="left">18-Dec-2015 (<a href="http://www.oracle.com/technetwork/topics/linuxpower64-092516.html" alt="Link to download page for big-endian Linux on Power clients" title="Link to download page for big-endian Linux on Power clients" target="_blank">download</a>)</td>
+<td class="km" align="left">&nbsp;</td>
+<td class="km" align="left">4-Dec-2014</td>
+</tr>
+<tr>
+<td class="km">
+<p><strong>IBM Linux on POWER (Little Endian)</strong></p>
+<p><strong><a href="https://www.oracle.com/database/technologies/instant-client/linux-power-le-64-downloads.html" alt="Download from OTN" title="Download from OTN">download</a></strong></p>
+</td>
+<td class="km" align="left"><strong>&nbsp;</strong></td>
+<td class="km" align="left">
+<p>&nbsp;Jul-2019</p>
+<p><a href="https://www.oracle.com/database/technologies/instant-client/linux-power-le-64-downloads.html" alt="Download from OTN" title="Download from OTN">download</a></p>
+</td>
+<td class="km" align="left">
+<p>31-Oct-2018<br /><a href="https://www.oracle.com/technetwork/topics/linux-power-le-2835260.html" alt="Little Endian" title="Little Endian" target="_blank">(download)</a></p>
+</td>
+<td class="km" align="left">7-Jun-2017 <a href="http://www.oracle.com/technetwork/topics/linux-power-le-2835260.html" alt="Link to download site for Linux on Power little endian clients" title="Link to download site for Linux on Power little endian clients" target="_blank">(download)</a></td>
+<td class="km" align="left">18-Dec-2015<br /><a href="http://www.oracle.com/technetwork/topics/linux-power-le-2835260.html" alt="Link to download site for Linux on Power little endian clients" title="Link to download site for Linux on Power little endian clients" target="_blank">(download)</a></td>
+<td class="km" align="left">&nbsp;</td>
+<td class="km" align="left"><strong>&nbsp;</strong></td>
+</tr>
+<tr>
+<td class="km">
+<p><strong>Linux on ARM</strong></p>
+<p><strong>&nbsp;</strong></p>
+</td>
+<td class="km" align="left">&nbsp;TBA</td>
+<td class="km" align="left">
+<p>May-2021</p>
+<p><a href="https://www.oracle.com/database/technologies/instant-client/linux-arm-aarch64-downloads.html" alt="Download" title="Download" target="_blank">download</a></p>
+</td>
+<td class="km" align="left"><strong>&nbsp;</strong></td>
+<td class="km" align="left"><strong>&nbsp;</strong></td>
+<td class="km" align="left"><strong>&nbsp;</strong></td>
+<td class="km" align="left"><strong>&nbsp;</strong></td>
+<td class="km" align="left"><strong>&nbsp;</strong></td>
+</tr>
+<tr>
+<td class="km" colspan="8"><address class="km">
+<p><sup>1&nbsp;</sup>Oracle Database Cloud Service, Exadata Cloud Service, and Exadata Cloud@Customer follow the same support life and error correction schedule as on-premises dates unless otherwise noted in Table 1 above (for example, 11.2.0.4 MDS). Also, Extended Support is bundled with these services and does not require additional fees. These services will not be covered under Sustaining Support and should be discontinued at the end of their error Correction dates.</p>
+<p><sup>2&nbsp;</sup>Oracle's current plan for Oracle Autonomous Database - Shared Exadata Infrastructure, Oracle Autonomous Database - Dedicated Exadata Infrastructure, Autonomous Database on Exadata Cloud@Customer services is to support Long Term Release versions for a similar period of time found for those major releases when deployed on-premises. The intent of this plan is to provide stability of service experience for the thousands of critical database deployments found in Oracle Cloud. Additionally, we will at times make available Innovation Releases as part of the Autonomous Database Cloud Services. Innovation Releases, when provided, will be supported for a shorter period of time as compared to a Long Term Release, similar to what is found for those releases when deployed on-premises. Oracle reserves the right to change this plan with changing business requirements. Any change will take into account that stability is of utmost importance to Oracle's many thousands of mission critical deployments.</p>
+<p><strong><span style="text-decoration: underline;">References for Client-Only:<br /></span>https://www.oracle.com/technetwork/database/enterprise-edition/downloads/oracle19c-linux-5462157.html<br /><a href="https://www.oracle.com/technetwork/database/enterprise-edition/downloads/oracle19c-windows-5539283.html">https://www.oracle.com/technetwork/database/enterprise-edition/downloads/oracle19c-windows-5539283.html</a></strong></p>
+<p><strong><span style="text-decoration: underline;">32-bit Linux &amp; Windows Instant Clients</span>, </strong></p>
+<p><strong><a href="https://www.oracle.com/database/technologies/instant-client/linux-x86-32-downloads.html">https://www.oracle.com/database/technologies/instant-client/linux-x86-32-downloads.html </a></strong></p>
+<p><strong>https://www.oracle.com/database/technologies/instant-client/microsoft-windows-32-downloads.html</strong></p>
+</address></td>
+</tr>
+</tbody>
+</table>
+<p style="margin-bottom: 0pt;"><em>&nbsp;</em></p>
+<p><strong>Legend:</strong></p>
+<ul>
+<li>Qn CYyyyy: Date falls within the Calendar Year specified.</li>
+<li><strong>1H or 2H CYyyyy: </strong>Date falls within the 1st half (six months) or 2nd half of Calendar Year. For example 1H CY2009 means "some time within the first six months of 2009".</li>
+<li>TBA = Schedule To Be Announced</li>
+</ul>
+<hr />
+<H2 class=km><A NAME="ANN_ACTION"></A>Actions</H2>
+<p>The dates published in this document are for planning and discussion purposes only.</p>
+<H2 class=km><A NAME="ANN_CONTACT"></A>Contacts</H2><table border="0" width="95%">
+                  <tbody><tr>
+                    <td align="left" width="10%"><a rel="nofollow" href="https://support.oracle.com/epmos/faces/DocumentDisplay?parent=EXTERNAL_SEARCH&sourceId=ANNOUNCEMENT&id=742060.1"><button>Sign In</button> </a></td>
+                    <td width="90%"><h3>To view full details, sign in with your My Oracle Support account.</h3></td>
+                  </tr>
+                  <tr>
+                    <td><a rel="nofollow" href="/knowledge/registration.html" target="_blank"><button>Register</button></a>
+                    </td><td><h3>Don't have a My Oracle Support account?  Click to get started!</h3></td>
+                  </tr>
+                </tbody></table>
+                <p><hr>
+                <B>In this Document</B><br>
+<table><tr><td width='0'></td><td><A HREF="#ANN_DETAILS">Details</A></td></tr></table>
+<table><tr><td width=20>&nbsp;</td><td><a href="#aref_section11"><span style="font-size: 10pt;"><strong>What's New</strong></span></a></td></tr></table>
+<table><tr><td width=20>&nbsp;</td><td><a href="#aref_section12"></a></td></tr></table>
+<table><tr><td width=20>&nbsp;</td><td><a href="#aref_section13"></a></td></tr></table>
+<table><tr><td width=20>&nbsp;</td><td><a href="#aref_section14"><span style="font-size: 10pt;"><strong>Oracle Database Release Roadmap</strong></span></a></td></tr></table>
+<table><tr><td width=20>&nbsp;</td><td><a href="#aref_section15"><span style="font-size: 10pt;"><strong>Recommended Upgrade Path</strong></span></a></td></tr></table>
+<table><tr><td width=20>&nbsp;</td><td><a href="#aref_section16"><span style="font-size: 10pt;"><strong>Oracle Database Release Schedule</strong></span></a></td></tr></table>
+<table><tr><td width=40>&nbsp;</td><td><a href="#aref_section17"><strong><span style="text-decoration: underline;">Oracle Public Cloud Releases</span></strong></a></td></tr></table>
+<table><tr><td width=40>&nbsp;</td><td><a href="#aref_section18"><strong><span style="text-decoration: underline;">On-Premises Engineered Systems</span></strong></a></td></tr></table>
+<table><tr><td width=40>&nbsp;</td><td><a href="#aref_section19"><strong><span style="text-decoration: underline;">On-Premises Server Releases (includes client)</span></strong></a></td></tr></table>
+<table><tr><td width=40>&nbsp;</td><td><a href="#aref_section110"><strong><span style="text-decoration: underline;">Instant Client-Only Releases</span></strong></a></td></tr></table>
+<table><tr><td width='0'></td><td><A HREF="#ANN_ACTION">Actions</A></td></tr></table>
+<table><tr><td width='0'></td><td><A HREF="#ANN_CONTACT">Contacts</A></td></tr></table>
+<table><tr><td width=20>&nbsp;</td><td><a href="#aref_section31"><strong>Change History (2020-2021)<br /></strong></a></td></tr></table>
+<table><tr><td width='0'></td><td><A HREF="#REF">References</A></td></tr></table><hr size=1><p>
+<!-- class=km before applies to -->
+                  <mosaccess>My Oracle Support provides customers with access to over a million knowledge articles and a vibrant support community of peers and Oracle experts.</mosaccess>
+                  <br>
+                </p>
+                <footer>
+                  Oracle offers a comprehensive and fully integrated stack of cloud applications and platform services. For more information about Oracle (NYSE:ORCL), visit <a href="https://www.oracle.com/index.html" title="oracle.com" target="_blank">oracle.com</a>.
+                  <hr>
+                  <a rel="nofollow" href="https://www.oracle.com/legal/copyright.html" target="_new" data-lbl="copyright">�&nbsp;Oracle</a> | <a rel="nofollow" href="https://www.oracle.com/corporate/contact/index.html" target="_new">Contact and Chat</a> |   <a rel="nofollow" href="http://www.oracle.com/us/support/contact/index.html" target="_new">Support</a> | <a rel="nofollow" href="https://www.oracle.com/communities/index.html" target="_new">Communities</a> | <a rel="nofollow" href="http://www.oracle.com/us/social-media/twitter/index.html" target="_new">Connect with us </a> | <a rel="nofollow" href="https://www.facebook.com/Oracle/" target="_new"><img src="/knowledge/facebook-black.png" alt="Facebook" align="texttop" hspace="4" height="16" border="0" width="16"></a> | <a rel="nofollow" href="https://twitter.com/Oracle" target="_new"><img src="/knowledge/twitter-black.png" alt="Twitter" align="texttop" hspace="4" height="16" width="16"></a> | <a rel="nofollow" href="https://www.linkedin.com/company/oracle" target="_new"><img src="/knowledge/linkedin-black.png" alt="Linked In" align="texttop" hspace="4" height="16" width="16"></a> | <a rel="nofollow" href="https://www.oracle.com/legal/privacy/index.html" data-lbl="legal notices" target="_new">Legal Notices</a><a rel="nofollow" href="https://www.oracle.com/communities/index.html" target="_new"></a> | <a rel="nofollow" href="https://www.oracle.com/legal/terms.html" data-lbl="terms of use" target="_new">Terms of Use</a>
 
-    <meta name="product_id" content="Q5"/>
-
-    <meta name="product_id" content="Q790"/>
-
-    <meta name="product_id" content="Q14103"/>
-
-    <meta name="title" content="Release Schedule of Current Database Releases">
-    <meta name="language" content="en"/>
-    <meta name="last-modified-date" content="2021-08-18"/>
-    <meta name="contenttype_id" content="WM175024"/>
-    <title>Release Schedule of Current Database Releases</title>
-    <link href="/knowledge/knowledge.css" rel="stylesheet" type="text/css">
-    <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-</head>
-
-<body>
-
-<div class="container">
-    <div class="sidebar1">&nbsp;  <!-- end .sidebar1 --></div>
-    <!-- This sidebar with the space is required to keep the text from being flush to the left -->
-    <article class="content">
-        <h2 class="km2"><img src="/knowledge/oracle-support-banner-opt1.png" align="middle"
-                             alt="My Oracle Support Banner" width="80%" height="auto"></h2>
-        <h1 class="KM">Release Schedule of Current Database Releases
-            <docid>(Doc ID 742060.1)</docid>
-        </h1>
-        <p>Last updated on AUGUST 18, 2021</p>
-        <H2 class=km>Applies to: </H2>
-        Autonomous Database Dedicated - Version NA and later<br/>Autonomous Database on Shared Infrastructure - Version
-        N/A and later<br/>Oracle Database Cloud Service - Version N/A and later<br/>Oracle Database Cloud Exadata
-        Service<br/>Oracle Database - Personal Edition - Version 11.2.0.3 and later<br/>Information in this document
-        applies to any platform.<br/>
-
-        <H2 class=km><A NAME="ANN_DETAILS"></A>Details</H2>
-        <div class="kmnotebox"><strong><span style="text-decoration: underline;">Disclaimer:</span><br/><br/> The dates
-            published in this document are for planning and discussion purposes only. It is intended solely to help you
-            plan your I.T. projects.&nbsp; A date that exists in the future should not be considered a firm development
-            date as the release and timing of platform releases are subject to change at any time and are at Oracle's
-            sole discretion.<br/> <br/> Your access to and use of this confidential material is subject to the terms and
-            conditions of your Oracle Software License and Service Agreement, which has been executed and with which you
-            agree to comply. This document and information contained herein may not be disclosed, copied, reproduced or
-            distributed to anyone outside of the licensed organization without prior written consent of Oracle. This
-            document is not part of your license agreement nor can it be incorporated into any contractual agreement
-            with Oracle or its subsidiaries or affiliates.</strong></div>
-        <div class="kmnotebox"><strong>The content below represents the most accurate information that Oracle can
-            provide. This is a living document that will change as various milestones are reached and releases go in and
-            out of the product life cycle. It is intended to give you current information about releases that are
-            covered under the Database's Premier Support (PS) and Extended Support (ES) Lifetime policies. Support
-            cannot provide additional dates not listed in this document; do not log a Service Request asking for a
-            future release date. If you wish to be notified when this document changes, set the article as a Favorite,
-            and follow the instructions for Email Notification in KM Doc ID: 793436.2</strong></div>
-        <a name="aref_section11"></a>
-        <h3 class="km"><span style="font-size: 10pt;"><strong>What's New</strong></span></h3>
-        <p>The most recent changes will be highlighted with a "New" or "Updated" icon to help you quickly identify the
-            modifications<em>.&nbsp; (For a history of modifications, see the Change Record Table at the bottom of the
-                document.)</em></p>
-        <ul>
-            <li style="text-align: left;"><strong>August 2021: Oracle Database 21c (21.3) released on Linux</strong>
-            </li>
-            <li style="text-align: left;"><strong>June 2021: Oracle will use best effort to support the Oracle 12.1.0.2
-                Database on Microsoft Windows until July 2022. See Table 1</strong></li>
-            <li style="text-align: left;"><strong>May 2021: Oracle Instant Client 19.10 released on Linux on
-                ARM</strong></li>
-            <li style="text-align: left;"><strong>May 2021: Oracle is not planning to release 21c on IBM AIX Power
-                Systems and IBM Linux on System Z<br/></strong></li>
-        </ul>
-        <a name="aref_section12"></a>
-        <h3 class="km"></h3>
-        <hr style="width: 1280px;" width="1280"/>
-        <a name="aref_section13"></a>
-        <h3 class="km"></h3>
-        <a name="aref_section14"></a>
-        <h3 class="km"><span style="font-size: 10pt;"><strong>Oracle Database Release Roadmap</strong></span></h3>
-        <p>There are two types of Oracle Database releases: Long Term Release and Innovation Release.</p>
-        <ul>
-            <li><strong>Long Term Release:</strong></li>
-        </ul>
-        <p style="margin-left: 60px;">Oracle Database Long Term Releases are ideal for use cases that benefit from less
-            frequent upgrades to newer releases. Long Term Releases offer the highest level of stability and the longest
-            length of error correction support. These releases have 5 years of Premier Support followed by 3 years of
-            Extended Support. When combined with Extended Support, customers typically have almost 4 years to upgrade
-            from one Long Term Release to the next Long Term Release.</p>
-        <ul>
-            <li><strong>Innovation Release</strong>:</li>
-        </ul>
-        <p style="margin-left: 60px;">In between Oracle Database Long Term Releases, Oracle delivers Oracle Database
-            Innovation Releases that include many enhancements and new capabilities which will also be included in the
-            next Long Term Release. Innovation Releases are designed to enable customers to continuously use
-            leading-edge technologies to rapidly develop or deploy new applications or augment existing applications.
-            Support for Innovation Releases includes at least 2 years of Premier Support, but there is no Extended
-            Support. Production workloads can be deployed on Innovation Releases if&nbsp;upgrading to the next database
-            release within one year after the next database release ships is factored into the deployment plan.</p>
-        <p>To help you plan ahead, below is a visual roadmap that captures Oracle Database Releases from 11.2 onward,
-            showing the lifetime support stages (Premier, Extended) and the Error Correction windows for each release.&nbsp;
-            Note, not all releases are eligible for Extended Support (i.e. 12.2.0.1, 18c).</p>
-        <p>&nbsp;</p>
-        <p><em>Figure 1 - Database Release Roadmap&nbsp; <br/></em></p>
-        <p><em></em></p>
-        <p>Oracle is mindful of the unprecedented economic and business disruption our customers faced in 2020. We
-            decided to not promote our Database 20c Preview version to General Availability. Instead, we incorporated
-            all of the 20c functionality into the 21c release and made 21c available initially in our Autonomous
-            Database Free Tier so that all can test drive the new features and enhancements for free.</p>
-        <ul>
-            <li>For details on the Database Suite Lifetime Support Policy (incl. Premier, Extended, Sustaining), see <a
-                    href="http://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf"
-                    alt="link to Lifetime Support Policy datasheet" title="link to Lifetime Support Policy datasheet"
-                    target="_blank">Lifetime Support Policy - Oracle Technology Products</a>.
-            </li>
-            <li>For details on the Database Suite Error Correction Policy (incl. Patching end dates and grace periods),
-                see <a href="/epmos/faces/DocumentDisplay?id=209768.1&parent=EXTERNAL_SEARCH" rel="nofollow"
-                       alt="Software Error Correction Support Policy (Doc 209768.1)"
-                       title="Software Error Correction Support Policy (Doc 209768.1)" target="_self">Database, FMW, EM
-                    Grid Control, and OCS Software Error Correction Support Policy (Doc ID 209768.1)</a>.
-            </li>
-            <li>For details on Global Database Extended Support (ES) Fee Waivers, and Limited Error Correction, see <a
-                    href="http://www.oracle.com/us/support/library/057419.pdf"
-                    alt="Oracle Software Technical Support Policies doc on oracle.com"
-                    title="Oracle Software Technical Support Policies doc on oracle.com" target="_blank">Oracle Software
-                Technical Support Policies</a> Section 3 "Lifetime Support" subtitle "Exceptions".
-            </li>
-        </ul>
-        <p>&nbsp;</p>
-        <p><strong>Table 1 - Patching End Dates for Roadmap</strong></p>
-        <table class="km" border="1" cellspacing="1" cellpadding="1">
-            <tbody>
-            <tr>
-                <th class="km">Release</th>
-                <th class="km"><a href="/epmos/faces/DocumentDisplay?id=209768.1&parent=EXTERNAL_SEARCH" rel="nofollow"
-                                  alt="209768.1" title="209768.1" target="_blank">Patching End Date</a></th>
-                <th class="km" colspan="2">
-                    <p>Notes and Exceptions</p>
-                </th>
-            </tr>
-            <tr>
-                <td class="km" align="center">&nbsp;</td>
-                <td class="km" style="text-align: left;" align="center">&nbsp;</td>
-                <td class="km" colspan="2" align="center">&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="km" align="center">
-                    <p><strong>21c</strong></p>
-                    <p>Innovation Release</p>
-                </td>
-                <td class="km" style="text-align: left;" align="center">
-                    <p>&nbsp;<strong>April 30, 2024</strong></p>
-                </td>
-                <td class="km" colspan="2" align="center">
-                    <ul>
-                        <li style="text-align: left;">Error Correction / Patching is available until <strong>April 30,
-                            2024</strong></li>
-                        <li style="text-align: left;">21c is not eligible for Extended Support (ES)</li>
-                        <li style="text-align: left;">Only quarterly Release Updates (RUs) are provided for 21c. Release
-                            Update Revisions (RURs) are limited to Long Term Releases.
-                        </li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td class="km" align="center">
-                    <p><strong>19c</strong></p>
-                    <p>Long Term Release</p>
-                </td>
-                <td class="km" style="text-align: left;" align="center">
-                    <p><strong>April 30, 2024 with no ES/ULA</strong></p>
-                    <p><strong>April 30, 2027 with ES/ULA</strong></p>
-                </td>
-                <td class="km" colspan="2" align="center">
-                    <ul>
-                        <li style="text-align: left;">Premier Support (PS) ends April 30, 2024, Extended Support (ES)
-                            fees will be required beginning May 01, 2024 through April 30, 2027<br/><br/></li>
-                        <li style="text-align: left;">Error Correction / Patching is available through April 30, 2027
-                            with paid ES. Without paid ES, patching is only available until April 30, 2024
-                        </li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td class="km" align="center">
-                    <p><strong>18c</strong></p>
-                    <p>Innovation Release</p>
-                    <p>&nbsp;</p>
-                </td>
-                <td class="km" align="center">
-                    <p style="text-align: left;"><strong>Jun 30, 2021</strong></p>
-                </td>
-                <td class="km" colspan="2" align="center">
-                    <ul>
-                        <li style="text-align: left;">Error Correction / Patching was available until Jun 30, 2021. 18c
-                            is now in Sustaining Support. <br/><br/></li>
-                        <li style="text-align: left;">18c is not eligible for Extended Support (ES)</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td class="km" align="center">
-                    <p><strong>12.2.0.1</strong></p>
-                    <p>&nbsp;</p>
-                </td>
-                <td class="km" align="center">
-                    <p style="text-align: left;"><strong>March 31, 2022 (Limited Error Correction from Dec 1, 2020
-                        through March 31, 2022)<br/></strong></p>
-                </td>
-                <td class="km" colspan="2" align="center">
-                    <ul>
-                        <li style="text-align: left;">Error Correction / Patching is available until Nov 30,
-                            2020<br/><br/></li>
-                        <li style="text-align: left;">Limited Error Correction (Sev 1 and Security Updates only)<strong>&nbsp;&nbsp;&nbsp; </strong>See
-                            &lt;Note 161818.1&gt; for details.<strong> <br/><br/></strong></li>
-                        <li style="text-align: left;">12.2.0.1 is not eligible for Extended Support (ES)</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td class="km" align="center">
-                    <p><strong>12.1.0.2</strong></p>
-                    <p>Terminal Release</p>
-                </td>
-                <td class="km" align="center">
-                    <p style="text-align: left;"><strong>Jul 31, 2022 with paid ES, ULA, or EBS waiver<br/></strong></p>
-                </td>
-                <td class="km" colspan="2" align="center">
-                    <ul>
-                        <li style="text-align: left;">Premier Support (PS) ended Jul 31, 2018 and one year of free
-                            Extended Support (ES) was in effect until July 31, 2019.<br/><br/></li>
-                        <li style="text-align: left;">ES fees or a ULA was required beginning 01-Aug-2019 through
-                            31-Jul-2022. Without paid ES or ULA, patching ends 31-Jul-2019.&nbsp;&nbsp;<br/><br/></li>
-                        <li style="text-align: left;">We have a global ES uplift fee waiver in place for E-Business
-                            customers, see details and dates of expiration see: <em>Extended Support Fee Waiver for
-                                Oracle Database 12.1 and 11.2 for Oracle E-Business Suite (Doc ID 2522948.1) or
-                                Technical Support Policy Document.<br/></em></li>
-                    </ul>
-                    <p style="text-align: left;"><em>* One additional year (01-Aug-2021 through 31-July-2022) has been
-                        added to the 12.1.0.2 DB Extended Support time frame with the following exceptions: </em></p>
-                    <ul>
-                        <li style="text-align: left;"><em><strong>Apple Macintosh platform </strong><strong>patching end
-                            date (Error Correction end date) is July 31, 2021.&nbsp; </strong></em></li>
-                        <li style="text-align: left;"><em><strong>Microsoft Windows platform exception has changed.&nbsp;
-                            Regardless of the version used to run the 12.1.0.2 Database, Oracle built the 12.1.0.2
-                            Database on Microsoft Windows 2008&nbsp; This platform reached end-of-life support on
-                            January 14, 2020. However, we will make reasonable efforts to deliver patches for the
-                            Database 12.1.0.2 on Windows until July 2022, as long as our tooling continues to
-                            function.</strong>&nbsp; </em></li>
-                    </ul>
-                </td>
-            </tr>
-            <tr style="background-color: #b0c4de;">
-                <td class="km" align="center">
-                    <p><strong>12.1.0.1</strong></p>
-                </td>
-                <td>
-                    <p><strong>Aug 31, 2016</strong></p>
-                </td>
-                <td class="km" colspan="2" align="center">
-                    <ul>
-                        <li style="text-align: left;">Error Correction / Patching has ended for this release</li>
-                        <li style="text-align: left;">12.1.0.1 is not eligible for Extended Support (ES)</li>
-                        <li style="text-align: left;">12.1.0.1 was the last release of Standard Edition (SE) and
-                            Standard Edition One (SE1)
-                        </li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td class="km" align="center">
-                    <p><strong>11.2.0.4</strong></p>
-                    <p>Terminal Release for 11.2</p>
-                </td>
-                <td class="km" align="center">
-                    <ul>
-                        <li style="text-align: left;"><strong>Dec 31, 2020 (with paid Extended Support or ULA Extended
-                            Support or EBS Waiver)<br/><br/></strong></li>
-                        <li style="text-align: left;"><strong>Dec 31, 2022 (with Market Driven
-                            Support)<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></strong></li>
-                        <li style="text-align: left;"><strong>Dec 31, 2021 for the OpenVMS platform</strong></li>
-                    </ul>
-                    <p style="text-align: left;">&nbsp;</p>
-                    <p style="text-align: left;">&nbsp;</p>
-                </td>
-                <td class="km" colspan="2" align="center">
-                    <ul>
-                        <li style="text-align: left;">Premier Support (PS) ended 31-Jan-2015 and one year of free
-                            Extended Support (ES) was in effect until Dec 31, 2018.<br/><br/></li>
-                        <li style="text-align: left;">ES fees or a ULA was required beginning Jan 1, 2019 through Dec
-                            31, 2020. At the end of ES, Market Driven Support (MDS) will be available for two additional
-                            years. See <a href="https://www.oracle.com/a/ocom/docs/ds-mds-database-11g-r2.pdf">https://www.oracle.com/a/ocom/docs/ds-mds-database-11g-r2.pdf</a><br/><br/>
-                        </li>
-                        <li style="text-align: left;">Oracle has a global Extended Support Uplift Fee waiver in place
-                            for E-Business customers, see details and dates of expiration see: Extended Support Fee
-                            Waiver for Oracle Database 12.1 and 11.2 for Oracle E-Business Suite (Doc ID 2522948.1) or
-                            Technical Support Policy Document.<br/><br/></li>
-                        <li style="text-align: left;">Gen 1 and Gen 2 ExaCC, OCC DBCS, OCI DBCS,OCI ExaCS and ODA had 3
-                            additional months of Extended Support. The end of Extended Support for 11.2.0.4 databases on
-                            these platforms was: 31-March 2021. New instances could be created up until the end of
-                            extended support;<em> however, Oracle makes no commitment that any 11.2.0.4 DBCS instances
-                                will continue to run after the end of Support.<br/><br/></em></li>
-                        <li style="text-align: left;">Market Driven Support is only available for the following Database
-                            Cloud Services: Gen 1 and Gen 2 ExaCC, OCC DBCS, OCI DBCS <strong>(non-PSM)</strong>, OCI
-                            ExaCS. &nbsp;New instances can be created up until the end of Market Driven Support. &nbsp;Oracle
-                            makes no commitment that any 11.2.0.4 DBCS instances will continue to run after the end of
-                            MDS support. Market Driven Support is not available for <strong>PSM-based OCI DBCS,</strong>
-                            OCI-C DBCS and OCI-C ExaCS.<br/><em><br/></em></li>
-                        <li style="text-align: left;">11.2.0.4 is the terminal release on OpenVMS. During calendar year
-                            2021, customer will receive Severity 1 Fixes and Security Updates for no additional fees
-                            beyond standard Premier Support costs. Coverage does not extend to new certifications,
-                            third-party products, or any Java/JDK functionality including Java components embedded in
-                            the database. Coverage also excludes any updates related to cryptography and network
-                            encryption. This offering does not include standard Security Patch Updates (SPUs).
-                        </li>
-                    </ul>
-                </td>
-            </tr>
-            </tbody>
-        </table>
-        <p><em>&nbsp;</em></p>
-        <p>&nbsp;</p>
-        <hr/>
-        <a name="aref_section15"></a>
-        <h3 class="km"><span style="font-size: 10pt;"><strong>Recommended Upgrade Path</strong></span></h3>
-        <p><strong>Oracle recommends the following upgrade options:</strong></p>
-        <ul>
-            <li>For product longevity and patching, Oracle strongly recommends upgrading to 19c which is the Long Term
-                Release with a support end date of April 30, 2027 (or April 30, 2024 if you choose not to pay Extended
-                Support fees or purchase a ULA).
-            </li>
-            <li>If you are currently running 11.2.x/12.1.x you will need to upgrade to the terminal release (i.e.
-                11.2.0.4/12.1.0.2) for the DB Release you are running and then continue the upgrade process by upgrading
-                to the 19c.
-            </li>
-            <li>If you are currently running 12.2.0.1 or 18c, you should upgrade to 19c without delay.&nbsp; 18c is in
-                Sustaining Support.
-            </li>
-        </ul>
-        <p>For questions related to certification combinations and Lifetime Support agreements with other Oracle
-            products like Oracle E-Business Suite, Oracle JD Edwards, Oracle PeopleSoft, and Oracle Siebel, please
-            contact your Oracle Account Representative.</p>
-        <hr/>
-        <a name="aref_section16"></a>
-        <h3 class="km"><span style="font-size: 10pt;"><strong>Oracle Database Release Schedule</strong></span></h3>
-        <p>These are server releases unless otherwise specified. Server releases always include the native word size
-            client (e.g. 64-bit). Where the platform supports it, a 32-bit and 64-bit client is also part of the
-            release. <span></span></p>
-        <p><em>Table 2 - Database Release Schedule</em></p>
-        <table class="km" style="width: 100%;" border="0" cellspacing="1" cellpadding="1">
-            <tbody>
-            <tr align="left" valign="top">
-                <th class="km" style="text-align: left;" valign="bottom">Platform</th>
-                <th class="km" style="text-align: left;" align="center" valign="bottom">
-                    <p>21c</p>
-                    <p>Innovation Release</p>
-                </th>
-                <th class="km" style="text-align: left;" align="center" valign="bottom">
-                    <p>19c</p>
-                    <p>Long Term Release</p>
-                </th>
-                <th class="km" style="text-align: left;" align="center" valign="bottom">18c</th>
-                <th class="km" style="text-align: left;" align="center" valign="bottom">12.2.0.1</th>
-                <th class="km" style="text-align: left;" align="center" valign="bottom">12.1.0.2</th>
-                <th class="km" style="text-align: left;" align="center" valign="bottom">12.1.0.1</th>
-                <th class="km" style="text-align: left;" align="center" valign="bottom"><a
-                        href="/epmos/faces/ui/patch/PatchDetail.jspx?patchId= 13390677&parent=EXTERNAL_SEARCH"
-                        rel="nofollow" alt="Link to download page" title="Link to download page" target="_blank">11.2.0.4</a>
-                </th>
-            </tr>
-            <tr>
-                <td class="km" colspan="8">
-                    <a name="aref_section17"></a><h4 class="km"><strong><span style="text-decoration: underline;">Oracle Public Cloud Releases</span></strong>
-                </h4>
-                </td>
-            </tr>
-            <tr>
-                <td class="km"><strong>Exadata Express Cloud Service</strong></td>
-                <td class="km" align="left"><em>Not Planned</em></td>
-                <td class="km" align="left"><em>Not Planned</em></td>
-                <td class="km" align="left"><em>Not Planned</em></td>
-                <td class="km" align="left">18-Sep-2016</td>
-                <td class="km" colspan="3" align="left">N/A</td>
-            </tr>
-            <tr>
-                <td class="km"><strong>Database Cloud Service<sup>1</sup><br/></strong></td>
-                <td class="km" align="left">
-                    <p>08-Dec-2020</p>
-                    <p>available on VM (RAC or single-instance)</p>
-                    <p>and Bare Metal (single-instance)</p>
-                </td>
-                <td class="km" align="left">
-                    <p>OCI DB System - VM: Jul-2019</p>
-                    <p>OCI DB System - Bare Metal: April 2020</p>
-                </td>
-                <td class="km" align="left">1-Mar-2018</td>
-                <td class="km" align="left">4-Nov-2016</td>
-                <td class="km" align="left">Sep-2014</td>
-                <td class="km" align="left">N/A</td>
-                <td class="km" align="left">Sep-2014</td>
-                <td class="km" align="left">&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="km"><strong>Exadata Cloud Service<sup>1</sup></strong></td>
-                <td class="km" align="left">TBA</td>
-                <td class="km" align="left">19-Jun-2019</td>
-                <td class="km" align="left">Jun-2018</td>
-                <td class="km" align="left">4-Nov-2016</td>
-                <td class="km" align="left">Oct-2015</td>
-                <td class="km" align="left">N/A</td>
-                <td class="km" align="left">Oct-2015</td>
-                <td class="km" align="left">&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="km"><strong><a
-                        href="https://docs.cloud.oracle.com/iaas/Content/Database/Tasks/eccmanagingdatabases.htm"
-                        alt="Docs" title="Docs" target="_blank">Exadata Cloud at Customer<sup>1</sup></a></strong></td>
-                <td class="km" align="left">TBA</td>
-                <td class="km" align="left">17-Sep-2019</td>
-                <td class="km" align="left">May-2018</td>
-                <td class="km" align="left">2-May-2017</td>
-                <td class="km" align="left">Dec-2016</td>
-                <td class="km" colspan="3" align="left">N/A</td>
-            </tr>
-            <tr>
-                <td class="km"><strong>Autonomous Database on Dedicated Exadata Infrastructure <sup>2 <br/></sup><a
-                        href="https://docs.cloud.oracle.com/iaas/Content/Database/Tasks/eccmanagingdatabases.htm"
-                        alt="Docs" title="Docs" target="_blank"></a></strong></td>
-                <td class="km" align="left">TBA</td>
-                <td class="km" align="left">26-Jun-2019</td>
-                <td class="km" align="left">N/A</td>
-                <td class="km" align="left">&nbsp;N/A</td>
-                <td class="km" align="left">&nbsp;N/A</td>
-                <td class="km" colspan="3" align="left">&nbsp;N/A</td>
-            </tr>
-            <tr>
-                <td class="km"><strong>Autonomous Database on Exadata
-                    Cloud@Customer&nbsp;<sup><sup><strong>2</strong></sup> <br/></sup></strong></td>
-                <td class="km" align="left">TBA</td>
-                <td class="km" align="left">08-Jul-2020</td>
-                <td class="km" align="left">N/A</td>
-                <td class="km" align="left">&nbsp;N/A</td>
-                <td class="km" align="left">&nbsp;N/A</td>
-                <td class="km" colspan="3" align="left">N/A</td>
-            </tr>
-            <tr>
-                <td class="km"><strong>Autonomous Database on Shared Exadata Infrastructure <sup><sup><strong>2</strong></sup></sup><br/></strong>
-                </td>
-                <td class="km" align="left">TBA</td>
-                <td class="km" align="left">15-Mar-2020</td>
-                <td class="km" align="left">18-Mar-2018</td>
-                <td class="km" align="left">N/A</td>
-                <td class="km" align="left">N/A</td>
-                <td class="km" colspan="3" align="left">N/A</td>
-            </tr>
-            <tr>
-                <td class="km" colspan="8">
-                    <a name="aref_section18"></a><h4 class="km"><strong><span style="text-decoration: underline;">On-Premises Engineered Systems</span></strong>
-                </h4>
-                    <address class="km">(Same software as released for other platforms but tested on Engineered
-                        Systems)
-                    </address>
-                </td>
-            </tr>
-            <tr>
-                <td class="km"><strong>Oracle Database Appliance</strong></td>
-                <td class="km" align="left">2HCY2021</td>
-                <td class="km" align="left">Oct 2019</td>
-                <td class="km" align="left">7-Mar-2018</td>
-                <td class="km" align="left">17-Nov-2017</td>
-                <td class="km" align="left">Apr 2014</td>
-                <td class="km" align="left">N/A</td>
-                <td class="km" align="left">Oct 2013</td>
-                <td class="km" colspan="3" align="left">&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="km"><strong>Exadata</strong></td>
-                <td class="km" align="left">13-Aug-2021</td>
-                <td class="km" align="left">13-Feb-2019</td>
-                <td class="km" align="left">16-Feb-2018</td>
-                <td class="km" align="left">10-Feb-2017</td>
-                <td class="km" align="left">Oct 2014</td>
-                <td class="km" align="left">Mar 2013</td>
-                <td class="km" align="left">Nov 2013</td>
-                <td class="km" colspan="3" align="left">&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="km"><strong>Supercluster</strong></td>
-                <td class="km" align="left">TBA</td>
-                <td class="km" align="left">
-                    <p>26-Apr-2019</p>
-                </td>
-                <td class="km" align="left">12-Mar-2018</td>
-                <td class="km" align="left">10-Feb-2017</td>
-                <td class="km" align="left">Nov 2014</td>
-                <td class="km" align="left">Apr 2014</td>
-                <td class="km" align="left">Dec 2013</td>
-                <td class="km" colspan="3" align="left">&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="km" colspan="8">
-                    <a name="aref_section19"></a><h4 class="km"><strong><span style="text-decoration: underline;">On-Premises Server Releases (includes client)</span></strong>
-                </h4>
-                    <p><strong><span style="text-decoration: underline;"><a
-                            href="https://www.oracle.com/database/technologies/oracle-database-software-downloads.html"
-                            alt="Download from OTN" title="Download from OTN">(Download here)</a></span></strong></p>
-                </td>
-            </tr>
-            <tr>
-                <td class="km"><strong>Linux x86</strong></td>
-                <td class="km" align="left"><em>Not Planned</em></td>
-                <td class="km" align="left"><em>Not planned</em></td>
-                <td class="km" align="left"><em>Not planned</em></td>
-                <td class="km" align="left"><em>Not planned</em></td>
-                <td class="km" align="left"><em>Not planned</em></td>
-                <td class="km" align="left"><em>Not planned</em></td>
-                <td class="km" align="left">28-Aug-2013</td>
-            </tr>
-            <tr>
-                <td class="km"><strong>Linux x86-64</strong></td>
-                <td class="km" align="left">13-Aug-2021</td>
-                <td class="km" align="left">25-Apr-2019</td>
-                <td class="km" align="left">23-Jul-2018</td>
-                <td class="km" align="left">1-Mar-2017</td>
-                <td class="km" align="left">22-Jul-2014</td>
-                <td class="km" align="left">25-Jun-2013</td>
-                <td class="km" align="left">27-Aug-2013</td>
-            </tr>
-            <tr>
-                <td class="km"><strong>Oracle Solaris SPARC (64-bit)</strong></td>
-                <td class="km" align="left"><em>Not Planned</em></td>
-                <td class="km" align="left">26-Apr-2019</td>
-                <td class="km" align="left">30-Jul-2018</td>
-                <td class="km" align="left">1-Mar-2017</td>
-                <td class="km" align="left">22-Jul-2014</td>
-                <td class="km" align="left">25-Jun-2013</td>
-                <td class="km" align="left">29-Aug-2013</td>
-            </tr>
-            <tr>
-                <td class="km"><strong>Oracle Solaris x86-64 (64-bit)</strong></td>
-                <td class="km" align="left"><em>Not Planned</em></td>
-                <td class="km" align="left">
-                    <p>07-Nov-2019</p>
-                    <p>Terminal Release</p>
-                </td>
-                <td class="km" align="left">6-Aug-2018</td>
-                <td class="km" align="left">1-Mar-2017</td>
-                <td class="km" align="left">22-Jul-2014</td>
-                <td class="km" align="left">25-Jun-2013</td>
-                <td class="km" align="left">29-Aug-2013</td>
-            </tr>
-            <tr>
-                <td class="km"><strong>Microsoft Windows x64 (64-bit)</strong></td>
-                <td class="km" align="left">2HCY2021</td>
-                <td class="km" align="left">08-Jun-2019</td>
-                <td class="km" align="left">21-Aug-2018</td>
-                <td class="km" align="left">16-Mar-2017</td>
-                <td class="km" align="left">25-Sep-2014</td>
-                <td class="km" align="left">9-Jul-2013</td>
-                <td class="km" align="left">25-Oct-2013</td>
-            </tr>
-            <tr>
-                <td class="km"><strong>OpenVMS Itanium</strong></td>
-                <td class="km" align="left"><em>Platform desupported</em></td>
-                <td class="km" align="left">Platform desupported</td>
-                <td class="km" align="left"><em>Platform desupported</em></td>
-                <td class="km" align="left"><em>Platform desupported</em></td>
-                <td class="km" align="left"><em>Platform desupported</em></td>
-                <td class="km" align="left"><em>Platform desupported</em></td>
-                <td class="km" align="left"><em>Terminal Release</em></td>
-            </tr>
-            <tr>
-                <td class="km"><strong>HP-UX Itanium</strong><sup><a href="#foot9"><sup>7</sup></a></sup></td>
-                <td class="km" align="left">2HCY2021</td>
-                <td class="km" align="left">28-May-2019</td>
-                <td class="km" align="left">20-Nov -2018</td>
-                <td class="km" align="left">13-Apr-2017</td>
-                <td class="km" align="left">14-Nov-2014</td>
-                <td class="km" align="left">9-Jan-2014</td>
-                <td class="km" align="left">10-Oct-2013</td>
-            </tr>
-            <tr>
-                <td class="km">
-                    <p><strong>HP-UX PA-RISC (64-bit)</strong></p>
-                </td>
-                <td class="km" align="left"><em>Platform desupported</em></td>
-                <td class="km" align="left"><em>Platform desupported </em></td>
-                <td class="km" align="left"><em>Platform desupported </em></td>
-                <td class="km" align="left"><em>Platform desupported </em></td>
-                <td class="km" align="left"><em>Platform desupported </em></td>
-                <td class="km" align="left"><em>Platform desupported </em></td>
-                <td class="km" align="left">2-Jan-2014</td>
-            </tr>
-            <tr>
-                <td class="km"><strong>IBM AIX on POWER Systems</strong></td>
-                <td class="km" align="left"><em>See <a
-                        href="https://support.oracle.com/knowledge/Oracle%20Database%20Products/2766930_1.html"
-                        alt="https://support.oracle.com/knowledge/Oracle%20Database%20Products/2766930_1.html"
-                        title="https://support.oracle.com/knowledge/Oracle%20Database%20Products/2766930_1.html"
-                        target="_blank">DOC ID 2766930.1</a></em></td>
-                <td class="km" align="left">28-May-2019</td>
-                <td class="km" align="left">20-Nov -2018</td>
-                <td class="km" align="left">13-Apr-2017</td>
-                <td class="km" align="left">14-Nov-2014</td>
-                <td class="km" align="left">9-Jan-2014</td>
-                <td class="km" align="left">10-Oct-2013</td>
-            </tr>
-            <tr>
-                <td class="km"><strong>IBM Linux on System z</strong></td>
-                <td class="km" align="left"><em>See <a
-                        href="https://support.oracle.com/knowledge/Oracle%20Database%20Products/2766930_1.html"
-                        alt="https://support.oracle.com/knowledge/Oracle%20Database%20Products/2766930_1.html"
-                        title="https://support.oracle.com/knowledge/Oracle%20Database%20Products/2766930_1.html"
-                        target="_blank">DOC ID 2766930.1</a></em></td>
-                <td class="km" align="left">06-June-2019</td>
-                <td class="km" align="left">20-Nov -2018</td>
-                <td class="km" align="left">6-Jun-2017</td>
-                <td class="km" align="left">14-Nov-2014</td>
-                <td class="km" align="left">9-Jan-2014</td>
-                <td class="km" align="left">9-Jan-2014</td>
-            </tr>
-            <tr>
-                <td class="km"><strong>Microsoft Windows (32-bit)</strong></td>
-                <td class="km" align="left"><em>Not planned</em></td>
-                <td class="km" align="left">
-                    <p><em>Client only - June 2019<br/></em></p>
-                </td>
-                <td class="km" align="left"><em>Not planned</em></td>
-                <td class="km" align="left"><em>Not planned</em></td>
-                <td class="km" align="left"><em>Not planned</em></td>
-                <td class="km" align="left"><em>Not planned</em></td>
-                <td class="km" align="left">25-Oct-2013</td>
-            </tr>
-            <tr>
-                <th class="km">Platform</th>
-                <th class="km" style="text-align: left;" align="center">&nbsp;21c</th>
-                <th class="km" style="text-align: left;" align="center">19</th>
-                <th class="km" style="text-align: left;" align="center">18</th>
-                <th class="km" align="center">12.2.0.1</th>
-                <th class="km" align="center">12.1.0.2</th>
-                <th class="km" align="center">12.1.0.1</th>
-                <th class="km" align="center"><a
-                        href="/epmos/faces/ui/patch/PatchDetail.jspx?patchId= 13390677&parent=EXTERNAL_SEARCH"
-                        rel="nofollow" alt="Link to patch download page" title="Link to patch download page"
-                        target="_blank">11.2.0.4</a></th>
-            </tr>
-            <tr>
-                <td class="km" colspan="8">
-                    <a name="aref_section110"></a><h4 class="km"><strong><span style="text-decoration: underline;">Instant Client-Only Releases</span></strong>
-                </h4>
-                </td>
-            </tr>
-            <tr>
-                <td class="km"><strong>Apple macOS (Intel) </strong><a
-                        href="http://www.oracle.com/technetwork/topics/intel-macsoft-096467.html"
-                        alt="Opens download page for MacOS Instant Client releases"
-                        title="Opens download page for MacOS Instant Client releases" target="_blank"></a><a
-                        href="https://www.oracle.com/database/technologies/instant-client/macos-intel-x86-downloads.html"
-                        alt="Download from OTN" title="Download from OTN"></a><a
-                        href="http://www.oracle.com/technetwork/topics/intel-macsoft-096467.html"
-                        alt="Opens download page for MacOS Instant Client releases"
-                        title="Opens download page for MacOS Instant Client releases"
-                        target="_blank">download</a><strong><br/></strong></td>
-                <td class="km" align="left"><strong>&nbsp;</strong></td>
-                <td class="km" align="left">&nbsp;10-Sept-2019</td>
-                <td class="km" align="left">&nbsp;Mar-2018</td>
-                <td class="km" align="left">15-Jan-2018</td>
-                <td class="km" align="left">2016</td>
-                <td class="km" align="left"><em>Not planned</em></td>
-                <td class="km" align="left">20-Apr-2014<br/> <a
-                        href="http://www.oracle.com/technetwork/topics/intel-macsoft-096467.html"
-                        alt="OTN Download page for Database Instant Client on Apple Mac OS X"
-                        title="OTN Download page for Database Instant Client on Apple Mac OS X"
-                        target="_blank">Download</a></td>
-            </tr>
-            <tr>
-                <td class="km">
-                    <p><strong>IBM Linux on POWER (Big Endian)</strong></p>
-                    <p>&nbsp;</p>
-                </td>
-                <td class="km" align="left"><strong>&nbsp;</strong></td>
-                <td class="km" align="left"><strong>&nbsp;</strong></td>
-                <td class="km" align="left"><strong>&nbsp;</strong></td>
-                <td class="km" align="left"><strong>&nbsp;</strong></td>
-                <td class="km" align="left">18-Dec-2015 (<a
-                        href="http://www.oracle.com/technetwork/topics/linuxpower64-092516.html"
-                        alt="Link to download page for big-endian Linux on Power clients"
-                        title="Link to download page for big-endian Linux on Power clients" target="_blank">download</a>)
-                </td>
-                <td class="km" align="left">&nbsp;</td>
-                <td class="km" align="left">4-Dec-2014</td>
-            </tr>
-            <tr>
-                <td class="km">
-                    <p><strong>IBM Linux on POWER (Little Endian)</strong></p>
-                    <p><strong><a
-                            href="https://www.oracle.com/database/technologies/instant-client/linux-power-le-64-downloads.html"
-                            alt="Download from OTN" title="Download from OTN">download</a></strong></p>
-                </td>
-                <td class="km" align="left"><strong>&nbsp;</strong></td>
-                <td class="km" align="left">
-                    <p>&nbsp;Jul-2019</p>
-                    <p>
-                        <a href="https://www.oracle.com/database/technologies/instant-client/linux-power-le-64-downloads.html"
-                           alt="Download from OTN" title="Download from OTN">download</a></p>
-                </td>
-                <td class="km" align="left">
-                    <p>31-Oct-2018<br/><a href="https://www.oracle.com/technetwork/topics/linux-power-le-2835260.html"
-                                          alt="Little Endian" title="Little Endian" target="_blank">(download)</a></p>
-                </td>
-                <td class="km" align="left">7-Jun-2017 <a
-                        href="http://www.oracle.com/technetwork/topics/linux-power-le-2835260.html"
-                        alt="Link to download site for Linux on Power little endian clients"
-                        title="Link to download site for Linux on Power little endian clients" target="_blank">(download)</a>
-                </td>
-                <td class="km" align="left">18-Dec-2015<br/><a
-                        href="http://www.oracle.com/technetwork/topics/linux-power-le-2835260.html"
-                        alt="Link to download site for Linux on Power little endian clients"
-                        title="Link to download site for Linux on Power little endian clients" target="_blank">(download)</a>
-                </td>
-                <td class="km" align="left">&nbsp;</td>
-                <td class="km" align="left"><strong>&nbsp;</strong></td>
-            </tr>
-            <tr>
-                <td class="km">
-                    <p><strong>Linux on ARM</strong></p>
-                    <p><strong>&nbsp;</strong></p>
-                </td>
-                <td class="km" align="left">&nbsp;TBA</td>
-                <td class="km" align="left">
-                    <p>May-2021</p>
-                    <p>
-                        <a href="https://www.oracle.com/database/technologies/instant-client/linux-arm-aarch64-downloads.html"
-                           alt="Download" title="Download" target="_blank">download</a></p>
-                </td>
-                <td class="km" align="left"><strong>&nbsp;</strong></td>
-                <td class="km" align="left"><strong>&nbsp;</strong></td>
-                <td class="km" align="left"><strong>&nbsp;</strong></td>
-                <td class="km" align="left"><strong>&nbsp;</strong></td>
-                <td class="km" align="left"><strong>&nbsp;</strong></td>
-            </tr>
-            <tr>
-                <td class="km" colspan="8">
-                    <address class="km">
-                        <p><sup>1&nbsp;</sup>Oracle Database Cloud Service, Exadata Cloud Service, and Exadata
-                            Cloud@Customer follow the same support life and error correction schedule as on-premises
-                            dates unless otherwise noted in Table 1 above (for example, 11.2.0.4 MDS). Also, Extended
-                            Support is bundled with these services and does not require additional fees. These services
-                            will not be covered under Sustaining Support and should be discontinued at the end of their
-                            error Correction dates.</p>
-                        <p><sup>2&nbsp;</sup>Oracle's current plan for Oracle Autonomous Database - Shared Exadata
-                            Infrastructure, Oracle Autonomous Database - Dedicated Exadata Infrastructure, Autonomous
-                            Database on Exadata Cloud@Customer services is to support Long Term Release versions for a
-                            similar period of time found for those major releases when deployed on-premises. The intent
-                            of this plan is to provide stability of service experience for the thousands of critical
-                            database deployments found in Oracle Cloud. Additionally, we will at times make available
-                            Innovation Releases as part of the Autonomous Database Cloud Services. Innovation Releases,
-                            when provided, will be supported for a shorter period of time as compared to a Long Term
-                            Release, similar to what is found for those releases when deployed on-premises. Oracle
-                            reserves the right to change this plan with changing business requirements. Any change will
-                            take into account that stability is of utmost importance to Oracle's many thousands of
-                            mission critical deployments.</p>
-                        <p><strong><span style="text-decoration: underline;">References for Client-Only:<br/></span>https://www.oracle.com/technetwork/database/enterprise-edition/downloads/oracle19c-linux-5462157.html<br/><a
-                                href="https://www.oracle.com/technetwork/database/enterprise-edition/downloads/oracle19c-windows-5539283.html">https://www.oracle.com/technetwork/database/enterprise-edition/downloads/oracle19c-windows-5539283.html</a></strong>
-                        </p>
-                        <p><strong><span
-                                style="text-decoration: underline;">32-bit Linux &amp; Windows Instant Clients</span>,
-                        </strong></p>
-                        <p><strong><a
-                                href="https://www.oracle.com/database/technologies/instant-client/linux-x86-32-downloads.html">https://www.oracle.com/database/technologies/instant-client/linux-x86-32-downloads.html </a></strong>
-                        </p>
-                        <p><strong>https://www.oracle.com/database/technologies/instant-client/microsoft-windows-32-downloads.html</strong>
-                        </p>
-                    </address>
-                </td>
-            </tr>
-            </tbody>
-        </table>
-        <p style="margin-bottom: 0pt;"><em>&nbsp;</em></p>
-        <p><strong>Legend:</strong></p>
-        <ul>
-            <li>Qn CYyyyy: Date falls within the Calendar Year specified.</li>
-            <li><strong>1H or 2H CYyyyy: </strong>Date falls within the 1st half (six months) or 2nd half of Calendar
-                Year. For example 1H CY2009 means "some time within the first six months of 2009".
-            </li>
-            <li>TBA = Schedule To Be Announced</li>
-        </ul>
-        <hr/>
-        <H2 class=km><A NAME="ANN_ACTION"></A>Actions</H2>
-        <p>The dates published in this document are for planning and discussion purposes only.</p>
-        <H2 class=km><A NAME="ANN_CONTACT"></A>Contacts</H2>
-        <table border="0" width="95%">
-            <tbody>
-            <tr>
-                <td align="left" width="10%"><a rel="nofollow"
-                                                href="https://support.oracle.com/epmos/faces/DocumentDisplay?parent=EXTERNAL_SEARCH&sourceId=ANNOUNCEMENT&id=742060.1">
-                    <button>Sign In</button>
-                </a></td>
-                <td width="90%"><h3>To view full details, sign in with your My Oracle Support account.</h3></td>
-            </tr>
-            <tr>
-                <td><a rel="nofollow" href="/knowledge/registration.html" target="_blank">
-                    <button>Register</button>
-                </a>
-                </td>
-                <td><h3>Don't have a My Oracle Support account? Click to get started!</h3></td>
-            </tr>
-            </tbody>
-        </table>
-        <p>
-        <hr>
-        <B>In this Document</B><br>
-        <table>
-            <tr>
-                <td width='0'></td>
-                <td><A HREF="#ANN_DETAILS">Details</A></td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <td width=20>&nbsp;</td>
-                <td><a href="#aref_section11"><span style="font-size: 10pt;"><strong>What's New</strong></span></a></td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <td width=20>&nbsp;</td>
-                <td><a href="#aref_section12"></a></td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <td width=20>&nbsp;</td>
-                <td><a href="#aref_section13"></a></td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <td width=20>&nbsp;</td>
-                <td><a href="#aref_section14"><span
-                        style="font-size: 10pt;"><strong>Oracle Database Release Roadmap</strong></span></a></td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <td width=20>&nbsp;</td>
-                <td><a href="#aref_section15"><span
-                        style="font-size: 10pt;"><strong>Recommended Upgrade Path</strong></span></a></td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <td width=20>&nbsp;</td>
-                <td><a href="#aref_section16"><span
-                        style="font-size: 10pt;"><strong>Oracle Database Release Schedule</strong></span></a></td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <td width=40>&nbsp;</td>
-                <td><a href="#aref_section17"><strong><span style="text-decoration: underline;">Oracle Public Cloud Releases</span></strong></a>
-                </td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <td width=40>&nbsp;</td>
-                <td><a href="#aref_section18"><strong><span style="text-decoration: underline;">On-Premises Engineered Systems</span></strong></a>
-                </td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <td width=40>&nbsp;</td>
-                <td><a href="#aref_section19"><strong><span style="text-decoration: underline;">On-Premises Server Releases (includes client)</span></strong></a>
-                </td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <td width=40>&nbsp;</td>
-                <td><a href="#aref_section110"><strong><span style="text-decoration: underline;">Instant Client-Only Releases</span></strong></a>
-                </td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <td width='0'></td>
-                <td><A HREF="#ANN_ACTION">Actions</A></td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <td width='0'></td>
-                <td><A HREF="#ANN_CONTACT">Contacts</A></td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <td width=20>&nbsp;</td>
-                <td><a href="#aref_section31"><strong>Change History (2020-2021)<br/></strong></a></td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <td width='0'></td>
-                <td><A HREF="#REF">References</A></td>
-            </tr>
-        </table>
-        <hr size=1>
-        <p>
-            <!-- class=km before applies to -->
-            <mosaccess>My Oracle Support provides customers with access to over a million knowledge articles and a
-                vibrant support community of peers and Oracle experts.
-            </mosaccess>
-            <br>
-        </p>
-        <footer>
-            Oracle offers a comprehensive and fully integrated stack of cloud applications and platform services. For
-            more information about Oracle (NYSE:ORCL), visit <a href="https://www.oracle.com/index.html"
-                                                                title="oracle.com" target="_blank">oracle.com</a>.
-            <hr>
-            <a rel="nofollow" href="https://www.oracle.com/legal/copyright.html" target="_new" data-lbl="copyright">�&nbsp;Oracle</a>
-            | <a rel="nofollow" href="https://www.oracle.com/corporate/contact/index.html" target="_new">Contact and
-            Chat</a> | <a rel="nofollow" href="http://www.oracle.com/us/support/contact/index.html" target="_new">Support</a>
-            | <a rel="nofollow" href="https://www.oracle.com/communities/index.html" target="_new">Communities</a> | <a
-                rel="nofollow" href="http://www.oracle.com/us/social-media/twitter/index.html" target="_new">Connect
-            with us </a> | <a rel="nofollow" href="https://www.facebook.com/Oracle/" target="_new"><img
-                src="/knowledge/facebook-black.png" alt="Facebook" align="texttop" hspace="4" height="16" border="0"
-                width="16"></a> | <a rel="nofollow" href="https://twitter.com/Oracle" target="_new"><img
-                src="/knowledge/twitter-black.png" alt="Twitter" align="texttop" hspace="4" height="16" width="16"></a>
-            | <a rel="nofollow" href="https://www.linkedin.com/company/oracle" target="_new"><img
-                src="/knowledge/linkedin-black.png" alt="Linked In" align="texttop" hspace="4" height="16"
-                width="16"></a> | <a rel="nofollow" href="https://www.oracle.com/legal/privacy/index.html"
-                                     data-lbl="legal notices" target="_new">Legal Notices</a><a rel="nofollow"
-                                                                                                href="https://www.oracle.com/communities/index.html"
-                                                                                                target="_new"></a> | <a
-                rel="nofollow" href="https://www.oracle.com/legal/terms.html" data-lbl="terms of use" target="_new">Terms
-            of Use</a>
-
-        </footer>
-    </article>
-    <!-- End content -->
-    <!-- end .content --><!-- end .container --></div>
+                </footer>
+                </article>
+                <!-- End content -->
+                  <!-- end .content --><!-- end .container --></div>
 
 
-</body>
-</html>
+                </body></html>

@@ -1,780 +1,666 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr"
-      prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+<html>
 <head>
-    <meta charset="utf-8"/>
-    <meta name="Generator" content="Drupal 8 (https://www.drupal.org)"/>
-    <meta name="MobileOptimized" content="width"/>
-    <meta name="HandheldFriendly" content="true"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <script>(function () {
-        var walkme = document.createElement('script');
-        walkme.type = 'text/javascript';
-        walkme.async = true;
-        walkme.src = 'https://cdn.walkme.com/users/15ebc9cf11284986a69e21b871c1240d/walkme_15ebc9cf11284986a69e21b871c1240d_https.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(walkme, s);
-        window._walkmeConfig = {smartLoad: true};
-    })();</script>
-    <meta name="dcterms.date" content="2020-08-25"/>
-    <meta name="dcterms.rights" content="© Copyright IBM Corp. 2021"/>
-    <meta name="description"
-          content="IBM is pleased to announce that version 11.1.7 of IBM Cognos Analytics is a Long Term Support (LTSR) release."/>
-    <meta name="geo.country" content="US"/>
-    <meta name="keywords" content=""/>
-    <meta name="robots" content="index, follow"/>
-    <meta name="DC.Subject" scheme="IBM_SubjectTaxonomy" content="SSTSF6"/>
-    <meta name="DC.Type" scheme="IBM_ContentClassTaxonomy" content="CT555"/>
-    <meta name="Security" content="public"/>
-    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
-    <link rel="shortcut icon" href="//www.ibm.com/favicon.ico" type="image/vnd.microsoft.icon"/>
-    <link rel="canonical"
-          href="https://www.ibm.com/support/pages/ibm-cognos-analytics-long-term-support-release-lts-1117"/>
-    <link rel="shortlink" href="https://www.ibm.com/support/pages/node/6254738"/>
-    <link rel="revision"
-          href="https://www.ibm.com/support/pages/ibm-cognos-analytics-long-term-support-release-lts-1117"/>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
 
-    <title>IBM Cognos Analytics Long Term Support Release (LTS) - 11.1.7</title>
-    <link rel="stylesheet" media="all" href="/support/pages/core/assets/vendor/normalize-css/normalize.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/core/misc/normalize-fixes.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/themes/stable/css/system/components/ajax-progress.module.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/themes/stable/css/system/components/align.module.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/themes/stable/css/system/components/autocomplete-loading.module.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/themes/stable/css/system/components/fieldgroup.module.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/themes/stable/css/system/components/container-inline.module.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/themes/stable/css/system/components/clearfix.module.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/themes/stable/css/system/components/details.module.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/themes/stable/css/system/components/hidden.module.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/themes/stable/css/system/components/item-list.module.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/themes/stable/css/system/components/js.module.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/themes/stable/css/system/components/nowrap.module.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/themes/stable/css/system/components/position-container.module.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/themes/stable/css/system/components/progress.module.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/themes/stable/css/system/components/reset-appearance.module.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/themes/stable/css/system/components/resize.module.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/themes/stable/css/system/components/sticky-header.module.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/themes/stable/css/system/components/system-status-counter.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/themes/stable/css/system/components/system-status-report-counters.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/themes/stable/css/system/components/system-status-report-general-info.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/themes/stable/css/system/components/tabledrag.module.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/themes/stable/css/system/components/tablesort.module.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/themes/stable/css/system/components/tree-child.module.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/modules/custom/select2boxes/css/select2boxes.theme.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/core/assets/vendor/jquery.ui/themes/base/core.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/assets/vendor/jquery.ui/themes/base/checkboxradio.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/assets/vendor/jquery.ui/themes/base/controlgroup.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/assets/vendor/jquery.ui/themes/base/resizable.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/assets/vendor/jquery.ui/themes/base/button.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/assets/vendor/jquery.ui/themes/base/dialog.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/modules/custom/anchor_link/css/anchor_link.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/modules/custom/search_result/css/search.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/css/select2.min.css"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/libraries/codesnippet/lib/highlight/styles/github.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/libraries/codesnippet/lib/highlight/styles/zenburn.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/core/assets/vendor/jquery.ui/themes/base/theme.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/modules/custom/feedback/css/feedback.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/modules/custom/ibm_nps_feedback/css/ibm_nps_feedback.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/modules/custom/support_search/css/support_search.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/base/elements.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/layout.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/action-links.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/breadcrumb.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/button.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/themes/classy/css/components/collapse-processed.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/themes/classy/css/components/container-inline.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/details.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/core/themes/classy/css/components/exposed-filters.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/field.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/form.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/icons.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/inline-form.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/item-list.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/link.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/links.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/menu.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/more-link.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/pager.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/tabledrag.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/tableselect.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/tablesort.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/tabs.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/textarea.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/ui-dialog.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/messages.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/node.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/progress.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/core/themes/classy/css/components/dialog.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/block.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/book.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/breadcrumb.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/captions.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/comments.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/contextual.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/demo-block.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/themes/ibm_carbon/css/components/dropbutton.component.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/featured-top.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/feed-icon.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/field.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/form.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/forum.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/header.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/help.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/highlighted.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/item-list.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/list-group.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/list.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/main-content.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/menu.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/messages.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/node.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/node-preview.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/page-title.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/pager.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/panel.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/primary-menu.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/search-form.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/themes/ibm_carbon/css/components/search-results.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/themes/ibm_carbon/css/components/secondary-menu.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/shortcut.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/skip-link.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/sidebar.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/site-branding.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/site-footer.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/themes/ibm_carbon/css/components/tablesort-indicator.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/tabs.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/themes/ibm_carbon/css/components/text-formatted.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/toolbar.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/themes/ibm_carbon/css/components/featured-bottom.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/themes/ibm_carbon/css/components/password-suggestions.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/ui.widget.css?qzk5o8"/>
-    <link rel="stylesheet" media="all"
-          href="/support/pages/themes/ibm_carbon/css/components/vertical-tabs.component.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/views.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/buttons.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/image-button.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/components/ui-dialog.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/colors.css?qzk5o8"/>
-    <link rel="stylesheet" media="print" href="/support/pages/themes/ibm_carbon/css/print.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="//1.www.s81c.com/common/v18/css/www.css"/>
-    <link rel="stylesheet" media="all" href="//1.www.s81c.com/common/v18/css/syntaxhighlighter.css"/>
-    <link rel="stylesheet" media="all" href="//1.www.s81c.com/common/v18/css/tables.css"/>
-    <link rel="stylesheet" media="all" href="//1.www.s81c.com/common/v18/css/forms.css"/>
-    <link rel="stylesheet" media="all" href="//1.www.s81c.com/common/v18/css/textcolumns.css"/>
-    <link rel="stylesheet" media="all" href="//1.www.s81c.com/common/v18/css/grid-fluid.css"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/northstar/northstar.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/css/northstar/omnibox.css?qzk5o8"/>
-    <link rel="stylesheet" media="all" href="/support/pages/themes/ibm_carbon/../pov/core.css?qzk5o8"/>
+<title>About/Product - CentOS Wiki</title>
+<script type="text/javascript" src="/moin_static1911/common/js/common.js"></script>
 
-    <script>
-        digitalData = {
-            page: {
-                category: {
-                    primaryCategory: 'ELSDBANON'
-                },
-                pageInfo: {
-                    effectiveDate: '2020-08-25',
-                    expiryDate: '2024-08-25',
-                    language: 'en',
-                    publishDate: '2020-08-25',
-                    publisher: 'IBM Corporation',
-                    version: 'v18',
-                    hotjar: {
-                        enabled: true
-                    },
-                    ibm: {
-                        contentDelivery: 'IBM Corporation',
-                        contentProducer: 'IBM Corporation',
-                        country: 'US',
-                        industry: 'ZZ',
-                        owner: 'ibmsupt@us.ibm.com',
-                        siteID: 'ESTDBL',
-                        subject: 'SSTSF6',
-                        type: 'CT555'
-                    }
-                }
-            }
-        };
-    </script>
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{
-        "path": {
-            "baseUrl": "\/support\/pages\/",
-            "scriptPath": null,
-            "pathPrefix": "",
-            "currentPath": "node\/6254738",
-            "currentPathIsAdmin": false,
-            "isFront": false,
-            "currentLanguage": "en"
-        },
-        "pluralDelimiter": "\u0003",
-        "suppressDeprecationErrors": true,
-        "ajaxPageState": {
-            "libraries": "anchor_link\/drupal.anchor_link,classy\/base,classy\/messages,classy\/node,codesnippet\/codesnippet.highlightjs,codesnippet\/codesnippet.style.github,codesnippet\/codesnippet.style.zenburn,core\/html5shiv,core\/normalize,feedback\/feedback,ibm_carbon\/global-styling,ibm_carbon\/ibm,ibm_nps_feedback\/ibm_nps_feedback,search_result\/search_result,select2boxes\/widget,support_search\/support_search,system\/base",
-            "theme": "ibm_carbon",
-            "theme_token": null
-        },
-        "ajaxTrustedUrl": {
-            "form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM": true
-        },
-        "nid": "6254738",
-        "is_rendering_server": true,
-        "support_details": {
-            "contact_information": "\u003Cp\u003EVisit the \u003Ca href=\u0022https:\/\/www.ibm.com\/planetwide\/\u0022 target=\u0022_blank\u0022\u003EIBM Directory of worldwide contacts\u003C\/a\u003E, click your country, and use the phone number listed in the Technical Support section on the page.\u003C\/p\u003E",
-            "hours_of_operation": "\u003Cp\u003EIBM Support business hours reflect normal country business hours in your time zone. For example, 8:00 AM to 5:00 PM in North America or 9:00 AM to 6:00 PM in some parts of Asia and Europe, Monday through Friday, excluding national or statutory holidays. Off shift hours (for eligible offerings with 24x7 response) are defined as all other hours outside of normal country business hours.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EVisit the \u003Ca href=\u0022https:\/\/www.ibm.com\/support\/pages\/ibm-support-guide#open-case\u0022 target=\u0022_blank\u0022\u003EIBM Support Guide\u003C\/a\u003E for more details.\u003C\/p\u003E",
-            "severity_definitions": "\u003Cp\u003EIBM will use commercially reasonable efforts to respond to cases raised by your authorized contacts within the criteria specified for your offering. Our initial response may result in resolution of your request, or it will form the basis for determining what additional actions may be required to resolve your request. Be sure you and your support professional agree on what the next action is and when the next checkpoint will be. Cases opened outside Business Hours that do not qualify for 24x7 response will be responded to the next business day.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EVisit the \u003Ca href=\u0022https:\/\/www.ibm.com\/support\/pages\/ibm-support-guide#response\u0022 target=\u0022_blank\u0022\u003EIBM Support Guide\u003C\/a\u003E to select a product area for the specific Response Goals for each offering.\u003C\/p\u003E",
-            "escalation_process": "\u003Cp\u003EIf at any point in our service process you feel we are not meeting your needs, you may call our attention to your case.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EVisit the \u003Ca href=\u0022https:\/\/www.ibm.com\/support\/pages\/ibm-support-guide#esc-case\u0022 target=\u0022_blank\u0022\u003EIBM Support Guide\u003C\/a\u003E for the escalation process related to your offering.\u003C\/p\u003E\r\n",
-            "enhancement_request_process": "\u003Cp\u003EVisit the \u003Ca href=\u0022https:\/\/www.ibm.com\/developerworks\/rfe\/\u0022 target=\u0022_blank\u0022\u003EIBM RFE Community\u003C\/a\u003E to collaborate with development teams and other product users through your ability to search, view, comment on, submit, and track product requests.\u003C\/p\u003E"
-        },
-        "isChatAllowedProduct": true,
-        "isChatAllowedContentType": false,
-        "user": {
-            "uid": 0,
-            "permissionsHash": "8ec1d53d8b4eec0ecd755bd81cfbe39bc82eb4cc264ffecdcf6691cc181defc3"
-        }
-    }</script>
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
 
-    <!--[if lte IE 8]>
-    <script src="/support/pages/core/assets/vendor/html5shiv/html5shiv.min.js?v=3.7.3"></script>
-    <![endif]-->
-    <script src="/support/pages/core/assets/vendor/jquery/jquery.min.js?v=3.5.1"></script>
-    <script src="/support/pages/core/misc/drupalSettingsLoader.js?v=8.9.18"></script>
-    <script src="/support/pages/core/misc/drupal.js?v=8.9.18"></script>
-    <script src="/support/pages/core/misc/drupal.init.js?v=8.9.18"></script>
-    <script src="/support/pages/modules/custom/custom_content_type_form/js/utility.js?qzk5o8"></script>
-    <script src="/support/pages/themes/ibm_carbon/carbon-resources/main_carbon.bundle.js.gz?qzk5o8"></script>
-    <script src="//1.www.s81c.com/common/stats/ida_stats.js"></script>
-    <script src="//1.www.s81c.com/common/v18/js/www.js"></script>
-    <script src="//1.www.s81c.com/common/v18/js/tables.js"></script>
-    <script src="//1.www.s81c.com/common/v18/js/dyntabs.js"></script>
-    <script src="//1.www.s81c.com/common/v18/js/forms.js"></script>
-    <script src="//1.www.s81c.com/common/v18/js/mustache.js"></script>
-    <script src="//1.www.s81c.com/common/v18/js/masonry.js"></script>
-    <script src="//1.www.s81c.com/common/v18/js/greensock/TweenMax.min.js"></script>
-    <script src="/support/pages/themes/ibm_carbon/js/northstar.js?qzk5o8"></script>
-    <script src="/support/pages/themes/ibm_carbon/carbon-resources/additional_carbon.bundle.js.gz?qzk5o8"></script>
-    <script src="/support/pages/themes/ibm_carbon/js/omnibox.jquery.js?qzk5o8"></script>
-    <script src="/support/pages/modules/custom/search_result/js/searchPars.js?v=8.9.18"></script>
-    <script src="/support/pages/modules/custom/search_result/js/angular.js?v=8.9.18"></script>
-    <script src="/support/pages/modules/custom/search_result/js/angular-route.js?v=8.9.18"></script>
-    <script src="/support/pages/modules/custom/search_result/js/angular-sanitize.js?v=8.9.18"></script>
-    <script src="/support/pages/modules/custom/search_result/js/app.js?v=8.9.18"></script>
-    <script src="/support/pages/modules/custom/search_result/js/controllers.js?v=8.9.18"></script>
-    <script src="/support/pages/modules/custom/search_result/js/dBlueSearchUtil.js?v=8.9.18"></script>
 
-    <script>
-        IBMCore.common.util.config.set({
-            contactModuleWidget: {
-                color: "blue-50"
-            },
-            masthead: {
-                greeting: {
-                    enabled: false
-                },
-                type: "alternate"
-            },
-            footer: {
-                type: "alternate"
-            },
-            feedbacklink: {
-                enabled: false
-            }
-        });
+<link rel="stylesheet" type="text/css" media="all" href="/moin_static1911/memodump/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" media="all" href="/moin_static1911/memodump/css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" media="all" href="/moin_static1911/memodump/css/memodump.css">
+<link rel="stylesheet" type="text/css" media="all" href="/moin_static1911/memodump/css/moinizer.css">
 
-    </script>
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" media="all" href="/moin_static1911/memodump/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="CentOS Wiki: About/Product" href="/action/rss_rc/About/Product?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=About%2FProduct&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="/action/raw/About/Product?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/action/print/About/Product?action=print">
+<link rel="Up" href="/About">
+<link rel="Search" href="/FindPage">
+<link rel="Index" href="/TitleIndex">
+<link rel="Glossary" href="/WordIndex">
+<link rel="Help" href="/HelpOnFormatting">
 </head>
-<body id="ibm-com" class="layout-no-sidebars path-node page-node-type-news ibm-type dblue">
-<div id="ibm-top" class="ibm-landing-page">
 
-    <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
-        <dds-masthead-container id="masthead-container"></dds-masthead-container>
-        <div class="region region-newheader">
-            <div class="openid-connect-login-form block block-openid-connect block-openid-connect-login"
-                 data-drupal-selector="openid-connect-login-form" id="block-ibm-carbon-openidconnectlogin">
+<body  lang="en" dir="ltr">
 
+  <div id="outbox" class="sidebar-toggle">
+    <!-- Bootstrap navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top navbar-mobile-toggle" role="navigation">
+      <div class="container">
 
-                <div class="content">
-                    <form action="/support/pages/ibm-cognos-analytics-long-term-support-release-lts-1117" method="post"
-                          id="openid-connect-login-form" accept-charset="UTF-8">
-                        <div><input data-drupal-selector="edit-openid-connect-client-generic-login" type="submit"
-                                    id="edit-openid-connect-client-generic-login" name="generic"
-                                    value="Log in with Generic" class="button js-form-submit form-submit"/>
-                        </div>
-                        <input autocomplete="off"
-                               data-drupal-selector="form-rtazsskq1wh-bnl8xtyrheecab3m-krykoqqv6uoerm" type="hidden"
-                               name="form_build_id" value="form-rtazSsKq1Wh-Bnl8XtyRHEecab3m-kRyKOQqv6uoErM"/>
-                        <input data-drupal-selector="edit-openid-connect-login-form" type="hidden" name="form_id"
-                               value="openid_connect_login_form"/>
+        <!-- Navbar header -->
+        <div class="navbar-header">
+          <!-- Sidebar toggler -->
+          <button type="button" class="btn navbar-btn sidebar-toggler" data-toggle="toggle" data-target=".sidebar-toggle">
+            <span class="sr-only">Toggle sidebar</span>
+            <span class="menu-btn-sidebar-toggler sidebar-toggle"></span>
+          </button>
+          <!-- Button to show navbar controls when collapsed -->
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- Sitename -->
 
-                    </form>
+          <div class="navbar-brand-wrapper">
+            <a class="navbar-brand" href="/FrontPage"><img src="/moin_static1911/common/centos.png" alt="CentOS Wiki"></a>
+          </div>
+          
+        </div> <!-- /.navbar-header -->
 
+        <!-- Body of navbar -->
+        <div class="collapse navbar-collapse">
+
+          <!-- Navbar elements -->
+          <ul class="nav navbar-nav navbar-right">
+
+            <!-- Comment toggle button -->
+
+            <li class="toggleCommentsButton" style="display:none;">
+              <a href="#" class="menu-nav-comment nbcomment" rel="nofollow" onClick="toggleComments();return false;">
+                <span class="hidden-sm">Comments</span>
+              </a>
+            </li>
+
+            <!-- Edit button -->
+
+            <li class="disabled">
+              <a class="menu-nav-edit"><span class="hidden-sm">Immutable Page</span></a>
+            </li>
+
+            <!-- Search form -->
+
+          <li>
+            <div class="navbar-form">
+              <form class="form-search" role="search" id="searchform" method="get" action="/About/Product">
+                <input type="hidden" name="action" value="fullsearch">
+                <input type="hidden" name="context" value="180">
+                <div class="form-group">
+                  <label class="sr-only" for="searchinput">Search:</label>
+                  <input id="searchinput" type="text" class="form-control form-search" placeholder="Search" name="value" value="">
                 </div>
+              </form>
+            </div>
+          </li>
+
+            <!-- Menu -->
+
+            <li class="dropdown">
+              <!-- Menu button -->
+              <a href="#" class="menu-nav-menu dropdown-toggle" data-toggle="dropdown">
+                Menu<span class="padding"></span><span class="caret"></span>
+              </a>
+              <!-- Dropdown contents -->
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">Navigation</li>
+                <li><a href="/RecentChanges" class="menu-dd-RecentChanges" rel="nofollow">RecentChanges</a></li>
+                <li><a href="/FindPage" class="menu-dd-FindPage" rel="nofollow">FindPage</a></li>
+                <li><a href="/About/Product?action=LocalSiteMap" class="menu-dd-LocalSiteMap" rel="nofollow">Local Site Map</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Help</li>
+                <li><a href="/HelpContents" class="menu-dd-HelpContents" rel="nofollow">HelpContents</a></li>
+                <li><a href="/HelpOnMoinWikiSyntax" class="menu-dd-HelpOnMoinWikiSyntax" rel="nofollow">HelpOnMoinWikiSyntax</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Display</li>
+                <li><a href="/About/Product?action=AttachFile" class="menu-dd-AttachFile" rel="nofollow">Attachments</a></li>
+                <li><a href="/About/Product?action=info" class="menu-dd-info" rel="nofollow">Info</a></li>
+                <li><a href="/About/Product?action=raw" class="menu-dd-raw" rel="nofollow">Raw Text</a></li>
+                <li><a href="/About/Product?action=print" class="menu-dd-print" rel="nofollow">Print View</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Edit</li>
+                <li><a href="/About/Product?action=Load" class="menu-dd-Load" rel="nofollow">Load</a></li>
+                <li><a href="/About/Product?action=Save" class="menu-dd-Save" rel="nofollow">Save</a></li>
+              </ul>
+            </li> <!-- /dropdown -->
+
+            <!-- Login user -->
+
+            <li>
+              <a class="menu-nav-login" href="/action/login/About/Product?action=login" rel="nofollow">Login</a>
+            </li>
+
+
+          </ul> <!-- /.navbar-right -->
+
+        </div> <!-- /.collapse -->
+      </div> <!-- /.container -->
+    </div> <!-- /.navbar -->
+    <!-- End of navbar -->
+
+    <div class="container no-padding" id="pagebox">
+
+
+      <!-- Sidebar -->
+      <div class="sidebar-toggle" id="sidebar-curtain">
+        <div class="sidebar-toggle" id="sidebar-mover">
+          <div class="sidebar-toggle" id="sidebar" role="navigation">
+<!-- SideBar contents -->
+
+<!-- End of SideBar contents -->
+
+            <div>
+              <h4>Navigation</h4>
+              <ul id='navibar'>
+                <li class="wikilink"><a href="/FrontPage">FrontPage</a></li>                <li class="wikilink"><a href="/Documentation">Documentation</a></li>                <li class="wikilink"><a href="/TipsAndTricks">TipsAndTricks</a></li>                <li class="wikilink"><a href="/HowTos">HowTos</a></li>                <li class="wikilink"><a href="/FAQ">FAQ</a></li>                <li class="wikilink"><a href="/Events">Events</a></li>                <li class="wikilink"><a href="/Contribute">Contribute</a></li>                <li class="wikilink"><a href="/ReportBugs">ReportBugs</a></li>                <li class="wikilink"><a href="/RecentChanges">RecentChanges</a></li>
+              </ul>
             </div>
 
+
+          </div> <!-- /#sidebar -->
+        </div> <!-- /#sidebar-mover -->
+      </div><div id="contentbox"> <!-- End of Sidebar and Beginning of content -->
+
+
+
+
+        <div id="location">
+
+
+<ul id="pagelocation">
+<li><a href="/About">About</a></li><li>Product</li>
+</ul>
+
+          <span class="lastupdate">Last updated at 2021-07-14 19:53:40</span>
         </div>
 
 
-        <div id="ibm-content-wrapper">
+<!-- Page contents -->
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><span class="anchor" id="line-2"></span><p class="line867">
+<h1 id="CentOS_Product_Specifications">CentOS Product Specifications</h1>
+<span class="anchor" id="line-3"></span><span class="anchor" id="line-4"></span><p class="line874">This page contains an overview on the capabilities and limits of CentOS. <span class="anchor" id="line-5"></span><span class="anchor" id="line-6"></span><div><table><tbody><tr>  <td colspan="5" style="text-align: center; background-color: #aaaaff"><p class="line862"> <strong>End of Lifetime (EOL) Dates</strong> </td>
+</tr>
+<tr style="background-color: #e8e8e8">  <td><span class="anchor" id="line-7"></span><p class="line862">  </td>
+  <td><p class="line862"> <strong>CentOS 6</strong> </td>
+  <td><p class="line862"> <strong>CentOS Linux 7</strong> </td>
+  <td><p class="line862"> <strong>CentOS Linux 8</strong> </td>
+  <td><p class="line862"> <strong>CentOS Stream 8</strong> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-8"></span><p class="line862"> Full Updates<sup><a href="#fnref-e62b479e294a243910cb997860445256d7b02450" id="fndef-e62b479e294a243910cb997860445256d7b02450-0">1</a></sup> </td>
+  <td style="background-color: #FF0000"><p class="line862"> 2017-05-10 </td>
+  <td style="background-color: #00ff44"><p class="line862"> 2020-08-06 </td>
+  <td style="background-color: #00ff44"><p class="line862"> 2021-12-31 </td>
+  <td style="background-color: #00ff44"><p class="line862"> 2024-05-31 </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-9"></span><p class="line862"> Maintenance Updates<sup><a href="#fnref-a91b3c0c287c782f9af063daff9e64b566d648c7" id="fndef-a91b3c0c287c782f9af063daff9e64b566d648c7-1">2</a></sup> </td>
+  <td style="background-color: #FF0000"><p class="line862"> 2020-11-30 </td>
+  <td style="background-color: #00ff44"><p class="line862"> 2024-06-30 </td>
+  <td style="background-color: #00ff44"><p class="line862"> 2021-12-31 <a class="https" href="https://blog.centos.org/2020/12/future-is-centos-stream/">*</a> </td>
+  <td style="background-color: #00ff44"><p class="line862"> 2024-05-31 </td>
+</tr>
+<tr>  <td colspan="5" style="text-align: center; background-color: #aaaaff"><span class="anchor" id="line-10"></span><p class="line862"> <strong>Architecture</strong> </td>
+</tr>
+<tr style="background-color: #e8e8e8">  <td><span class="anchor" id="line-11"></span><p class="line862">  </td>
+  <td><p class="line862"> <strong>CentOS 6</strong> </td>
+  <td><p class="line862"> <strong>CentOS Linux 7</strong> </td>
+  <td><p class="line862"> <strong>CentOS Linux 8</strong> </td>
+  <td><p class="line862"> <strong>CentOS Stream 8</strong> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-12"></span><p class="line862"> Latest Release </td>
+  <td><p class="line862"> 6.10 </td>
+  <td><p class="line862"> 7 (2009) </td>
+  <td><p class="line862"> 8 (2105) </td>
+  <td><p class="line862"> 8 </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-13"></span><p class="line862"> Supports i386 Systems (32-bit Pentium, AMD, Via) </td>
+  <td><p class="line862"> Yes<sup><a href="#fnref-b5bae6fa43e2d9b23404446279313739e8170a86" id="fndef-b5bae6fa43e2d9b23404446279313739e8170a86-2">3</a></sup> </td>
+  <td><p class="line862"> Yes (1503) </td>
+  <td><p class="line862"> No </td>
+  <td><p class="line862"> No </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-14"></span><p class="line862"> Supports x86_64 systems (AMD64/EM64T) </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-15"></span><p class="line862"> Supports PowerPC8le systems (IBM Power, Mac) </td>
+  <td><p class="line862"> No </td>
+  <td><p class="line862"> Yes (AltArch) </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-16"></span><p class="line862"> Supports IA-32  </td>
+  <td><p class="line862"> No </td>
+  <td><p class="line862"> Yes (AltArch) </td>
+  <td><p class="line862"> No </td>
+  <td><p class="line862"> No </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-17"></span><p class="line862"> Supports ARMv7hl systems  </td>
+  <td><p class="line862"> No </td>
+  <td><p class="line862"> Yes (AltArch) </td>
+  <td><p class="line862"> Yes (AltArch) </td>
+  <td><p class="line862"> No </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-18"></span><p class="line862"> Supports AArch64 (arm64) systems  </td>
+  <td><p class="line862"> No </td>
+  <td><p class="line862"> Yes (AltArch) </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+</tr>
+<tr>  <td colspan="5" style="text-align: center; background-color: #aaaaff"><span class="anchor" id="line-19"></span><p class="line862"> <strong>CPU / Memory / Filesystem limits (Tested/possible)</strong></td>
+</tr>
+<tr style="background-color: #e8e8e8">  <td><span class="anchor" id="line-20"></span><p class="line862">  </td>
+  <td><p class="line862"> <strong>CentOS 6</strong> </td>
+  <td><p class="line862"> <strong>CentOS Linux 7</strong> </td>
+  <td><p class="line862"> <strong>CentOS Linux 8</strong> </td>
+  <td><p class="line862"> <strong>CentOS Stream 8</strong> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-21"></span><p class="line862"> <strong>Maximum logical CPUs</strong><sup><a href="#fnref-281c87f720ad19ead74bbcb700079336ab0643c5" id="fndef-281c87f720ad19ead74bbcb700079336ab0643c5-3">4</a></sup>  </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862">  </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-22"></span><p class="line862"> x86  </td>
+  <td><p class="line862"> 32 </td>
+  <td><p class="line862"> n/a </td>
+  <td><p class="line862"> n/a </td>
+  <td><p class="line862"> n/a </td>
+</tr>
+<p class="line891"><tr>  <td><span class="anchor" id="line-24"></span><p class="line862"> x86_64  </td>
+  <td><p class="line862"> 448/4096 </td>
+  <td><p class="line862"> 768/5120 </td>
+  <td><p class="line862"> 768/8192 </td>
+  <td><p class="line862"> 768/8192 </td>
+</tr>
+<p class="line891"><p class="line891"><p class="line891"><p class="line891"><p class="line891"><tr>  <td><span class="anchor" id="line-30"></span><p class="line862"> <strong>Maximum memory</strong>  </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862">  </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-31"></span><p class="line862"> x86  </td>
+  <td><p class="line862"> 16GB </td>
+  <td><p class="line862"> n/a </td>
+  <td><p class="line862"> n/a </td>
+  <td><p class="line862"> n/a </td>
+</tr>
+<p class="line891"><tr>  <td><span class="anchor" id="line-33"></span><p class="line862"> x86_64  </td>
+  <td><p class="line862"> 12TB/64TB </td>
+  <td><p class="line862"> 12TB/64TB </td>
+  <td><p class="line862"> 24TB/64TB </td>
+  <td><p class="line862"> 24TB/64TB </td>
+</tr>
+<p class="line891"><p class="line891"><p class="line891"><p class="line891"><tr>  <td><span class="anchor" id="line-38"></span><p class="line862"> ARM  </td>
+  <td><p class="line862"> n/a </td>
+  <td><p class="line862"> n/a </td>
+  <td><p class="line862"> 1.5TB/254TB </td>
+  <td><p class="line862"> 1.5TB/254TB </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-39"></span><p class="line862"> <strong>Filesystem</strong>  </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862">  </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-40"></span><p class="line862"> Maximum filesize (ext3) </td>
+  <td><p class="line862"> 2TB </td>
+  <td><p class="line862"> 2TB </td>
+  <td><p class="line862"> 2TB </td>
+  <td><p class="line862"> 2TB </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-41"></span><p class="line862"> Maximum file system size (ext3) </td>
+  <td><p class="line862"> 16TB </td>
+  <td><p class="line862"> 16TB </td>
+  <td><p class="line862"> 16TB </td>
+  <td><p class="line862"> 16TB </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-42"></span><p class="line862"> Maximum filesize (ext4) </td>
+  <td><p class="line862"> 16TB </td>
+  <td><p class="line862"> 16TB </td>
+  <td><p class="line862"> 16TB </td>
+  <td><p class="line862"> 16TB </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-43"></span><p class="line862"> Maximum file system size (ext4) <sup><a href="#fnref-d528ada0b649d3b33b1255e8ca3c93ac8448b876" id="fndef-d528ada0b649d3b33b1255e8ca3c93ac8448b876-4">5</a></sup> </td>
+  <td><p class="line862"> 16TB/1EB </td>
+  <td><p class="line862"> 50TB/1EB </td>
+  <td><p class="line862"> 50TB/1EB </td>
+  <td><p class="line862"> 50TB/1EB </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-44"></span><p class="line862"> Maximum filesize (XFS) </td>
+  <td><p class="line862"> 100TB </td>
+  <td><p class="line862"> 500TB </td>
+  <td><p class="line862"> 8EB </td>
+  <td><p class="line862"> 8EB </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-45"></span><p class="line862"> Maximum file system size (XFS)  </td>
+  <td><p class="line862"> n/a </td>
+  <td><p class="line862"> 500TB </td>
+  <td><p class="line862"> 1PB </td>
+  <td><p class="line862"> 1PB </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-46"></span><p class="line862"> Maximum file system size (GFS2) </td>
+  <td><p class="line862"> 100TB </td>
+  <td><p class="line862"> 100TB/8EB </td>
+  <td><p class="line862"> 100TB/8EB </td>
+  <td><p class="line862"> 100TB/8EB </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-47"></span><p class="line862"> Maximum boot LUN size (BIOS) </td>
+  <td><p class="line862"> &lt;2TB </td>
+  <td><p class="line862"> &lt;2TB </td>
+  <td><p class="line862"> &lt;2TB </td>
+  <td><p class="line862"> &lt;2TB </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-48"></span><p class="line862"> Maximum boot LUN size (EFI) </td>
+  <td><p class="line862"> Any<sup><a href="#fnref-0dcedc6c8d8761bd204289d0f2a4204dda3b7445" id="fndef-0dcedc6c8d8761bd204289d0f2a4204dda3b7445-5">6</a></sup> </td>
+  <td><p class="line862"> 50TB </td>
+  <td><p class="line862"> 8EB </td>
+  <td><p class="line862"> 8EB </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-49"></span><p class="line862"> Maximum x86 per-process virtual address space </td>
+  <td><p class="line862"> Approx 3GB<sup><a href="#fnref-278d2013137ea32405778035e5576a68c5efc4bd" id="fndef-278d2013137ea32405778035e5576a68c5efc4bd-6">7</a></sup> </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862">  </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-50"></span><p class="line862"> Maximum x86_64 per-process virtual address space </td>
+  <td><p class="line862"> 128TB </td>
+  <td><p class="line862"> 128TB </td>
+  <td><p class="line862"> 128TB </td>
+  <td><p class="line862"> 128TB </td>
+</tr>
+<tr>  <td colspan="5" style="text-align: center; background-color: #aaaaff"><span class="anchor" id="line-51"></span><p class="line862"> <strong>Recommended minimum requirements</strong> </td>
+</tr>
+<tr style="background-color: #e8e8e8">  <td><span class="anchor" id="line-52"></span><p class="line862">  </td>
+  <td><p class="line862"> <strong>CentOS 6</strong> </td>
+  <td><p class="line862"> <strong>CentOS Linux 7</strong> </td>
+  <td><p class="line862"> <strong>CentOS Linux 8</strong> </td>
+  <td><p class="line862"> <strong>CentOS Stream 8</strong> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-53"></span><p class="line862"> x86 </td>
+  <td><p class="line862"> 392M CLI/512M GUI per logical CPU  <sup><a href="#fnref-f6d2028980cf15d47fe8d73285911d02954873a5" id="fndef-f6d2028980cf15d47fe8d73285911d02954873a5-7">8</a></sup> </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862">  </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-54"></span><p class="line862"> other architectures </td>
+  <td><p class="line862"> 1G </td>
+  <td><p class="line862"> 1GB/logical CPU </td>
+  <td><p class="line862"> 1.5GB/logical CPU </td>
+  <td><p class="line862"> 1.5GB/logical CPU </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-55"></span><p class="line862"> Minimum/Recommended disk space </td>
+  <td><p class="line862"> 1G/5GB </td>
+  <td><p class="line862"> 10GB/20GB </td>
+  <td><p class="line862"> 10GB/20GB </td>
+  <td><p class="line862"> 10GB/20GB </td>
+</tr>
+<tr>  <td colspan="5" style="text-align: center; background-color: #aaaaff"><span class="anchor" id="line-56"></span><p class="line862"> <strong>KVM-Virtualization</strong> </td>
+</tr>
+<tr style="background-color: #e8e8e8">  <td><span class="anchor" id="line-57"></span><p class="line862">  </td>
+  <td><p class="line862"> <strong>CentOS 6</strong><sup><a href="#fnref-72501dbdb6d8a88dec5ead64f834de2fe0da2845" id="fndef-72501dbdb6d8a88dec5ead64f834de2fe0da2845-8">9</a></sup> </td>
+  <td><p class="line862"> <strong>CentOS Linux 7</strong> </td>
+  <td><p class="line862"> <strong>CentOS Linux 8</strong> </td>
+  <td><p class="line862"> <strong>CentOS Stream 8</strong> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-58"></span><p class="line862"> Maximum number of cores on host </td>
+  <td><p class="line862"> 160 </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862">  </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-59"></span><p class="line862"> Maximum memory on host </td>
+  <td><p class="line862"> 2TB </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862">  </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-60"></span><p class="line862"> Maximum number of vCPUs in fully virtualized guest (x86/x86_64) </td>
+  <td><p class="line862"> 160/160 </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862">  </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-61"></span><p class="line862"> Maximum memory in fully virtualized guest (x86/x86_64) </td>
+  <td><p class="line862"> 2TB/2TB </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862">  </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-62"></span><p class="line862"> Minimum memory in fully virtualized guest (x86/x86_64) </td>
+  <td><p class="line862"> 512MB/512MB<sup><a href="#fnref-f1417d25d283599fd3ab3dbe09cee9037bd53182" id="fndef-f1417d25d283599fd3ab3dbe09cee9037bd53182-9">10</a></sup> </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862">  </td>
+</tr>
+<tr>  <td colspan="5" style="text-align: center; background-color: #aaaaff"><span class="anchor" id="line-63"></span><p class="line862"> <strong>OS features (Kernel, Server, Client, etc.)</strong> </td>
+</tr>
+<tr style="background-color: #e8e8e8">  <td><span class="anchor" id="line-64"></span><p class="line862">  </td>
+  <td><p class="line862"> <strong>CentOS 6</strong> </td>
+  <td><p class="line862"> <strong>CentOS Linux 7</strong> </td>
+  <td><p class="line862"> <strong>CentOS Linux 8</strong> </td>
+  <td><p class="line862"> <strong>CentOS Stream 8</strong> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-65"></span><p class="line862"> Kernel foundation </td>
+  <td><p class="line862"> Linux 2.6.32 </td>
+  <td><p class="line862"> Linux 3.10 </td>
+  <td><p class="line862"> Linux 4.18 </td>
+  <td><p class="line862"> Linux 4.18 </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-66"></span><p class="line862"> Compiler/toolchain </td>
+  <td><p class="line862"> GCC 4.4 </td>
+  <td><p class="line862"> GCC 4.8.5 </td>
+  <td><p class="line862"> GCC 8.4.1 </td>
+  <td><p class="line862"> GCC 8.5.0 </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-67"></span><p class="line862"> Languages supported </td>
+  <td><p class="line862"> 22 </td>
+  <td><p class="line862"> 22 </td>
+  <td><p class="line862"> TBD </td>
+  <td><p class="line862"> TBD </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-68"></span><p class="line862"> SELinux </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-69"></span><p class="line862"> Ext3 Performance Enhancements </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862">  </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-70"></span><p class="line862"> Bluetooth support </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-71"></span><p class="line862"> Native POSIX Threading Library (NPTL) </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-72"></span><p class="line862"> Hyperthreading scheduler </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-73"></span><p class="line862"> IPv6 support </td>
+  <td><p class="line862"> Ready Logo Phase 2 </td>
+  <td><p class="line862"> Ready Logo Phase 2 </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-74"></span><p class="line862"> Autofs V4 </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-75"></span><p class="line862"> Logical Volume Manager (LVM) </td>
+  <td><p class="line862"> Yes - LVM2 </td>
+  <td><p class="line862"> Yes - LVM2 </td>
+  <td><p class="line862"> Yes - LVM2 </td>
+  <td><p class="line862"> Yes - LVM2 </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-76"></span><p class="line862"> Auditing </td>
+  <td><p class="line862"> Yes - audit </td>
+  <td><p class="line862"> Yes - audit </td>
+  <td><p class="line862"> Yes - audit </td>
+  <td><p class="line862"> Yes - audit </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-77"></span><p class="line862"> Compatibility libraries (toolchain) </td>
+  <td><p class="line862"> Yes - CentOS-4 &amp; CentOS-5 </td>
+  <td><p class="line862"> Yes - CentOS-5 &amp; CentOS-6 </td>
+  <td><p class="line862"> Yes - CentOS-6 &amp; CentOS-7 </td>
+  <td><p class="line862"> Yes - CentOS-6 &amp; CentOS-7 </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-78"></span><p class="line862"> LSB support </td>
+  <td><p class="line862"> Yes - 4.0 </td>
+  <td><p class="line862"> Yes - 4.1 </td>
+  <td><p class="line862"> TBD </td>
+  <td><p class="line862"> TBD </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-79"></span><p class="line862"> NFS </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-80"></span><p class="line862"> Web Server </td>
+  <td><p class="line862"> httpd 2.2.15 (apache) </td>
+  <td><p class="line862"> httpd 2.4.6 (apache) </td>
+  <td><p class="line862"> httpd 2.4.37 (apache) </td>
+  <td><p class="line862"> httpd 2.4.37 (apache) </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-81"></span><p class="line862"> Server Message Block (SMB) </td>
+  <td><p class="line862"> Samba-3.5.x (opt. 4.0.x) </td>
+  <td><p class="line862"> Samba-4.1.x </td>
+  <td><p class="line862"> Samba-4.13.x </td>
+  <td><p class="line862"> Samba-4.14.x </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-82"></span><p class="line862"> Database </td>
+  <td><p class="line862"> MySQL 5.1.x, PostgreSQL 8.4.x </td>
+  <td><p class="line862"> MariaDB 5.5.x, PostgreSQL 9.2.x </td>
+  <td><p class="line862"> MariaDB 10.3/10.5, PostgreSQL 9.6/10/12/13 </td>
+  <td><p class="line862"> MariaDB 10.3/10.5, PostgreSQL 9.6/10/12/13 </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-83"></span><p class="line862"> Programming Languages </td>
+  <td><p class="line862"> php 5.3.3, python 2.6.6, perl 5.10.1 </td>
+  <td><p class="line862"> php 5.4, python 2.7, perl 5.16.3 </td>
+  <td><p class="line862"> php 7.2/7.3/7.4, python 2.7/3.6/3.8/3.9, perl 5.24/5.26/5.30 </td>
+  <td><p class="line862"> php 7.2/7.3/7.4, python 2.7/3.6/3.8/3.9, perl 5.24/5.26/5.30 </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-84"></span><p class="line862"> Desktop GUI </td>
+  <td><p class="line862"> Gnome 2.28, KDE 4.3 </td>
+  <td><p class="line862"> Gnome 3.22, KDE 4.14 </td>
+  <td><p class="line862"> Gnome 3.32 </td>
+  <td><p class="line862"> Gnome 3.32 </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-85"></span><p class="line862"> Graphics </td>
+  <td><p class="line862"> X.org 7.4 </td>
+  <td><p class="line862"> X.org 7.7 </td>
+  <td><p class="line862"> Wayland 1.17 </td>
+  <td><p class="line862"> Wayland 1.19 </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-86"></span><p class="line862"> eMail Client </td>
+  <td><p class="line862"> Evolution 2.32 <sup><a href="#fnref-9804e27e524f764292c74b77c561f9427162b1d5" id="fndef-9804e27e524f764292c74b77c561f9427162b1d5-10">11</a></sup>, Thunderbird 68 </td>
+  <td><p class="line862"> Evolution 3.22, Thunderbird 78 </td>
+  <td><p class="line862"> Evolution 3.28, Thunderbird 78 </td>
+  <td><p class="line862"> Evolution 3.28, Thunderbird 78 </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-87"></span><p class="line862"> Default browser<sup><a href="#fnref-f596c495399d4999ab43ed142e48d306e285c621" id="fndef-f596c495399d4999ab43ed142e48d306e285c621-11">12</a></sup> </td>
+  <td><p class="line862"> Firefox 78 </td>
+  <td><p class="line862"> Firefox 78 </td>
+  <td><p class="line862"> Firefox 78 </td>
+  <td><p class="line862"> Firefox 78 </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-88"></span><p class="line862"> Office Suite </td>
+  <td><p class="line862"> Libreoffice<sup><a href="#fnref-a57809d06d27f2c6efbd67547700d21e550d5ca8" id="fndef-a57809d06d27f2c6efbd67547700d21e550d5ca8-12">13</a></sup> 4.3.7.2 </td>
+  <td><p class="line862"> Libreoffice 5.3.6.1 </td>
+  <td><p class="line862"> Libreoffice 6.4.7.2 </td>
+  <td><p class="line862"> Libreoffice 6.4.7.2 </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-89"></span><p class="line862"> Multimedia capabilities </td>
+  <td><p class="line862"> Yes (mp3 with add. repos) </td>
+  <td><p class="line862"> Yes (mp3 with add. repos) </td>
+  <td><p class="line862"> Yes (mp3 with add. repos) </td>
+  <td><p class="line862"> Yes (mp3 with add. repos) </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-90"></span><p class="line862"> Plug and Play </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+  <td><p class="line862"> Yes </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-91"></span><span class="anchor" id="line-92"></span><p class="line867"><hr /><p class="line874"> <span class="anchor" id="line-93"></span>This page is created and maintained by <a href="/ChristophGaluschka">ChristophGaluschka</a>. Other Wiki contributors are invited to make corrections, additions, or modifications.  <span class="anchor" id="line-94"></span><div class="footnotes"><ol><li><p><a id="fnref-e62b479e294a243910cb997860445256d7b02450"></a><span class="anchor" id="line-1-1"></span>During the Full Updates phase, new hardware support will be provided at the discretion of Red Hat - and thus CentOS - via Update Sets. Additionally, all available and qualified errata will be provided via Update Sets (or individually <strong>and immediately</strong> for Security level errata.) Update Sets normally will be released 2-3 times per year, with new ISOs released as part of each Update Set. In the x.y numbering scheme, the .y is the number of the Update Set.  (<a href="#fndef-e62b479e294a243910cb997860445256d7b02450-0">1</a>)</li><li><p><a id="fnref-a91b3c0c287c782f9af063daff9e64b566d648c7"></a><span class="anchor" id="line-1-2"></span>During the Maintenance updates phase, only Security errata and select mission critical bug fixes will be released. There will be few, if any, Update Sets released upstream.  (<a href="#fndef-a91b3c0c287c782f9af063daff9e64b566d648c7-1">2</a>)</li><li><p><a id="fnref-b5bae6fa43e2d9b23404446279313739e8170a86"></a><span class="anchor" id="line-1-3"></span>Only PAE-capable CPUs are supported, see <a class="http" href="http://wiki.centos.org/FAQ/CentOS6#head-d31388203ee81d3a47cb97bfc1c8206c3de85095">http://wiki.centos.org/FAQ/CentOS6#head-d31388203ee81d3a47cb97bfc1c8206c3de85095</a>  (<a href="#fndef-b5bae6fa43e2d9b23404446279313739e8170a86-2">3</a>)</li><li><p><a id="fnref-281c87f720ad19ead74bbcb700079336ab0643c5"></a><span class="anchor" id="line-1-4"></span>Logical CPUs are equivalent to cores/virtualCPUs, so a dual-core (non-hyperthreading) CPU is counted as 2 logical CPUs and a single hyperthreading CPU is counted as 2 logical CPUs for purposes of calculating total CPUs.  (<a href="#fndef-281c87f720ad19ead74bbcb700079336ab0643c5-3">4</a>)</li><li><p><a id="fnref-d528ada0b649d3b33b1255e8ca3c93ac8448b876"></a><span class="anchor" id="line-1-5"></span>While 1EB is nominally supported under <strong>ext4</strong>, CentOS' upstream has not backported a needed patch to the ext4 tools permitting manipulating such partitions as of the update at CentOS 6.3.  It is possible to use partitions created using third-party distributions' later <strong>e4fsprogs</strong> tools. [<a class="https" href="https://access.redhat.com/knowledge/docs/en-US/Red_Hat_Enterprise_Linux/6/html/Storage_Administration_Guide/newfilesys-ext4.html">https://access.redhat.com/knowledge/docs/en-US/Red_Hat_Enterprise_Linux/6/html/Storage_Administration_Guide/newfilesys-ext4.html</a> General information upstream]  (<a href="#fndef-d528ada0b649d3b33b1255e8ca3c93ac8448b876-4">5</a>)</li><li><p><a id="fnref-0dcedc6c8d8761bd204289d0f2a4204dda3b7445"></a><span class="anchor" id="line-1-6"></span>UEFI and GPT support required for more than 2TB boot LUN support. See [<a class="https" href="https://access.redhat.com/kb/docs/DOC-16981">https://access.redhat.com/kb/docs/DOC-16981</a> this] upstream information  (<a href="#fndef-0dcedc6c8d8761bd204289d0f2a4204dda3b7445-5">6</a>)</li><li><p><a id="fnref-278d2013137ea32405778035e5576a68c5efc4bd"></a><span class="anchor" id="line-1-7"></span>The x86 "Hugemem" kernel is not provided in CentOS 6.  (<a href="#fndef-278d2013137ea32405778035e5576a68c5efc4bd-6">7</a>)</li><li><p><a id="fnref-f6d2028980cf15d47fe8d73285911d02954873a5"></a><span class="anchor" id="line-1-8"></span>The initial 6.0 low end of a nominal 128M minimum is probably overly optimistic, even for a TUI install. Starting with the 6.1 point update of CentOS 6, dependency solving is a massive <strong>RAM hog</strong>  (<a href="#fndef-f6d2028980cf15d47fe8d73285911d02954873a5-7">8</a>)</li><li><p><a id="fnref-72501dbdb6d8a88dec5ead64f834de2fe0da2845"></a><span class="anchor" id="line-1-9"></span>bootable p2v- and v2v-ISO-images are provided starting with 6.3, see also <a class="http" href="http://wiki.centos.org/Manuals/ReleaseNotes/CentOS6.3#head-2e2994dcc0edf71ebb47daa0b808b9d83f91f7b2">http://wiki.centos.org/Manuals/ReleaseNotes/CentOS6.3#head-2e2994dcc0edf71ebb47daa0b808b9d83f91f7b2</a>  (<a href="#fndef-72501dbdb6d8a88dec5ead64f834de2fe0da2845-8">9</a>)</li><li><p><a id="fnref-f1417d25d283599fd3ab3dbe09cee9037bd53182"></a><span class="anchor" id="line-1-10"></span>Recommended for text mode only; graphical modes require 1GB  (<a href="#fndef-f1417d25d283599fd3ab3dbe09cee9037bd53182-9">10</a>)</li><li><p><a id="fnref-9804e27e524f764292c74b77c561f9427162b1d5"></a><span class="anchor" id="line-1-11"></span>since 6.5  (<a href="#fndef-9804e27e524f764292c74b77c561f9427162b1d5-10">11</a>)</li><li><p><a id="fnref-f596c495399d4999ab43ed142e48d306e285c621"></a><span class="anchor" id="line-1-12"></span>Firefox, Thunderbird and Office-Suite will be updated during product lifecycle  (<a href="#fndef-f596c495399d4999ab43ed142e48d306e285c621-11">12</a>)</li><li><p><a id="fnref-a57809d06d27f2c6efbd67547700d21e550d5ca8"></a><span class="anchor" id="line-1-13"></span>Openoffice is discontinued in 6.3  (<a href="#fndef-a57809d06d27f2c6efbd67547700d21e550d5ca8-12">13</a>)</li></ol></div><span class="anchor" id="bottom"></span></div>
+<!-- End of page contents -->
 
-            <header role="banner" aria-labelledby="ibm-pagetitle-h1">
-            </header>
+      </div> <!-- /#contentbox -->
+      <!-- End of content body -->
+    </div> <!-- /.container, #pagebox -->
+  </div> <!-- /#outbox -->
 
-            <main role="main" aria-labelledby="ibm-pagetitle-h1">
-                <div id="ibm-pcon">
-                    <div id="ibm-content">
-                        <div id="ibm-content-body" class="ibm-padding-top-0">
-                            <div id="ibm-content-main">
-
-
-                                <div id="search-header-wrapper"
-                                     class="ibm-band ibm-padding-top-r1 ibm-padding-bottom-r1 ibm-background-blue-70">
-                                    <div id="search-header-small" class="ibm-columns">
-                                        <div class="ibm-col-1-1 ibm-padding-top-0 ibm-padding-bottom-0">
-                                            <nav role="navigation" aria-label="Breadcrumb"
-                                                 class="ibm-alternate-background">
-                                            </nav>
-                                            <h3 class="ibm-h1 ibm-h2-medium ibm-h3-small ibm-light ibm-padding-top-0 ibm-padding-bottom-0 ibm-textcolor-white-core">
-                                                <a href="//www.ibm.com/support/home"
-                                                   manual_cm_sp="dBlue-_-dbgtsp-_-docview">IBM Support</a></h3>
-                                            <div id="spng-omnibox" style="">
-                                                <form class="ibm-row-form ibm-home-search" enctype="multipart/form-data"
-                                                      id="spng-search" ng-submit="omniType()">
-                                                    <div id="spng-tc-check" style="text-align: left; display: none;"><p
-                                                            class="ibm-padding-top-r1 ibm-padding-bottom-0 ibm-alternate-background">
-                                                        <input class="ibm-styled-checkbox" data-init="false"
-                                                               type="checkbox" name="spng-tc-adv-checkbox"
-                                                               value="checked" id="spng-tc-check-box"> <label
-                                                            for="spng-tc-check-box" style="display: inline-block">Check
-                                                        here to start a new keyword search.</label></p></div>
-                                                    <p class="ibm-padding-top-r1 ibm-padding-bottom-0"><label
-                                                            class="ibm-access">Search support or find a product:</label>
-                                                        <span>    <input id="spng-search-query" name="text"
-                                                                         maxlength="125" size="40" type="search"
-                                                                         autocomplete="off"
-                                                                         placeholder="Search support or find a product"
-                                                                         class="ibm-h3-medium ibm-h4-small">    <a
-                                                                id="spng-search-button"
-                                                                class="ibm-search-link ibm-textcolor-white-core ibm-h4"
-                                                                href="#" onclick="javascript:void(0); return false;">Search</a>    </span>
-                                                    </p>
-                                                    <div id="spng-search-typeahead-wrapper" style="display:none">
-                                                        <div id="spng-search-typeahead">
-                                                            <div id="spng-spinner" style="display:none"><h2
-                                                                    class="ibm-h2"><span
-                                                                    class="ibm-spinner">&nbsp;</span></h2></div>
-                                                            <div id="sp-no-results" style="display:none">
-                                                                <div class="category">Our apologies</div>
-                                                                <div class="results"><p>No results were found for your
-                                                                    search query.</p>
-                                                                    <div class="ibm-rule">
-                                                                        <hr>
-                                                                    </div>
-                                                                    <h5 class="ibm-h5"><strong>Tips</strong></h5>
-                                                                    <p>To return expected results, you can:</p>
-                                                                    <ul>
-                                                                        <li><strong>Reduce the number of search
-                                                                            terms.</strong> Each term you use focuses
-                                                                            the search further.
-                                                                        </li>
-                                                                        <li><strong>Check your spelling.</strong> A
-                                                                            single misspelled or incorrectly typed term
-                                                                            can change your result.
-                                                                        </li>
-                                                                        <li><strong>Try substituting synonyms for your
-                                                                            original terms.</strong> For example,
-                                                                            instead of searching for "java classes", try
-                                                                            "java training"
-                                                                        </li>
-                                                                        <li><strong>Did you search for an IBM acquired
-                                                                            or sold product ?</strong> If so, follow the
-                                                                            appropriate link below to find the content
-                                                                            you need.
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                            <div id="sp-doc-failure" style="display:none">
-                                                                <div class="category">Our apologies</div>
-                                                                <div class="results"><p class="ibm-access">Search
-                                                                    results are not available at this time. Please try
-                                                                    again later or use one of the other support options
-                                                                    on this page.</p>
-                                                                    <p>No results were found for your search query.</p>
-                                                                    <div class="ibm-rule">
-                                                                        <hr>
-                                                                    </div>
-                                                                    <h5 class="ibm-h5"><strong>Tips</strong></h5>
-                                                                    <p>To return expected results, you can:</p>
-                                                                    <ul>
-                                                                        <li><strong>Reduce the number of search
-                                                                            terms.</strong> Each term you use focuses
-                                                                            the search further.
-                                                                        </li>
-                                                                        <li><strong>Check your spelling.</strong> A
-                                                                            single misspelled or incorrectly typed term
-                                                                            can change your result.
-                                                                        </li>
-                                                                        <li><strong>Try substituting synonyms for your
-                                                                            original terms.</strong> For example,
-                                                                            instead of searching for "java classes", try
-                                                                            "java training"
-                                                                        </li>
-                                                                        <li><strong>Did you search for an IBM acquired
-                                                                            or sold product ?</strong> If so, follow the
-                                                                            appropriate link below to find the content
-                                                                            you need.
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                            <div id="sp-prev-products" class="result_section"></div>
-                                                            <div id="sp-wd-results" class="result_section"></div>
-                                                            <div id="sp-orc-results" class="result_section"></div>
-                                                            <div id="sp-prod-results" class="result_section"></div>
-                                                            <div id="sp-doc-results" class="result_section"></div>
-                                                        </div>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                            <div id="dblue-watson-chat-search-widget"
-                                                 style="display:inline-block; display:none;">
-                                                <form method="post" id="frm" enctype="multipart/form-data"
-                                                      class="ibm-row-form ibm-home-search" action="javascript:void(0)"
-                                                      onsubmit="return false;">
-                                                    <div id="ibm-tc-check" style="display: none;">
-                                                        <p class="ibm-left ibm-alternate-background">
-                                                            <input class="ibm-styled-checkbox" data-init="false"
-                                                                   type="checkbox" id="ibm-tc-checkbox"
-                                                                   name="tc-adv-checkbox" value="checked"
-                                                                   aria-labelledby="tc-check-label">
-                                                            <label for="ibm-tc-checkbox" id="tc-check-label">Check here
-                                                                to start a new keyword search.</label>
-                                                        </p>
-                                                    </div>
-                                                    <p class="ibm-padding-top-r1 ibm-padding-bottom-0 ibm-alternate-background">
-                                                        <label for="iptSearch" id="iptSearch-label" class="ibm-access">Watson
-                                                            Product Search</label>
-                                                        <span>
-				<input type="text" placeholder="Search support or find a product" value="" name="search" id="iptSearch"
-                       class="ibm-h3-medium ibm-h4-small" aria-labelledby="iptSearch-label" maxlength="125">
-				<a onclick="javascript:void(0); return false;" class="ibm-search-link ibm-textcolor-white-core"
-                   id="iptSearchButton" href="#">Search</a>
-				</span>
-                                                    </p>
-                                                    <div style="display:none;" id="divWatsonContainer"
-                                                         class="wd_result_container wd_result_width">
-                                                        <div style="display:none;"
-                                                             class="ps_ibm-content wd_result_width"
-                                                             id="divWatsonDialogue">
-                                                            <div style="display:none;" id="divWatsonSpinner"
-                                                                 class="ibm-spinner ibm-h2"></div>
-                                                            <div style="display:none;" class="wd_content_div wd_ul"
-                                                                 id="divWatsonContent"></div>
-                                                            <hr>
-                                                            <p class="wd_search_link"><a id="watsonNOTALink"
-                                                                                         href="javascript:void(0)"
-                                                                                         class="ibm-forward-link">None
-                                                                of the above, continue with my search</a></p>
-                                                        </div>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id='ibm-drupal-render-page-content'></div>
-                                <div id='ibm-drupal-page-content'
-                                     class='ibm-columns ibm-padding-top-1 ibm-padding-bottom-1'>
-                                    <div class="region region-content">
-                                        <div data-drupal-messages-fallback class="hidden"></div>
-                                        <div id="block-ibm-carbon-page-title"
-                                             class="block block-core block-page-title-block">
-
-
-                                            <div class="content">
-
-                                                <h1 class="ibm-h3 ibm-padding-bottom-1 ibm-northstart-content-page-title ibm-textcolor-gray-80 page-title">
-                                                    <span class="field field--name-title field--type-string field--label-hidden">IBM Cognos Analytics Long Term Support Release (LTS) - 11.1.7</span>
-                                                </h1>
-
-
-                                            </div>
-                                        </div>
-                                        <div id="block-ibm-carbon-content"
-                                             class="block block-system block-system-main-block">
-
-
-                                            <div class="content">
-
-                                                <article data-history-node-id="6254738" role="article"
-                                                         about="/support/pages/ibm-cognos-analytics-long-term-support-release-lts-1117"
-                                                         class="node node--type-news node--view-mode-full clearfix">
-                                                    <header>
-                                                    </header>
-                                                    <div class="node__content clearfix">
-
-                                                        <div class="ibm-columns">
-
-                                                            <div id="com.dblue.docview.body.content"
-                                                                 class="ibm-col-5-4 ibm-col-medium-6-4">
-                                                                <div class="ibm-card__content">
-                                                                    <div class="ibm-container ibm-alternate">
-                                                                        <h3 class="ibm-h4 ibm-bold ibm-northstart-product-documentation-title">
-                                                                            News</h3>
-                                                                        <div class="ibm-container-body">
-                                                                            <br>
-
-
-                                                                            <div class="field field--name-field-abstract field--type-string-long field--label-above">
-                                                                                <h2 class="ibm-h4 ibm-bold ibm-northstart-documentation-information-label">
-                                                                                    Abstract</h2>
-                                                                                <p class="ibm-northstart-documentation-information-data">
-                                                                                    IBM is pleased to announce that
-                                                                                    version 11.1.7 of IBM Cognos
-                                                                                    Analytics is a Long Term Support
-                                                                                    (LTSR) release.</p>
-                                                                            </div>
-
-
-                                                                            <div class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-above">
-                                                                                <h2 class="ibm-h4 ibm-bold ibm-northstart-documentation-information-label">
-                                                                                    Content</h2>
-                                                                                <p class="ibm-northstart-documentation-information-data">
-                                                                                <p>IBM is pleased to announce that
-                                                                                    version 11.1.7 of IBM Cognos
-                                                                                    Analytics is a Long Term Support
-                                                                                    (LTSR) release.</p>
-
-                                                                                <p><strong>This release will provide
-                                                                                    standard support for two years with
-                                                                                    an available one year extended
-                                                                                    support option to provide coverage
-                                                                                    for a total of three years.</strong>
-                                                                                </p>
-
-                                                                                <p>IBM will provide defect corrections,
-                                                                                    security patches and select
-                                                                                    conformance updates on Cognos
-                                                                                    Analytics 11.1.7 as needed during
-                                                                                    the supported period. The
-                                                                                    capabilities and feature set within
-                                                                                    this release will remain stable and
-                                                                                    unchanged to allow a consistent
-                                                                                    experience over the length of the
-                                                                                    supported lifecycle.</p>
-
-                                                                                <p>IBM will maintain a separate
-                                                                                    continuous delivery stream by
-                                                                                    continuing to release on regular
-                                                                                    cadence. The continuous delivery
-                                                                                    releases will include new features,
-                                                                                    defect corrections and conformance
-                                                                                    updates.</p>
-
-                                                                                <p>LTSR versions are planned to be
-                                                                                    released on an 18-month cadence to
-                                                                                    ensure that there will be a 6-month
-                                                                                    overlap for LTSR versions. This
-                                                                                    staggered release schedule will
-                                                                                    ensure customers and partners have
-                                                                                    adequate lead time to plan their
-                                                                                    move between LTSR releases and
-                                                                                    manage their upgrade.</p>
-
-                                                                                <p>For more information, please contact&nbsp;<strong>Chris
-                                                                                    McPherson</strong>&nbsp;at&nbsp;<a
-                                                                                        data-mce-href="mailto:chrismc@ca.ibm.com"
-                                                                                        href="mailto:chrismc@ca.ibm.com">chrismc@ca.ibm.com</a>
-                                                                                </p>
-                                                                                </p>
-                                                                            </div>
-
-
-                                                                            <div id="field-download-package-title"></div>
-
-
-                                                                            <p></p>
-                                                                            <div id="taxonomy-table-list"></div>
-                                                                            <div class="field--taxonomy"
-                                                                                 id="taxonomy-source">
-                                                                                [{&quot;Business Unit&quot;:{&quot;code&quot;:&quot;BU053&quot;,&quot;label&quot;:&quot;Cloud
-                                                                                &amp; Data Platform&quot;},&quot;Product&quot;:{&quot;code&quot;:&quot;SSTSF6&quot;,&quot;label&quot;:&quot;IBM
-                                                                                Cognos Analytics&quot;},&quot;ARM
-                                                                                Category&quot;:[{&quot;code&quot;:&quot;a8m50000000L2GwAAK&quot;,&quot;label&quot;:&quot;Client
-                                                                                Care&quot;}],&quot;ARM Case Number&quot;:&quot;&quot;,&quot;Platform&quot;:[{&quot;code&quot;:&quot;PF025&quot;,&quot;label&quot;:&quot;Platform
-                                                                                Independent&quot;}],&quot;Version&quot;:&quot;11.1.7&quot;,&quot;Line
-                                                                                of Business&quot;:{&quot;code&quot;:&quot;LOB10&quot;,&quot;label&quot;:&quot;Data
-                                                                                and AI&quot;}}]
-                                                                            </div>
-
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="ibm-col-5-1 ibm-col-medium-6-2 ibm-hidden-small">
-
-                                                                <div id="ibm-document-information" class="ibm-card">
-                                                                    <div class="ibm-card__content">
-                                                                        <h3 class="ibm-h4 ibm-northstart-documentation-information-title">
-                                                                            Document Information</h3>
-
-                                                                        <div id="taxonomy-items">
-                                                                        </div>
-
-                                                                        <p>
-                                                                            <strong>Modified date:</strong>
-                                                                            <br>
-                                                                            24 August 2020
-                                                                        </p>
-
-                                                                        <div class='content-field_uid'>
-                                                                            <div class="field field--name-field-uid field--type-string field--label-above">
-                                                                                <h2 class="ibm-h4 ibm-bold ibm-northstart-documentation-information-label">
-                                                                                    UID</h2>
-                                                                                <p class="ibm-northstart-documentation-information-data">
-                                                                                    ibm16254738</p>
-                                                                            </div>
-                                                                        </div>
-
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                        </div>
-
-                                                    </div>
-                                                </article>
-                                            </div>
-                                        </div>
-                                        <div id="block-ibm-carbon-pagefeedbackmodal"
-                                             class="block block-feedback block-page-feedback-modal">
-
-
-                                            <div class="content">
-                                                <p><a id="ibm-drupal-feedback"
-                                                      class="button button-action button--primary button--small use-ajax"
-                                                      data-dialog-options="{&quot;width&quot;:570}"
-                                                      data-dialog-type="modal" href="javascript:void(0);">Page
-                                                    Feedback</a></p>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </main>
-
-            <div id="ibm-contact-module" class="drupal-feedback">
-                <h2 class="ibm-bold">Contact and feedback</h2>
-                <h3 class="ibm-bold">Need support?</h3>
-                <ul class="ibm-live-assistance-list">
-                    <li><a class="ibm-requestquote-link" href="javascript:void(0)">Submit feedback to IBM Support</a>
-                    </li>
-                    <li><p class="ibm-icon-nolink ibm-phone-link">1-800-IBM-7378 (<strong>USA</strong>)</p></li>
-                    <li><a class="ibm-arrow-forward-link" href="//www.ibm.com/planetwide/index.html#region">Directory of
-                        worldwide contacts</a></li>
-                </ul>
-            </div>
-
-            <dds-footer-container size="micro"></dds-footer-container>
-
-        </div>
+  <!-- pageinfo -->
+  <div id="pageinfo-container">
+    <div class="container">
+      <p id="pageinfo" class="info" lang="en" dir="ltr">About/Product  (last edited 2021-07-14 19:53:40 by <span title="CarlGeorge"><a href="/CarlGeorge" title="CarlGeorge">CarlGeorge</a></span>)</p>
 
     </div>
+  </div>
+  <!-- End of pageinfo -->
 
 
-</div>
-<script src="/support/pages/core/assets/vendor/jquery-once/jquery.once.min.js?v=2.2.3"></script>
-<script src="/support/pages/core/assets/vendor/jquery.ui/ui/data-min.js?v=1.12.1"></script>
-<script src="/support/pages/core/assets/vendor/jquery.ui/ui/disable-selection-min.js?v=1.12.1"></script>
-<script src="/support/pages/core/assets/vendor/jquery.ui/ui/form-min.js?v=1.12.1"></script>
-<script src="/support/pages/core/assets/vendor/jquery.ui/ui/labels-min.js?v=1.12.1"></script>
-<script src="/support/pages/core/assets/vendor/jquery.ui/ui/jquery-1-7-min.js?v=1.12.1"></script>
-<script src="/support/pages/core/assets/vendor/jquery.ui/ui/scroll-parent-min.js?v=1.12.1"></script>
-<script src="/support/pages/core/assets/vendor/jquery.ui/ui/tabbable-min.js?v=1.12.1"></script>
-<script src="/support/pages/core/assets/vendor/jquery.ui/ui/unique-id-min.js?v=1.12.1"></script>
-<script src="/support/pages/core/assets/vendor/jquery.ui/ui/version-min.js?v=1.12.1"></script>
-<script src="/support/pages/core/assets/vendor/jquery.ui/ui/escape-selector-min.js?v=1.12.1"></script>
-<script src="/support/pages/core/assets/vendor/jquery.ui/ui/focusable-min.js?v=1.12.1"></script>
-<script src="/support/pages/core/assets/vendor/jquery.ui/ui/keycode-min.js?v=1.12.1"></script>
-<script src="/support/pages/core/assets/vendor/jquery.ui/ui/plugin-min.js?v=1.12.1"></script>
-<script src="/support/pages/core/assets/vendor/jquery.ui/ui/safe-active-element-min.js?v=1.12.1"></script>
-<script src="/support/pages/core/assets/vendor/jquery.ui/ui/safe-blur-min.js?v=1.12.1"></script>
-<script src="/support/pages/core/assets/vendor/jquery.ui/ui/widget-min.js?v=1.12.1"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/js/select2.full.min.js"></script>
-<script src="/support/pages/modules/custom/select2boxes/js/select2boxes.js?v=4.0.5"></script>
-<script src="/support/pages/libraries/codesnippet/lib/highlight/highlight.pack.js?v=8.9.18"></script>
-<script src="/support/pages/modules/contrib/codesnippet/js/codesnippet.js?v=8.9.18"></script>
-<script src="/support/pages/core/assets/vendor/jquery-form/jquery.form.min.js?v=4.22"></script>
-<script src="/support/pages/core/misc/progress.js?v=8.9.18"></script>
-<script src="/support/pages/core/misc/ajax.js?v=8.9.18"></script>
-<script src="/support/pages/core/themes/stable/js/ajax.js?v=8.9.18"></script>
-<script src="/support/pages/core/misc/debounce.js?v=8.9.18"></script>
-<script src="/support/pages/core/misc/displace.js?v=8.9.18"></script>
-<script src="/support/pages/core/assets/vendor/jquery.ui/ui/form-reset-mixin-min.js?v=1.12.1"></script>
-<script src="/support/pages/core/assets/vendor/jquery.ui/ui/widgets/checkboxradio-min.js?v=1.12.1"></script>
-<script src="/support/pages/core/assets/vendor/jquery.ui/ui/widgets/controlgroup-min.js?v=1.12.1"></script>
-<script src="/support/pages/core/assets/vendor/jquery.ui/ui/widgets/button-min.js?v=1.12.1"></script>
-<script src="/support/pages/core/assets/vendor/jquery.ui/ui/ie-min.js?v=1.12.1"></script>
-<script src="/support/pages/core/assets/vendor/jquery.ui/ui/widgets/mouse-min.js?v=1.12.1"></script>
-<script src="/support/pages/core/assets/vendor/jquery.ui/ui/widgets/draggable-min.js?v=1.12.1"></script>
-<script src="/support/pages/core/assets/vendor/jquery.ui/ui/position-min.js?v=1.12.1"></script>
-<script src="/support/pages/core/assets/vendor/jquery.ui/ui/widgets/resizable-min.js?v=1.12.1"></script>
-<script src="/support/pages/core/assets/vendor/jquery.ui/ui/widgets/dialog-min.js?v=1.12.1"></script>
-<script src="/support/pages/core/misc/dialog/dialog.js?v=8.9.18"></script>
-<script src="/support/pages/core/misc/dialog/dialog.position.js?v=8.9.18"></script>
-<script src="/support/pages/core/misc/dialog/dialog.jquery-ui.js?v=8.9.18"></script>
-<script src="/support/pages/core/misc/dialog/dialog.ajax.js?v=8.9.18"></script>
-<script src="/support/pages/modules/custom/feedback/js/feedback.js?v=8.9.18"></script>
-<script src="/support/pages/modules/custom/ibm_nps_feedback/js/ibm_nps_feedback.js?v=8.9.18"></script>
-<script src="/support/pages/modules/custom/support_search/js/support_search.js?v=8.9.18"></script>
 
+  <!-- Footer -->
+  <div id="footer">
+    <div class="container text-right text-muted">
+      <ul id="credits">
+<li><a href="http://moinmo.in/" title="This site uses the MoinMoin Wiki software.">MoinMoin Powered</a></li><li><a href="http://moinmo.in/Python" title="MoinMoin is written in Python.">Python Powered</a></li><li><a href="http://moinmo.in/GPL" title="MoinMoin is GPL licensed.">GPL licensed</a></li><li><a href="http://validator.w3.org/check?uri=referer" title="Click here to validate this page.">Valid HTML 4.01</a></li>
+</ul>
+
+      
+
+    </div> <!-- /.container -->
+  </div> <!-- /#footer -->
+  <!-- End of footer -->
+
+  <!-- Bootstrap core JavaScript -->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="/moin_static1911/memodump/js/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="/moin_static1911/memodump/js/bootstrap.min.js"></script>
+  <!-- toggle.js by dossist -->
+  <script src="/moin_static1911/memodump/js/toggle.js"></script>
+  <!-- Uncollapse minified navbar under mobile landscape view syncing with menu button -->
+  <script>
+    +function ($) {
+      $('.navbar-collapse').on('show.bs.collapse', function () {
+        $('.navbar-mobile-toggle').togglejs('show');
+      });
+      $('.navbar-collapse').on('hidden.bs.collapse', function () {
+        $('.navbar-mobile-toggle').togglejs('hide');
+      });
+    }(jQuery);
+  </script>
+  <!-- End of JavaScript -->
 </body>
 </html>
+
