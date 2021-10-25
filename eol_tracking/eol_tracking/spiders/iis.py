@@ -1,10 +1,15 @@
 import scrapy
 
+import json
 
-class iis_baseSpider(scrapy.Spider):
-    name = "iis_base"
+with open('C:\\suryas\\tech_stack_eol_tracking\eol_tracking/google_iis.json') as f:
+    data = json.load(f)
+
+
+class iis_baseSpider1(scrapy.Spider):
+    name = "iis_html"
     start_urls = [
-        'https://docs.microsoft.com/en-us/lifecycle/products/internet-information-services-iis'
+        data[0]['link']
     ]
 
     def parse(self, response):
@@ -15,9 +20,9 @@ class iis_baseSpider(scrapy.Spider):
 
 
 class iisSpider(scrapy.Spider):
-    name = "iis"
+    name = "iis_json"
     start_urls = [
-        'https://docs.microsoft.com/en-us/lifecycle/products/internet-information-services-iis'
+        data[0]['link']
     ]
 
     # def parse(self, response):

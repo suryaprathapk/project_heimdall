@@ -1,25 +1,25 @@
 import scrapy
 import json
 
-with open('C:\\suryas\\tech_stack_eol_tracking\eol_tracking/google_informatica.json') as f:
+with open('C:\\suryas\\tech_stack_eol_tracking\eol_tracking/google_oracle.json') as f:
     data = json.load(f)
 
 
-class informatica_baseSpider1(scrapy.Spider):
-    name = "informatica_html"
+class oracle_baseSpider1(scrapy.Spider):
+    name = "oracle_html"
     start_urls = [
         data[0]['link']
     ]
 
     def parse(self, response):
-        filename = f'informatica.html'
+        filename = f'oracle.html'
         with open(filename, 'wb') as f:
             f.write(response.body)
         self.log(f'Saved file {filename}')
 
 
-class informaticaSpider1(scrapy.Spider):
-    name = "informatica_json"
+class oracleSpider1(scrapy.Spider):
+    name = "oracle_json"
     start_urls = [
         data[0]['link']
     ]
@@ -32,7 +32,7 @@ class informaticaSpider1(scrapy.Spider):
     #             'tags': quote.css('div.tags a.tag::text').getall(),
     #         }
     def parse(self, response):
-        for row in response.xpath('//*[@class="jiveBorder mce-item-table"]//tbody/tr'):
+        for row in response.xpath('//*[@class="km"]//tbody/tr'):
             yield {
                 'version': row.xpath('td[1]//text()').extract_first(),
                 'release_date': row.xpath('td[2]//text()').extract_first(),

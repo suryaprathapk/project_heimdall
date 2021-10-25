@@ -1,10 +1,14 @@
 import scrapy
+import json
+
+with open('C:\\suryas\\tech_stack_eol_tracking\\eol_tracking\\google_centos.json') as f:
+    data = json.load(f)
 
 
-class centos_baseSpider(scrapy.Spider):
-    name = "centos_base"
+class centos_baseSpider1(scrapy.Spider):
+    name = "centos_html"
     start_urls = [
-        'https://wiki.centos.org/About/Product'
+        data[0]['link']
     ]
 
     def parse(self, response):
@@ -14,10 +18,10 @@ class centos_baseSpider(scrapy.Spider):
         self.log(f'Saved file {filename}')
 
 
-class centosSpider(scrapy.Spider):
-    name = "centos"
+class centosSpider1(scrapy.Spider):
+    name = "centos_json"
     start_urls = [
-        'https://wiki.centos.org/About/Product'
+        data[0]['link']
     ]
 
     # def parse(self, response):

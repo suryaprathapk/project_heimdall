@@ -1,24 +1,27 @@
-from os import name
 import scrapy
+import json
+
+with open('C:\\suryas\\tech_stack_eol_tracking\\eol_tracking\\google_apache.json') as f:
+    data = json.load(f)
 
 
-class jboss_baseSpider(scrapy.Spider):
-    name = "jboss_base"
+class apache_baseSpider1(scrapy.Spider):
+    name = "apache_html"
     start_urls = [
-        'https://access.redhat.com/support/policy/updates/jboss_notes#duration'
+        data[0]['link']
     ]
 
     def parse(self, response):
-        filename = f'jboss.html'
+        filename = f'apache.html'
         with open(filename, 'wb') as f:
             f.write(response.body)
         self.log(f'Saved file {filename}')
 
 
-class jbossSpider(scrapy.Spider):
-    name = "jboss"
+class apacheSpider1(scrapy.Spider):
+    name = "apache_json"
     start_urls = [
-        'https://access.redhat.com/support/policy/updates/jboss_notes#duration'
+        data[0]['link']
     ]
 
     # def parse(self, response):
@@ -35,5 +38,5 @@ class jbossSpider(scrapy.Spider):
                 'CentOS_6': row.xpath('td[2]//text()').extract_first(),
                 'CentOS_Linux_7': row.xpath('td[3]//text()').extract_first(),
                 'CentOS_Linux_8': row.xpath('td[4]//text()').extract_first(),
-                'CentOS_Stream_8': row.xpath('td[5]//text()').extract_first(),
+                'CentOS_Stream_8': row.xpath('td[5]//text()').extract_first()
             }
