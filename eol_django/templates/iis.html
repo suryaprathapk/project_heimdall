@@ -25,7 +25,6 @@
     <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico">
     <meta name="theme-color" content="#7952b3">
 
-
     <style>
         .bd-placeholder-img {
             font-size: 1.125rem;
@@ -65,9 +64,9 @@
             </div>
         </div>
     </div>
-    <div class="navbar navbar-dark bg-dark shadow-sm" style="background: #1b4860 !important">
+    <div class="navbar navbar-dark bg-dark shadow-sm"  style="background: #1b4860 !important">
         <div class="container">
-            <a href="#" class="navbar-brand d-flex align-items-center">
+            <a href="http://127.0.0.1:8000/home/" class="navbar-brand d-flex align-items-center">
                 <img src="https://www.modeln.com/wp-content/themes/jupiter-child/img/mobile-logo.png" width="100" height="20" fill="none" stroke="currentColor"
                      stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2"
                      viewBox="0 0 24 24">
@@ -84,42 +83,21 @@
 
 <main>
 
+    <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light">Microsoft IIS</h1>
+                <p class="lead text-muted">Each active version and their respective EOL time line</p>
+            </div>
+        </div>
+    </section>
+
     <div class="album py-5 bg-light">
         <div class="container">
 
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                {% for technologies in technologies.all %}
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <!--                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"-->
-                        <!--                             xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"-->
-                        <!--                             preserveAspectRatio="xMidYMid slice" focusable="false"><title>Informatica</title>-->
-                        <!--                            <rect width="100%" height="100%" fill="#55595c"/>-->
-                        <!--                            <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>-->
-                        <!--                        </svg>-->
-<!--                        <img src= "images/informatica.png" alt="Tech_Logo" style="width:100%">-->
-                        <div class="card-body">
-                            <h3 class="card-text">{{ technologies.Title }}</h3>
-                            <label>Data scraped from:</label> <br> <a class="card-text">{{ technologies.Description }}</a>
-<!--                            <label>Manual EOL date:</label> <br> <a class="card-text">{{ technologies.manual_EOL_date }}</a>-->
-                            <p class="card-text">Click "View" to see the end of life timeline</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a type="button" class="btn btn-sm btn-outline-secondary" href={{ technologies.Link }}>View</a>
-                                    <!--                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>-->
-                                </div>
-                                <small class="text-muted"><p id="date"><label>Refreshed on :</label> {{ technologies.refresh_date }} </p>
-
-                                </small>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {% endfor %}
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id='rowcols'>
             </div>
         </div>
-    </div>
     </div>
     </div>
     </div>
@@ -142,6 +120,66 @@
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossorigin="anonymous"></script>
 
+<script>
+    let data = [
+        {
+            "version": "IIS 10 on Windows Server 2019",
+            "start_date": "11/13/2018",
+            "end_date": "01/09/2029"
+        },
+        {
+            "version": "IIS 10 on Windows Server 2016",
+            "start_date": "10/15/2016",
+            "end_date": "01/12/2027"
+        },
+        {
+            "version": "IIS 8.5 on Windows Server 2012 R2",
+            "start_date": "11/25/2013",
+            "end_date": "10/10/2023"
+        },
+        {
+            "version": "IIS 8.5 on Windows 8.1",
+            "start_date": "11/13/2013",
+            "end_date": "01/10/2023"
+        },
+        {
+            "version": "IIS 8 on Windows Server 2012",
+            "start_date": "10/30/2012",
+            "end_date": "10/10/2023"
+        },
+        {
+            "version": "IIS 7.5 on Windows 7*",
+            "start_date": "10/22/2009",
+            "end_date": "01/14/2020"
+        },
+        {
+            "version": "IIS 7.5 on Windows Server 2008 R2*",
+            "start_date": "10/22/2009",
+            "end_date": "01/14/2020"
+        },
+        {
+            "version": "IIS 7.0 on Windows Server 2008*",
+            "start_date": "05/06/2008",
+            "end_date": "01/14/2020"
+        },
+        {
+            "version": "IIS 6.0 on Windows Server 2003",
+            "start_date": "05/28/2003",
+            "end_date": "07/14/2015"
+        }
+    ]
 
+    let html = ' <div className="col">        ' +
+        '<div className="card shadow-sm"> ';
+    for (var i = 0; i < data.length; i++) {
+        html += '<div className="card-body">               ' +
+            '<h3 className="card-text">' + data[i].version + '</h3>' +
+            '<label>Start Date : &nbsp </label><a className="card-text">' + data[i].start_date + '</a> <br/>' +
+            '<label>End Date: &nbsp </label><a className="card-text">' + data[i].end_date + '</a> <br/>' +
+            '</div>';
+    }
+    html += '</div></div>';
+    document.getElementById('rowcols').innerHTML = html;
+</script>
 </body>
 </html>
