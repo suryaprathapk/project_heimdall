@@ -1,0 +1,47 @@
+[
+	{
+		"version": "IIS 10 on Windows Server 2019",
+		"start_date": "11/13/2018",
+		"end_date": "01/09/2029"
+    },
+	{
+		"version": "IIS 10 on Windows Server 2016",
+		"start_date": "10/15/2016",
+		"end_date": "01/12/2027"
+    },
+	{
+		"version": "IIS 8.5 on Windows Server 2012 R2",
+		"start_date": "11/25/2013",
+		"end_date": "10/10/2023"
+    },
+	{
+		"version": "IIS 8.5 on Windows 8.1",
+		"start_date": "11/13/2013",
+		"end_date": "01/10/2023"
+    },
+	{
+		"version": "IIS 8 on Windows Server 2012",
+		"start_date": "10/30/2012",
+		"end_date": "10/10/2023"
+    },
+	{
+		"version": "IIS 7.5 on Windows 7*",
+		"start_date": "10/22/2009",
+		"end_date": "01/14/2020"
+    },
+	{
+		"version": "IIS 7.5 on Windows Server 2008 R2*",
+		"start_date": "10/22/2009",
+		"end_date": "01/14/2020"
+    },
+	{
+		"version": "IIS 7.0 on Windows Server 2008*",
+		"start_date": "05/06/2008",
+		"end_date": "01/14/2020"
+    },
+	{
+		"version": "IIS 6.0 on Windows Server 2003",
+		"start_date": "05/28/2003",
+		"end_date": "07/14/2015"
+    }
+]
