@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from technologies.views import tech_list_view, home, informatica, centos, oracle, surya
+from technologies.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -25,5 +25,7 @@ urlpatterns = [
     path('informatica/', informatica),
     path('centos/', centos),
     path('oracle/', oracle),
+    path('jboss/', jboss),
+    path('iis/', iis),
     path('surya/', surya)
 ]

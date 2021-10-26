@@ -36,3 +36,13 @@ def oracle(request):
 def surya(request):
     technologies = Technologies.objects
     return render(request, 'surya.html', {'technologies': technologies})
+
+
+def jboss(request):
+    technologies = Technologies.objects
+    return render(request, 'jboss.html', {'technologies': technologies})
+
+
+def iis(request):
+    technologies = Technologies.objects
+    return render(request, 'iis.html', {'technologies': technologies})
