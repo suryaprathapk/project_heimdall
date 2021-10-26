@@ -1,0 +1,6 @@
+[
+{"version": "10.5", "release_date": "March, 2021", "minimum_support_period": "March 31, 2025", "end_of_support": "TBA", "extended_support": "TBA", "sustaining_support": "TBA"},
+{"version": "10.4", "release_date": "December, 2019", "minimum_support_period": "March 31, 2024", "end_of_support": "TBA ", "extended_support": "TBA ", "sustaining_support": "TBA "},
+{"version": "10.2", "release_date": "September, 2017", "minimum_support_period": "September 30, 2021", "end_of_support": "September 30, 2021", "extended_support": "September 30,2022 ", "sustaining_support": "TBA "},
+{"version": "10.1.x", "release_date": "June, 2016", "minimum_support_period": "June 30, 2020", "end_of_support": "September 30, 2020", "extended_support": "September 30, 2021", "sustaining_support": "Not Available"}
+]

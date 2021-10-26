@@ -1,0 +1,23 @@
+[
+  {
+    "version": "7.x",
+    "full_support": "June 30, 2022",
+    "maintenance_support": "June 30, 2024",
+    "extended_lifecycle_support_1": "November 30, 2026",
+    "extended_support": "November 30, 2029"
+  },
+  {
+    "version": "6.x",
+    "full_support": "June 30, 2016",
+    "maintenance_support": "June 30, 2019",
+    "extended_lifecycle_support_1": "June 30, 2022",
+    "extended_support": "June 30, 2025"
+  },
+  {
+    "version": "5.x",
+    "full_support": "November 30, 2013",
+    "maintenance_support": "November 30, 2016",
+    "extended_lifecycle_support_1": "November 30, 2019",
+    "extended_support": "November 30, 2022"
+  }
+]
