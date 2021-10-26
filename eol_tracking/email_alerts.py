@@ -21,9 +21,7 @@ html = """\
 <html>
   <body>
     <p>Hi,<br>
-       How are you?<br>
-       <a href="http://www.realpython.com">Real Python</a> 
-       has many great tutorials.
+       This is a sample email for alerts?<br>
     </p>
   </body>
 </html>
