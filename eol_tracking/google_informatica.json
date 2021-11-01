@@ -1,12 +1,72 @@
 [
-{"title": "End of Life Dates for Informatica Platform and Services", "snippet": "The Informatica Platform is a set of data services and information solutions powered by a state-of-the-art data management engine.", "link": "https://network.informatica.com/docs/DOC-18081", "position": 0, "date": "2021-10-25 11:37:11"},
-{"title": "Informatica Product Lifecycle Overview", "snippet": "Jan 5, 2021 \u2014 This document gives an overview of the end of support dates for the current versions of Informatica on-premises products.", "link": "https://network.informatica.com/docs/DOC-18943", "position": 1, "date": "2021-10-25 11:37:11"},
-{"title": "Informatica Network", "snippet": "In this roughly 90-minute certification course, you will learn how core PowerCenter concepts work in Informatica Intelligent Cloud Services (IICS).", "link": "https://network.informatica.com/", "position": 2, "date": "2021-10-25 11:37:11"},
-{"title": "End of Life dates for Informatica Platform 9.0.x, 9.1, 9.5.x, and ...", "snippet": "Nov 10, 2017 \u2014 The Informatica Platform is a set of data services and information solutions powered by a state-of-the-art data management engine.", "link": "https://network.informatica.com/community/informatica-network/products/data_integration/data-services/blog/2017/11/10/end-of-life-dates-for-informatica-platform-90x-91-95x-and-96x", "position": 3, "date": "2021-10-25 11:37:11"},
-{"title": "Informatica 10.4.1 is Now Available", "snippet": "Jun 29, 2020 \u2014 Informatica 10.4.1 is Now Available. Posted by Rashmi Rekha Gogoi in Informatica Platform on Jun 29, 2020 10:46:18 PM.", "link": "https://network.informatica.com/community/informatica-network/products/data_integration/informatica_platform/blog/2020/06/29/informatica-1041-is-now-available", "position": 4, "date": "2021-10-25 11:37:11"},
-{"title": "Informatica Support Statements", "snippet": "Following are the Support Statements issued by Informatica Global Customer Support: Informatica Support ... Created by Vidya on Dec 5, 2015 10:39 PM.", "link": "https://network.informatica.com/docs/DOC-16182", "position": 5, "date": "2021-10-25 11:37:11"},
-{"title": "End of Life Notice for MDM 10.1 and 10.2 - Informatica Network", "snippet": "Created by Yamini Soundararajan on Mar 7, 2019 1:48 AM. Last modified by Yamini Soundararajan on Nov 12, 2020 11:25 PM. October. 31. 2020. End of Life\u00a0...", "link": "https://network.informatica.com/docs/DOC-18093", "position": 6, "date": "2021-10-25 11:37:11"},
-{"title": "PowerExchange: End of Support and End of Extend...", "snippet": "Oct 26, 2018 \u2014 A new Informatica Productsa Lifecycle document has been published that covers End of Support and End of Extended Support for 10.0, 10.1.x,\u00a0...", "link": "https://network.informatica.com/community/informatica-network/products/data_integration/powerexchange/blog/2018/10/26/end-of-support-and-end-of-extended-support-for-powerexchange-100-101-102", "position": 7, "date": "2021-10-25 11:37:11"},
-{"title": "What is the end of support date for Power Cente... - Informatica ...", "snippet": "Mar 12, 2014 \u2014 Since, Informatica 10.x is not yet released (no release date announced yet), ... Informatica Products EOL Notification.pdf 509.9 KB.", "link": "https://network.informatica.com/thread/17371", "position": 8, "date": "2021-10-25 11:37:11"},
-{"title": "Informatica 10.5 Release Announcement", "snippet": "Mar 31, 2021 \u2014 Last modified by SimpleLife on Mar 31, 2021 8:09 PM. Informatica\u6280\u672f\u8d85\u7fa4(QQ ... Internet Explorer - 11.x; Safari 13.0.4. Informatica Domain.", "link": "https://network.informatica.com/docs/DOC-19072", "position": 9, "date": "2021-10-25 11:37:11"}
+  {
+    "title": "End of Life Dates for Informatica Platform and Services",
+    "snippet": "The Informatica Platform is a set of data services and information solutions powered by a state-of-the-art data management engine.",
+    "link": "https://network.informatica.com/docs/DOC-18081",
+    "position": 0,
+    "date": "2021-10-25 11:37:11"
+  },
+  {
+    "title": "Informatica Product Lifecycle Overview",
+    "snippet": "Jan 5, 2021 \u2014 This document gives an overview of the end of support dates for the current versions of Informatica on-premises products.",
+    "link": "https://network.informatica.com/docs/DOC-18943",
+    "position": 1,
+    "date": "2021-10-25 11:37:11"
+  },
+  {
+    "title": "Informatica Network",
+    "snippet": "In this roughly 90-minute certification course, you will learn how core PowerCenter concepts work in Informatica Intelligent Cloud Services (IICS).",
+    "link": "https://network.informatica.com/",
+    "position": 2,
+    "date": "2021-10-25 11:37:11"
+  },
+  {
+    "title": "End of Life dates for Informatica Platform 9.0.x, 9.1, 9.5.x, and ...",
+    "snippet": "Nov 10, 2017 \u2014 The Informatica Platform is a set of data services and information solutions powered by a state-of-the-art data management engine.",
+    "link": "https://network.informatica.com/community/informatica-network/products/data_integration/data-services/blog/2017/11/10/end-of-life-dates-for-informatica-platform-90x-91-95x-and-96x",
+    "position": 3,
+    "date": "2021-10-25 11:37:11"
+  },
+  {
+    "title": "Informatica 10.4.1 is Now Available",
+    "snippet": "Jun 29, 2020 \u2014 Informatica 10.4.1 is Now Available. Posted by Rashmi Rekha Gogoi in Informatica Platform on Jun 29, 2020 10:46:18 PM.",
+    "link": "https://network.informatica.com/community/informatica-network/products/data_integration/informatica_platform/blog/2020/06/29/informatica-1041-is-now-available",
+    "position": 4,
+    "date": "2021-10-25 11:37:11"
+  },
+  {
+    "title": "Informatica Support Statements",
+    "snippet": "Following are the Support Statements issued by Informatica Global Customer Support: Informatica Support ... Created by Vidya on Dec 5, 2015 10:39 PM.",
+    "link": "https://network.informatica.com/docs/DOC-16182",
+    "position": 5,
+    "date": "2021-10-25 11:37:11"
+  },
+  {
+    "title": "End of Life Notice for MDM 10.1 and 10.2 - Informatica Network",
+    "snippet": "Created by Yamini Soundararajan on Mar 7, 2019 1:48 AM. Last modified by Yamini Soundararajan on Nov 12, 2020 11:25 PM. October. 31. 2020. End of Life\u00a0...",
+    "link": "https://network.informatica.com/docs/DOC-18093",
+    "position": 6,
+    "date": "2021-10-25 11:37:11"
+  },
+  {
+    "title": "PowerExchange: End of Support and End of Extend...",
+    "snippet": "Oct 26, 2018 \u2014 A new Informatica Productsa Lifecycle document has been published that covers End of Support and End of Extended Support for 10.0, 10.1.x,\u00a0...",
+    "link": "https://network.informatica.com/community/informatica-network/products/data_integration/powerexchange/blog/2018/10/26/end-of-support-and-end-of-extended-support-for-powerexchange-100-101-102",
+    "position": 7,
+    "date": "2021-10-25 11:37:11"
+  },
+  {
+    "title": "What is the end of support date for Power Cente... - Informatica ...",
+    "snippet": "Mar 12, 2014 \u2014 Since, Informatica 10.x is not yet released (no release date announced yet), ... Informatica Products EOL Notification.pdf 509.9 KB.",
+    "link": "https://network.informatica.com/thread/17371",
+    "position": 8,
+    "date": "2021-10-25 11:37:11"
+  },
+  {
+    "title": "Informatica 10.5 Release Announcement",
+    "snippet": "Mar 31, 2021 \u2014 Last modified by SimpleLife on Mar 31, 2021 8:09 PM. Informatica\u6280\u672f\u8d85\u7fa4(QQ ... Internet Explorer - 11.x; Safari 13.0.4. Informatica Domain.",
+    "link": "https://network.informatica.com/docs/DOC-19072",
+    "position": 9,
+    "date": "2021-10-25 11:37:11"
+  }
 ]

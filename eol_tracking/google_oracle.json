@@ -1,45 +1,303 @@
 [
-{"title": "Release Schedule of Current Database Releases - My Oracle ...", "snippet": "5 days ago \u2014 For product longevity and patching, Oracle strongly recommends upgrading to 19c which is the Long Term Release with a support end date of April\u00a0...Sep 11, 2021 \u2014 Simple, predictable, flexible, and the most comprehensive support policy available, the Oracle Lifetime Support. Policy helps drive your\u00a0...Aug 3, 2020 \u2014 For product longevity and patching, Oracle strongly recommends upgrading to19c which is the Long Term Release with a support end date of April\u00a0...Oracle Lifetime Support: Coverage for Oracle Technology Products. Oracle Database Releases. Release. GA Date. Premier. Support Ends. Extended. Support Ends.", "link": "https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060_1.html", "position": 0, "date": "2021-10-25 13:14:25"},
-{"title": "Release Schedule of Current Database Releases - My Oracle ...", "snippet": "5 days ago \u2014 For product longevity and patching, Oracle strongly recommends upgrading to 19c which is the Long Term Release with a support end date of April\u00a0...", "link": "https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060_1.html", "position": 1, "date": "2021-10-25 13:14:25"},
-{"title": "Oracle Lifetime Support Policy for Technology Products Guide", "snippet": "Sep 11, 2021 \u2014 Simple, predictable, flexible, and the most comprehensive support policy available, the Oracle Lifetime Support. Policy helps drive your\u00a0...", "link": "https://www.oracle.com/us/assets/lifetime-support-technology-069183.pdf", "position": 2, "date": "2021-10-25 13:14:25"},
-{"title": "Release Schedule of Current Database Releases - My Oracle ...", "snippet": "Aug 3, 2020 \u2014 For product longevity and patching, Oracle strongly recommends upgrading to19c which is the Long Term Release with a support end date of April\u00a0...", "link": "https://support.oracle.com/knowledge/Oracle%20Cloud/742060_1.html", "position": 3, "date": "2021-10-25 13:14:25"},
-{"title": "Oracle Technology Lifetime Support Policy Supporttime frames", "snippet": "Oracle Lifetime Support: Coverage for Oracle Technology Products. Oracle Database Releases. Release. GA Date. Premier. Support Ends. Extended. Support Ends.", "link": "http://www.oracle.com/us/support/library/lsp-tech-chart-069290.pdf", "position": 4, "date": "2021-10-25 13:14:25"},
-{"title": "Oracle Database Product Life Cycle Support 19c,18c, 12cR2 ...", "snippet": "Apr 21, 2020 \u2014 Oracle has just changed their product life cycle support for their database technology especially. There are two types of releases now: Long\u00a0...", "link": "https://geodatamaster.com/2020/04/21/oracle-database-product-life-cycle-support-19c18c-and-now-12cr2-is-extended/", "position": 5, "date": "2021-10-25 13:14:25"},
-{"title": "Oracle DB 12c Support End of Date ( product lifecycle )", "snippet": "Sep 28, 2019 \u2014 Oracle Database 12c EOL is following: 12.1 \uff1a 2022/7/31; 12.2 \uff1a 2026/3/31. You should remember these. 18c and 19c are confusing\u00a0...", "link": "https://www.product-lifecycle.work/entry/2019/09/28/080000", "position": 6, "date": "2021-10-25 13:14:25"},
-{"title": "Oracle 12.2.0.1 Support Ends 30.11.20\u2026 What to do? - N4Stack", "snippet": "Jul 6, 2020 \u2014 Oracle 12c (12.2.0.1) support expires on 30th November 2020. Are you ready? Modernise your Oracle databases now and continue to experience\u00a0...", "link": "https://n4stack.io/2020/07/06/oracle-12c-end-of-support/", "position": 7, "date": "2021-10-25 13:14:25"},
-{"title": "Clarification: Support Periods for Oracle 12.2.0.1 and 18c", "snippet": "Jul 30, 2018 \u2014 When you see \u201cPremier Support\u201d for Oracle Database 12.2 ends Mar 2022, this means \u201cfor Oracle 12.2.0.1, 18c and 19c\u201d.Jan 30, 2019 \u2014 The problem here: One may just note down that Oracle 12.2 is in Premier Support until March 2023. But this is not the complete picture. Addition\u00a0...", "link": "https://mikedietrichde.com/2018/07/30/clarification-support-periods-for-oracle-12-2-0-1-and-18c/", "position": 8, "date": "2021-10-25 13:14:25"},
-{"title": "Clarification: Support Periods for Oracle 12.2.0.1 and 18c", "snippet": "Jul 30, 2018 \u2014 When you see \u201cPremier Support\u201d for Oracle Database 12.2 ends Mar 2022, this means \u201cfor Oracle 12.2.0.1, 18c and 19c\u201d.", "link": "https://mikedietrichde.com/2018/07/30/clarification-support-periods-for-oracle-12-2-0-1-and-18c/", "position": 9, "date": "2021-10-25 13:14:25"},
-{"title": "How long will Oracle Database 12.2 be supported? - Mike ...", "snippet": "Jan 30, 2019 \u2014 The problem here: One may just note down that Oracle 12.2 is in Premier Support until March 2023. But this is not the complete picture. Addition\u00a0...", "link": "https://mikedietrichde.com/2019/01/30/how-long-will-oracle-database-12-2-be-supported/", "position": 10, "date": "2021-10-25 13:14:25"},
-{"title": "Oracle Database Extended Support Deadlines: What to Know", "snippet": "Jan 19, 2021 \u2014 Version 12.2.0.3 (19c) \u00b7 Premier Support ends April 30, 2024 \u00b7 Extended Support runs from May 1, 2024, through April 30, 2027 \u00b7 With paid Extended\u00a0...", "link": "https://www.datavail.com/blog/are-you-confused-about-oracle-database-extended-support-deadlines-heres-what-you-need-to-know/", "position": 11, "date": "2021-10-25 13:14:25"},
-{"title": "Oracle 11.2.0.4 and 12.1.0.2 Enters Sustaining Support July ...", "snippet": "0.2 will transition from 'Waived Fee' Extended Support to Sustaining Support. Before then you should upgrade your Oracle Databases to 19c. Oracle Database\u00a0...", "link": "https://www.bluecrystal.com.au/news/oracle-11-2-0-4-and-12-1-0-2-enters-sustaining-support-july-2019/", "position": 12, "date": "2021-10-25 13:15:51"},
-{"title": "Do I Need To Pay For All My Oracle Database 12.1 Licenses?", "snippet": "Nov 12, 2020 \u2014 Extended Support is typically for three years following the expiration of Premier Support and only for the terminal patch set release of a\u00a0...", "link": "https://www.softwareone.com/en/blog/all-articles/2020/11/12/oracle-extended-support-do-i-need-to-pay-for-all-my-database", "position": 13, "date": "2021-10-25 13:15:51"},
-{"title": "Amazon RDS for Oracle - End of Support Timeline for 12.2.0.1 ...", "snippet": "Feb 18, 2021 \u2014 Amazon RDS for Oracle will support Oracle Database 19c until April 30, 2027. We recommend you to upgrade your 11.2.0.4 DB instances to 19c [2],\u00a0...", "link": "https://forums.aws.amazon.com/ann.jspa?annID=7341", "position": 14, "date": "2021-10-25 13:15:51"},
-{"title": "Oracle Database - Wikipedia", "snippet": "Oracle Database is a multi-model database management system produced and marketed by Oracle Corporation. It is a database commonly used for running online\u00a0...", "link": "https://en.wikipedia.org/wiki/Oracle_Database", "position": 15, "date": "2021-10-25 13:15:51"},
-{"title": "Why you shouldn't ignore Oracle 11g support end-of-life", "snippet": "Oct 16, 2020 \u2014 The same is about to happen with Oracle, as it will stop Oracle 11g extended support on December 31st, 2020. So, what are your options? 1. Do\u00a0...", "link": "https://www.welldata.co.uk/why-you-shouldnt-ignore-oracle-11g-support-end-of-life/", "position": 16, "date": "2021-10-25 13:15:51"},
-{"title": "Oracle Database Support Eol - Use English Words in Sentences", "snippet": "6 hours ago Oracle Database 12c End Of Life is following: 12.1 \uff1a 2022/7/31. 12.2 \uff1a 2026/3/31. It will help if you remember these. 18c and 19c are confusing,\u00a0...", "link": "https://useenglishwords.com/results/oracle-database-support-eol/", "position": 17, "date": "2021-10-25 13:15:51"},
-{"title": "Oracle 12c End Of Support | Contact Information Finder", "snippet": "Just Now End of support for Oracle DB 19c: Support period. All products are listed below. The Oracle Database 12c End Of Life will be as follows: 12.1 \u2013 2022/7/\u00a0...", "link": "https://www.webcontactus.com/oracle-12c-end-of-support/", "position": 18, "date": "2021-10-25 13:15:51"},
-{"title": "What is Oracle Market Driven Support (MDS)?", "snippet": "May 25, 2021 \u2014 Oracle Database 11.2.0.4. Oracle previously offered MDS for 10g databases. When it calculated the sheer number of firms still on 11.2.0.4,\u00a0...", "link": "https://www.spinnakersupport.com/blog/2021/05/25/what-is-oracle-market-driven-support-mds/", "position": 19, "date": "2021-10-25 13:15:51"},
-{"title": "Oracle 12c End Of Life - ItechBrand", "snippet": "Apr 3, 2021 \u2014 Oracle DB 12c Support End of Date ( product lifecycle ) \u00b7 Premier Support: Full Support for five years from product shipment \u00b7 Extended Support:\u00a0...", "link": "https://itechbrand.com/oracle-12c-end-of-life/", "position": 20, "date": "2021-10-25 13:15:51"},
-{"title": "Oracle Database 19C: Features and How to Upgrade - IT ...", "snippet": "So Oracle 19c is actually equivalent to 12.2.0.3, and it will be supported through 2023, with Extended Support into 2026. A few more important highlights of\u00a0...", "link": "https://www.itconvergence.com/blog/oracle-database-19c-whats-new/", "position": 21, "date": "2021-10-25 13:15:51"},
-{"title": "Oracle 18c Extended Support | Contact Information Finder", "snippet": "All products are listed below, not limited to 19c, but 19c will end product support at the end of March 2026. Oracle Database 12c EOL is following: The\u00a0...", "link": "https://www.webcontactus.com/oracle-18c-extended-support/", "position": 22, "date": "2021-10-25 13:16:07"},
-{"title": "Oracle 19c End Of Support - Fashionbets46.com", "snippet": "End of support for Oracle DB 19c: Support period. All products are listed below. The Oracle Database 12c End Of Life will be as follows: 12.1 \u2013 2022/7/31.", "link": "http://fashionbets46.com/oracle-19c-end-of-support", "position": 23, "date": "2021-10-25 13:16:07"},
-{"title": "Search Results for ORACLE EOL & EOSL List - Service Express", "snippet": "Check our list of ORACLE EOL & EOSL hardware. Extensive up-to-date database - know when your equipment reaches EOL & options beyond buying new.", "link": "https://serviceexpress.com/resources/eol-eosl-database/oracle/", "position": 24, "date": "2021-10-25 13:16:07"},
-{"title": "Support for Oracle 19c | Jira Server and Data Center", "snippet": "Provide support for Support for Oracle Database 19c in Jira Server/ DC. ... Enterprise release 7.13 EOL is 28-Nov-2020, so this will need to be back-ported\u00a0...", "link": "https://jira.atlassian.com/browse/JRASERVER-69375", "position": 25, "date": "2021-10-25 13:16:07"},
-{"title": "Is It Time to Upgrade Oracle? - Perficient Blogs", "snippet": "Aug 28, 2020 \u2014 Current Support Policies. If you are on Oracle EBS 12.1 or database 12c or below, you might want to consider upgrading. Oracle support\u00a0...", "link": "https://blogs.perficient.com/2020/08/28/is-it-time-to-upgrade-oracle/", "position": 26, "date": "2021-10-25 13:16:07"},
-{"title": "Oracle database end of support - ConvertF.com", "snippet": "6 hours ago Oracle Database 19c Support: All of the Included Database Cloud Services now support ... Category: Oracle database support eolShow details\u00a0...", "link": "https://convertf.com/oracle-database-end-of-support/", "position": 27, "date": "2021-10-25 13:16:07"},
-{"title": "Oracle Linux : Frequently Asked Questions (FAQs)", "snippet": "What versions of Linux do Oracle support their products (Database, WebLogic etc.) on? \u00b7 Oracle Linux \u00b7 Red Hat Enterprise Linux (RHEL) \u00b7 SUSE (SLES) \u00b7 Asian Linux (\u00a0...", "link": "https://oracle-base.com/articles/linux/oracle-linux-frequently-asked-questions", "position": 28, "date": "2021-10-25 13:16:07"},
-{"title": "8.xx Database and Application Agent Compatibility List - Veritas", "snippet": "7 days ago \u2014 End of life information: More information is available about certain NetBackup ... SAP supports Oracle and MAX-DB base environments.", "link": "https://www.veritas.com/content/support/en_US/doc/NB_80_DBSCL", "position": 29, "date": "2021-10-25 13:16:07"},
-{"title": "Oracle End Of Life", "snippet": "End of support for Oracle DB 19c: Support period. All products are listed below. The Oracle Database 12c End Of Life will be as follows: 12.1 \u2013 2022/7/31. 12.2\u00a0...", "link": "http://winkzzz.net/oracle-end-of-life", "position": 30, "date": "2021-10-25 13:16:07"},
-{"title": "Blog Oracle 12.2.0.1 Support Extended - CarajanDB", "snippet": "Apr 23, 2020 \u2014 Oracle Database 12.2.0.1: Premier Support error correction provided ... But with 19c Real Application Clusters (RAC) is no longer available\u00a0...", "link": "https://www.carajandb.com/en/blog/2020/oracle-12-2-0-1-support-extended/", "position": 31, "date": "2021-10-25 13:16:07"},
-{"title": "Keycloak v11.0.2 Oracle Release Support", "snippet": "Oct 28, 2020 \u2014 What is the latest Oracle Support Release for Keycloak v11.0.2 ? Does a matrix exists ? Oracle 12.2. is 2020/12 EOL Is Oracle 19c ( RU 19.6. )", "link": "https://keycloak.discourse.group/t/keycloak-v11-0-2-oracle-release-support/5632", "position": 32, "date": "2021-10-25 13:16:27"},
-{"title": "Red Hat JBoss Enterprise Application Platform (EAP) 7 ...", "snippet": "Oct 15, 2021 \u2014 when will a current version of Oracle DB (19c) be in the list of tested configurations? Support for 12c ends in 2020.... Is 19c already\u00a0...", "link": "https://access.redhat.com/articles/2026253", "position": 33, "date": "2021-10-25 13:16:27"},
-{"title": "Oracle Database Upgrade Matrix - 11 | 12 | 18c | 19c - Mythics", "snippet": "Aug 19, 2019 \u2014 However, this is not the case. 18c and 19c are both 12.2 releases of the Oracle database. Oracle Database 18c is Oracle 12c Release 2 (12.2.0.2)\u00a0...", "link": "https://www.mythics.com/about/blog/oracle-19c-autonomous-or-not-autonomous", "position": 34, "date": "2021-10-25 13:16:27"},
-{"title": "Supported platforms for Database Security - McAfee", "snippet": "Sep 14, 2021 \u2014 McAfee Database Activity Monitoring Server (DAM) 4.x McAfee ... McAfee Database Security Oracle 18 and 19 support for Solaris SPARC:\u00a0...", "link": "https://kc.mcafee.com/corporate/index?page=content&id=KB73919", "position": 35, "date": "2021-10-25 13:16:27"},
-{"title": "How long will Oracle Database 12.2 be supported? - sapbazar ...", "snippet": "Jan 29, 2019 \u2014 Extended Support until March 2026. But this doesn't give you any distinction between Oracle 12.2.0.1, Oracle 18c and Oracle 19c. These three\u00a0...", "link": "https://sapbazar.com/articles/item/1188-how-long-will-oracle-database-122-be-supported", "position": 36, "date": "2021-10-25 13:16:27"},
-{"title": "Oracle Database Licensing in a VMware Virtual Environment ...", "snippet": "Oracle's database product is offered with two types of licenses: Named User Plus ... characteristics of the device (server) supporting the database process.", "link": "https://www.flexera.com/blog/it-asset-management/oracle-database-licensing-in-a-vmware-virtual-environment-part-1-of-3-2/", "position": 37, "date": "2021-10-25 13:16:27"},
-{"title": "Oracle linux releases support - Union CDP", "snippet": "Oracle 19c R1 (19. Oracle Database Preinstallation RPMs are available from the Oracle Linux Network or available on This image is officially supported for\u00a0...", "link": "http://panel.unioncdp.com/o1vsw/uejiedwa.php?pkixop=oracle-linux-releases-support", "position": 38, "date": "2021-10-25 13:16:27"},
-{"title": "Oracle Releases Critical Patch Update, October 2021", "snippet": "5 days ago \u2014 Oracle Critical Patch Update Advisory - October 2021 ... Oracle Database Server 19c ... Oracle Corporation Oracle Java SE Support Roadmap", "link": "https://www.jpcert.or.jp/english/at/2021/at210046.html", "position": 39, "date": "2021-10-25 13:16:27"},
-{"title": "Oracle 19c database for informatica 10.4.1", "snippet": "Sep 14, 2020 \u2014 Usually, if Informatica specifies just a third party's major release number, every related minor release is also supported, unless stated\u00a0...Apr 6, 2020 \u2014 Hi All, Does PowerCenter 10.2 HF2 support ORACLE 19C ? As per 10.2 HF2 PAM it does support but some of blogs says only 10.4 version will\u00a0...", "link": "https://network.informatica.com/thread/92164", "position": 40, "date": "2021-10-25 13:16:27"},
-{"title": "Oracle 19c database for informatica 10.4.1", "snippet": "Sep 14, 2020 \u2014 Usually, if Informatica specifies just a third party's major release number, every related minor release is also supported, unless stated\u00a0...", "link": "https://network.informatica.com/thread/92164", "position": 41, "date": "2021-10-25 13:16:27"},
-{"title": "Oracle 19c support - Informatica Network", "snippet": "Apr 6, 2020 \u2014 Hi All, Does PowerCenter 10.2 HF2 support ORACLE 19C ? As per 10.2 HF2 PAM it does support but some of blogs says only 10.4 version will\u00a0...", "link": "https://network.informatica.com/thread/90576", "position": 42, "date": "2021-10-25 13:16:27"}
+  {
+    "title": "Release Schedule of Current Database Releases - My Oracle ...",
+    "snippet": "5 days ago \u2014 For product longevity and patching, Oracle strongly recommends upgrading to 19c which is the Long Term Release with a support end date of April\u00a0...Sep 11, 2021 \u2014 Simple, predictable, flexible, and the most comprehensive support policy available, the Oracle Lifetime Support. Policy helps drive your\u00a0...Aug 3, 2020 \u2014 For product longevity and patching, Oracle strongly recommends upgrading to19c which is the Long Term Release with a support end date of April\u00a0...Oracle Lifetime Support: Coverage for Oracle Technology Products. Oracle Database Releases. Release. GA Date. Premier. Support Ends. Extended. Support Ends.",
+    "link": "https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060_1.html",
+    "position": 0,
+    "date": "2021-10-25 13:14:25"
+  },
+  {
+    "title": "Release Schedule of Current Database Releases - My Oracle ...",
+    "snippet": "5 days ago \u2014 For product longevity and patching, Oracle strongly recommends upgrading to 19c which is the Long Term Release with a support end date of April\u00a0...",
+    "link": "https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060_1.html",
+    "position": 1,
+    "date": "2021-10-25 13:14:25"
+  },
+  {
+    "title": "Oracle Lifetime Support Policy for Technology Products Guide",
+    "snippet": "Sep 11, 2021 \u2014 Simple, predictable, flexible, and the most comprehensive support policy available, the Oracle Lifetime Support. Policy helps drive your\u00a0...",
+    "link": "https://www.oracle.com/us/assets/lifetime-support-technology-069183.pdf",
+    "position": 2,
+    "date": "2021-10-25 13:14:25"
+  },
+  {
+    "title": "Release Schedule of Current Database Releases - My Oracle ...",
+    "snippet": "Aug 3, 2020 \u2014 For product longevity and patching, Oracle strongly recommends upgrading to19c which is the Long Term Release with a support end date of April\u00a0...",
+    "link": "https://support.oracle.com/knowledge/Oracle%20Cloud/742060_1.html",
+    "position": 3,
+    "date": "2021-10-25 13:14:25"
+  },
+  {
+    "title": "Oracle Technology Lifetime Support Policy Supporttime frames",
+    "snippet": "Oracle Lifetime Support: Coverage for Oracle Technology Products. Oracle Database Releases. Release. GA Date. Premier. Support Ends. Extended. Support Ends.",
+    "link": "http://www.oracle.com/us/support/library/lsp-tech-chart-069290.pdf",
+    "position": 4,
+    "date": "2021-10-25 13:14:25"
+  },
+  {
+    "title": "Oracle Database Product Life Cycle Support 19c,18c, 12cR2 ...",
+    "snippet": "Apr 21, 2020 \u2014 Oracle has just changed their product life cycle support for their database technology especially. There are two types of releases now: Long\u00a0...",
+    "link": "https://geodatamaster.com/2020/04/21/oracle-database-product-life-cycle-support-19c18c-and-now-12cr2-is-extended/",
+    "position": 5,
+    "date": "2021-10-25 13:14:25"
+  },
+  {
+    "title": "Oracle DB 12c Support End of Date ( product lifecycle )",
+    "snippet": "Sep 28, 2019 \u2014 Oracle Database 12c EOL is following: 12.1 \uff1a 2022/7/31; 12.2 \uff1a 2026/3/31. You should remember these. 18c and 19c are confusing\u00a0...",
+    "link": "https://www.product-lifecycle.work/entry/2019/09/28/080000",
+    "position": 6,
+    "date": "2021-10-25 13:14:25"
+  },
+  {
+    "title": "Oracle 12.2.0.1 Support Ends 30.11.20\u2026 What to do? - N4Stack",
+    "snippet": "Jul 6, 2020 \u2014 Oracle 12c (12.2.0.1) support expires on 30th November 2020. Are you ready? Modernise your Oracle databases now and continue to experience\u00a0...",
+    "link": "https://n4stack.io/2020/07/06/oracle-12c-end-of-support/",
+    "position": 7,
+    "date": "2021-10-25 13:14:25"
+  },
+  {
+    "title": "Clarification: Support Periods for Oracle 12.2.0.1 and 18c",
+    "snippet": "Jul 30, 2018 \u2014 When you see \u201cPremier Support\u201d for Oracle Database 12.2 ends Mar 2022, this means \u201cfor Oracle 12.2.0.1, 18c and 19c\u201d.Jan 30, 2019 \u2014 The problem here: One may just note down that Oracle 12.2 is in Premier Support until March 2023. But this is not the complete picture. Addition\u00a0...",
+    "link": "https://mikedietrichde.com/2018/07/30/clarification-support-periods-for-oracle-12-2-0-1-and-18c/",
+    "position": 8,
+    "date": "2021-10-25 13:14:25"
+  },
+  {
+    "title": "Clarification: Support Periods for Oracle 12.2.0.1 and 18c",
+    "snippet": "Jul 30, 2018 \u2014 When you see \u201cPremier Support\u201d for Oracle Database 12.2 ends Mar 2022, this means \u201cfor Oracle 12.2.0.1, 18c and 19c\u201d.",
+    "link": "https://mikedietrichde.com/2018/07/30/clarification-support-periods-for-oracle-12-2-0-1-and-18c/",
+    "position": 9,
+    "date": "2021-10-25 13:14:25"
+  },
+  {
+    "title": "How long will Oracle Database 12.2 be supported? - Mike ...",
+    "snippet": "Jan 30, 2019 \u2014 The problem here: One may just note down that Oracle 12.2 is in Premier Support until March 2023. But this is not the complete picture. Addition\u00a0...",
+    "link": "https://mikedietrichde.com/2019/01/30/how-long-will-oracle-database-12-2-be-supported/",
+    "position": 10,
+    "date": "2021-10-25 13:14:25"
+  },
+  {
+    "title": "Oracle Database Extended Support Deadlines: What to Know",
+    "snippet": "Jan 19, 2021 \u2014 Version 12.2.0.3 (19c) \u00b7 Premier Support ends April 30, 2024 \u00b7 Extended Support runs from May 1, 2024, through April 30, 2027 \u00b7 With paid Extended\u00a0...",
+    "link": "https://www.datavail.com/blog/are-you-confused-about-oracle-database-extended-support-deadlines-heres-what-you-need-to-know/",
+    "position": 11,
+    "date": "2021-10-25 13:14:25"
+  },
+  {
+    "title": "Oracle 11.2.0.4 and 12.1.0.2 Enters Sustaining Support July ...",
+    "snippet": "0.2 will transition from 'Waived Fee' Extended Support to Sustaining Support. Before then you should upgrade your Oracle Databases to 19c. Oracle Database\u00a0...",
+    "link": "https://www.bluecrystal.com.au/news/oracle-11-2-0-4-and-12-1-0-2-enters-sustaining-support-july-2019/",
+    "position": 12,
+    "date": "2021-10-25 13:15:51"
+  },
+  {
+    "title": "Do I Need To Pay For All My Oracle Database 12.1 Licenses?",
+    "snippet": "Nov 12, 2020 \u2014 Extended Support is typically for three years following the expiration of Premier Support and only for the terminal patch set release of a\u00a0...",
+    "link": "https://www.softwareone.com/en/blog/all-articles/2020/11/12/oracle-extended-support-do-i-need-to-pay-for-all-my-database",
+    "position": 13,
+    "date": "2021-10-25 13:15:51"
+  },
+  {
+    "title": "Amazon RDS for Oracle - End of Support Timeline for 12.2.0.1 ...",
+    "snippet": "Feb 18, 2021 \u2014 Amazon RDS for Oracle will support Oracle Database 19c until April 30, 2027. We recommend you to upgrade your 11.2.0.4 DB instances to 19c [2],\u00a0...",
+    "link": "https://forums.aws.amazon.com/ann.jspa?annID=7341",
+    "position": 14,
+    "date": "2021-10-25 13:15:51"
+  },
+  {
+    "title": "Oracle Database - Wikipedia",
+    "snippet": "Oracle Database is a multi-model database management system produced and marketed by Oracle Corporation. It is a database commonly used for running online\u00a0...",
+    "link": "https://en.wikipedia.org/wiki/Oracle_Database",
+    "position": 15,
+    "date": "2021-10-25 13:15:51"
+  },
+  {
+    "title": "Why you shouldn't ignore Oracle 11g support end-of-life",
+    "snippet": "Oct 16, 2020 \u2014 The same is about to happen with Oracle, as it will stop Oracle 11g extended support on December 31st, 2020. So, what are your options? 1. Do\u00a0...",
+    "link": "https://www.welldata.co.uk/why-you-shouldnt-ignore-oracle-11g-support-end-of-life/",
+    "position": 16,
+    "date": "2021-10-25 13:15:51"
+  },
+  {
+    "title": "Oracle Database Support Eol - Use English Words in Sentences",
+    "snippet": "6 hours ago Oracle Database 12c End Of Life is following: 12.1 \uff1a 2022/7/31. 12.2 \uff1a 2026/3/31. It will help if you remember these. 18c and 19c are confusing,\u00a0...",
+    "link": "https://useenglishwords.com/results/oracle-database-support-eol/",
+    "position": 17,
+    "date": "2021-10-25 13:15:51"
+  },
+  {
+    "title": "Oracle 12c End Of Support | Contact Information Finder",
+    "snippet": "Just Now End of support for Oracle DB 19c: Support period. All products are listed below. The Oracle Database 12c End Of Life will be as follows: 12.1 \u2013 2022/7/\u00a0...",
+    "link": "https://www.webcontactus.com/oracle-12c-end-of-support/",
+    "position": 18,
+    "date": "2021-10-25 13:15:51"
+  },
+  {
+    "title": "What is Oracle Market Driven Support (MDS)?",
+    "snippet": "May 25, 2021 \u2014 Oracle Database 11.2.0.4. Oracle previously offered MDS for 10g databases. When it calculated the sheer number of firms still on 11.2.0.4,\u00a0...",
+    "link": "https://www.spinnakersupport.com/blog/2021/05/25/what-is-oracle-market-driven-support-mds/",
+    "position": 19,
+    "date": "2021-10-25 13:15:51"
+  },
+  {
+    "title": "Oracle 12c End Of Life - ItechBrand",
+    "snippet": "Apr 3, 2021 \u2014 Oracle DB 12c Support End of Date ( product lifecycle ) \u00b7 Premier Support: Full Support for five years from product shipment \u00b7 Extended Support:\u00a0...",
+    "link": "https://itechbrand.com/oracle-12c-end-of-life/",
+    "position": 20,
+    "date": "2021-10-25 13:15:51"
+  },
+  {
+    "title": "Oracle Database 19C: Features and How to Upgrade - IT ...",
+    "snippet": "So Oracle 19c is actually equivalent to 12.2.0.3, and it will be supported through 2023, with Extended Support into 2026. A few more important highlights of\u00a0...",
+    "link": "https://www.itconvergence.com/blog/oracle-database-19c-whats-new/",
+    "position": 21,
+    "date": "2021-10-25 13:15:51"
+  },
+  {
+    "title": "Oracle 18c Extended Support | Contact Information Finder",
+    "snippet": "All products are listed below, not limited to 19c, but 19c will end product support at the end of March 2026. Oracle Database 12c EOL is following: The\u00a0...",
+    "link": "https://www.webcontactus.com/oracle-18c-extended-support/",
+    "position": 22,
+    "date": "2021-10-25 13:16:07"
+  },
+  {
+    "title": "Oracle 19c End Of Support - Fashionbets46.com",
+    "snippet": "End of support for Oracle DB 19c: Support period. All products are listed below. The Oracle Database 12c End Of Life will be as follows: 12.1 \u2013 2022/7/31.",
+    "link": "http://fashionbets46.com/oracle-19c-end-of-support",
+    "position": 23,
+    "date": "2021-10-25 13:16:07"
+  },
+  {
+    "title": "Search Results for ORACLE EOL & EOSL List - Service Express",
+    "snippet": "Check our list of ORACLE EOL & EOSL hardware. Extensive up-to-date database - know when your equipment reaches EOL & options beyond buying new.",
+    "link": "https://serviceexpress.com/resources/eol-eosl-database/oracle/",
+    "position": 24,
+    "date": "2021-10-25 13:16:07"
+  },
+  {
+    "title": "Support for Oracle 19c | Jira Server and Data Center",
+    "snippet": "Provide support for Support for Oracle Database 19c in Jira Server/ DC. ... Enterprise release 7.13 EOL is 28-Nov-2020, so this will need to be back-ported\u00a0...",
+    "link": "https://jira.atlassian.com/browse/JRASERVER-69375",
+    "position": 25,
+    "date": "2021-10-25 13:16:07"
+  },
+  {
+    "title": "Is It Time to Upgrade Oracle? - Perficient Blogs",
+    "snippet": "Aug 28, 2020 \u2014 Current Support Policies. If you are on Oracle EBS 12.1 or database 12c or below, you might want to consider upgrading. Oracle support\u00a0...",
+    "link": "https://blogs.perficient.com/2020/08/28/is-it-time-to-upgrade-oracle/",
+    "position": 26,
+    "date": "2021-10-25 13:16:07"
+  },
+  {
+    "title": "Oracle database end of support - ConvertF.com",
+    "snippet": "6 hours ago Oracle Database 19c Support: All of the Included Database Cloud Services now support ... Category: Oracle database support eolShow details\u00a0...",
+    "link": "https://convertf.com/oracle-database-end-of-support/",
+    "position": 27,
+    "date": "2021-10-25 13:16:07"
+  },
+  {
+    "title": "Oracle Linux : Frequently Asked Questions (FAQs)",
+    "snippet": "What versions of Linux do Oracle support their products (Database, WebLogic etc.) on? \u00b7 Oracle Linux \u00b7 Red Hat Enterprise Linux (RHEL) \u00b7 SUSE (SLES) \u00b7 Asian Linux (\u00a0...",
+    "link": "https://oracle-base.com/articles/linux/oracle-linux-frequently-asked-questions",
+    "position": 28,
+    "date": "2021-10-25 13:16:07"
+  },
+  {
+    "title": "8.xx Database and Application Agent Compatibility List - Veritas",
+    "snippet": "7 days ago \u2014 End of life information: More information is available about certain NetBackup ... SAP supports Oracle and MAX-DB base environments.",
+    "link": "https://www.veritas.com/content/support/en_US/doc/NB_80_DBSCL",
+    "position": 29,
+    "date": "2021-10-25 13:16:07"
+  },
+  {
+    "title": "Oracle End Of Life",
+    "snippet": "End of support for Oracle DB 19c: Support period. All products are listed below. The Oracle Database 12c End Of Life will be as follows: 12.1 \u2013 2022/7/31. 12.2\u00a0...",
+    "link": "http://winkzzz.net/oracle-end-of-life",
+    "position": 30,
+    "date": "2021-10-25 13:16:07"
+  },
+  {
+    "title": "Blog Oracle 12.2.0.1 Support Extended - CarajanDB",
+    "snippet": "Apr 23, 2020 \u2014 Oracle Database 12.2.0.1: Premier Support error correction provided ... But with 19c Real Application Clusters (RAC) is no longer available\u00a0...",
+    "link": "https://www.carajandb.com/en/blog/2020/oracle-12-2-0-1-support-extended/",
+    "position": 31,
+    "date": "2021-10-25 13:16:07"
+  },
+  {
+    "title": "Keycloak v11.0.2 Oracle Release Support",
+    "snippet": "Oct 28, 2020 \u2014 What is the latest Oracle Support Release for Keycloak v11.0.2 ? Does a matrix exists ? Oracle 12.2. is 2020/12 EOL Is Oracle 19c ( RU 19.6. )",
+    "link": "https://keycloak.discourse.group/t/keycloak-v11-0-2-oracle-release-support/5632",
+    "position": 32,
+    "date": "2021-10-25 13:16:27"
+  },
+  {
+    "title": "Red Hat JBoss Enterprise Application Platform (EAP) 7 ...",
+    "snippet": "Oct 15, 2021 \u2014 when will a current version of Oracle DB (19c) be in the list of tested configurations? Support for 12c ends in 2020.... Is 19c already\u00a0...",
+    "link": "https://access.redhat.com/articles/2026253",
+    "position": 33,
+    "date": "2021-10-25 13:16:27"
+  },
+  {
+    "title": "Oracle Database Upgrade Matrix - 11 | 12 | 18c | 19c - Mythics",
+    "snippet": "Aug 19, 2019 \u2014 However, this is not the case. 18c and 19c are both 12.2 releases of the Oracle database. Oracle Database 18c is Oracle 12c Release 2 (12.2.0.2)\u00a0...",
+    "link": "https://www.mythics.com/about/blog/oracle-19c-autonomous-or-not-autonomous",
+    "position": 34,
+    "date": "2021-10-25 13:16:27"
+  },
+  {
+    "title": "Supported platforms for Database Security - McAfee",
+    "snippet": "Sep 14, 2021 \u2014 McAfee Database Activity Monitoring Server (DAM) 4.x McAfee ... McAfee Database Security Oracle 18 and 19 support for Solaris SPARC:\u00a0...",
+    "link": "https://kc.mcafee.com/corporate/index?page=content&id=KB73919",
+    "position": 35,
+    "date": "2021-10-25 13:16:27"
+  },
+  {
+    "title": "How long will Oracle Database 12.2 be supported? - sapbazar ...",
+    "snippet": "Jan 29, 2019 \u2014 Extended Support until March 2026. But this doesn't give you any distinction between Oracle 12.2.0.1, Oracle 18c and Oracle 19c. These three\u00a0...",
+    "link": "https://sapbazar.com/articles/item/1188-how-long-will-oracle-database-122-be-supported",
+    "position": 36,
+    "date": "2021-10-25 13:16:27"
+  },
+  {
+    "title": "Oracle Database Licensing in a VMware Virtual Environment ...",
+    "snippet": "Oracle's database product is offered with two types of licenses: Named User Plus ... characteristics of the device (server) supporting the database process.",
+    "link": "https://www.flexera.com/blog/it-asset-management/oracle-database-licensing-in-a-vmware-virtual-environment-part-1-of-3-2/",
+    "position": 37,
+    "date": "2021-10-25 13:16:27"
+  },
+  {
+    "title": "Oracle linux releases support - Union CDP",
+    "snippet": "Oracle 19c R1 (19. Oracle Database Preinstallation RPMs are available from the Oracle Linux Network or available on This image is officially supported for\u00a0...",
+    "link": "http://panel.unioncdp.com/o1vsw/uejiedwa.php?pkixop=oracle-linux-releases-support",
+    "position": 38,
+    "date": "2021-10-25 13:16:27"
+  },
+  {
+    "title": "Oracle Releases Critical Patch Update, October 2021",
+    "snippet": "5 days ago \u2014 Oracle Critical Patch Update Advisory - October 2021 ... Oracle Database Server 19c ... Oracle Corporation Oracle Java SE Support Roadmap",
+    "link": "https://www.jpcert.or.jp/english/at/2021/at210046.html",
+    "position": 39,
+    "date": "2021-10-25 13:16:27"
+  },
+  {
+    "title": "Oracle 19c database for informatica 10.4.1",
+    "snippet": "Sep 14, 2020 \u2014 Usually, if Informatica specifies just a third party's major release number, every related minor release is also supported, unless stated\u00a0...Apr 6, 2020 \u2014 Hi All, Does PowerCenter 10.2 HF2 support ORACLE 19C ? As per 10.2 HF2 PAM it does support but some of blogs says only 10.4 version will\u00a0...",
+    "link": "https://network.informatica.com/thread/92164",
+    "position": 40,
+    "date": "2021-10-25 13:16:27"
+  },
+  {
+    "title": "Oracle 19c database for informatica 10.4.1",
+    "snippet": "Sep 14, 2020 \u2014 Usually, if Informatica specifies just a third party's major release number, every related minor release is also supported, unless stated\u00a0...",
+    "link": "https://network.informatica.com/thread/92164",
+    "position": 41,
+    "date": "2021-10-25 13:16:27"
+  },
+  {
+    "title": "Oracle 19c support - Informatica Network",
+    "snippet": "Apr 6, 2020 \u2014 Hi All, Does PowerCenter 10.2 HF2 support ORACLE 19C ? As per 10.2 HF2 PAM it does support but some of blogs says only 10.4 version will\u00a0...",
+    "link": "https://network.informatica.com/thread/90576",
+    "position": 42,
+    "date": "2021-10-25 13:16:27"
+  }
 ]
