@@ -27,7 +27,10 @@ Spiders are divided into 2 stages
 4. Home page provides tile style web page with all the technologies listed by admin
 5. Each tile has a view link that redirects to the individual technology's webpage with respective EOl timelines.
 
-
+## Database maintenance 
+1. This it to make this EOL Tracking as a tool for every release.
+2. Software packages used in a certain release like spring 21 etc.. will be validated for their respective EOL dates from the DB and given a PASS/WARNING/FAIL report
+3. The report can be used by COPS team before every deployment
 
 
 
